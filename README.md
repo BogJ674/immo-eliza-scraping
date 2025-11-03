@@ -1,5 +1,4 @@
 # immo-eliza-scraping
 
 
-Test for Pull request 
-Test AMine branching 
+Amine : Test for New Rule
