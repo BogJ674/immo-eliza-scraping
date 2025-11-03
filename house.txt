@@ -1,0 +1,2878 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <meta name="apple-itunes-app" content="app-id=968691127">
+    <meta name="google-play-app" content="app-id=com.czaam">
+    <meta name="p:domain_verify" content="735734281535384549ac78e4353b4147"/>
+
+    
+    <meta name="description" content="Residence for sale | 6560 Solre-sur-Sambre | 80&#x202F;000 &#x20AC; | Livable surface 235m&#xB2; | EPC G | 3 Bedrooms | 1 Bathroom | Discover all pictures and details."/>
+    <meta name="keywords" content="House, Residence, for sale, Solre-sur-Sambre, 6560"/>
+    <meta name="robots" content="noindex"/>
+
+    <link rel="canonical" href="https://immovlan.be/en/detail/residence/for-sale/6560/solre-sur-sambre/rbu62400"/>
+
+    <link rel="alternate" hreflang="nl" href="https://immovlan.be/nl/detail/huis/te-koop/6560/solre-sur-sambre/rbu62400"/>
+    <link rel="alternate" hreflang="fr" href="https://immovlan.be/fr/detail/maison/a-vendre/6560/solre-sur-sambre/rbu62400"/>
+    <link rel="alternate" hreflang="en" href="https://immovlan.be/en/detail/residence/for-sale/6560/solre-sur-sambre/rbu62400"/>
+
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://maps.googleapis.com">
+    <link rel="preconnect" href="https://api-image.immovlan.be" crossorigin>
+
+    <meta name="fb:app_id" content="274739158034"/>
+
+    <meta property="og:title" content="Residence for sale with garage and terrace , Solre-sur-Sambre  (RBU62400)"/>
+    <meta property="og:site_name" content="Immovlan"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://immovlan.be/en/detail/residence/for-sale/6560/solre-sur-sambre/rbu62400"/>
+
+    <meta property="og:image" content="https://api-image.immovlan.be/v1/property/RBU62400/gallery-like-image/Facebook/Landscape"/>
+    <meta property="og:image:secure_url" content="https://api-image.immovlan.be/v1/property/RBU62400/gallery-like-image/Facebook/Landscape"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    <meta property="og:image:alt" content="Residence for sale with garage and terrace , Solre-sur-Sambre  (RBU62400)"/>
+    <meta property="og:description" content="&#x26A0;&#xFE0F; New listing on Immovlan.be &#x1F3E1; | Residence for sale | 6560 Solre-sur-Sambre | Livable surface 235m&#xB2; | EPC G | 3 Bedrooms | 1 Bathroom | &#x1F447; Click below to see the price, photos, and details. &#x1F929;"/>
+
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@Immovlan_nl"/>
+    <meta name="twitter:title" content="Residence for sale with garage and terrace , Solre-sur-Sambre  (RBU624"/>
+    <meta name="twitter:image" content="https://api-image.immovlan.be/v1/property/RBU62400/thumbnail-webp/ExtraLarge"/>
+    <meta name="twitter:description" content="Residence for sale | 6560 Solre-sur-Sambre | 80&#x202F;000 &#x20AC; | Livable surface 235m&#xB2; | EPC G | 3 Bedrooms | 1 Bathroom | Discover all pictures and details."/>
+
+    <meta name="cXenseParse:rbf-immovlan-section" content="A vendre" />
+    <meta name="cXenseParse:rbf-immovlan-chambres" content="3" />
+    <meta name="cXenseParse:rbf-immovlan-type" content="Maison" />
+    <meta name="cXenseParse:rbf-immovlan-prix" content="80000.00" />
+    <meta name="cXenseParse:rbf-immovlan-peb" content="WalloniaG" />
+    <meta name="cXenseParse:rbf-immovlan-garage" content="1inconnu" />
+    <meta name="cXenseParse:rbf-immovlan-jardin" content="non" />
+
+
+    
+
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-KKTD42"></script>
+    <script async src="https://ced.sascdn.com/tag/3958/smart.js"></script>
+
+    <title>Residence for sale with garage and terrace , Solre-sur-Sambre  (RBU62400)</title>
+
+    <link rel="icon" href="/favicon.ico"/>
+
+    <link rel="preload" as="font" href="/fonts/roboto-flex/roboto-flex-400-normal-latin.woff2" type="font/woff2" crossorigin>
+    <link rel="preload" as="font" href="/fonts/roboto-flex/roboto-flex-700-normal-latin.woff2" type="font/woff2" crossorigin>
+
+    <style>
+        /* Self-hosted Roboto Flex fonts for optimal performance */
+        @font-face {
+            font-family: 'Roboto Flex';
+            font-style: normal;
+            font-weight: 400;
+            font-stretch: 100%;
+            font-display: swap;
+            src: url('/fonts/roboto-flex/roboto-flex-400-normal-latin.woff2') format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+        @font-face {
+            font-family: 'Roboto Flex';
+            font-style: normal;
+            font-weight: 500;
+            font-stretch: 100%;
+            font-display: swap;
+            src: url('/fonts/roboto-flex/roboto-flex-500-normal-latin.woff2') format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+        @font-face {
+            font-family: 'Roboto Flex';
+            font-style: normal;
+            font-weight: 700;
+            font-stretch: 100%;
+            font-display: swap;
+            src: url('/fonts/roboto-flex/roboto-flex-700-normal-latin.woff2') format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+    </style>
+
+    
+    
+        <link rel="stylesheet" href="/css/v2/main.min.css?v=Dcp8qRyi8oClPZoLkqO_RSRg5XnRK1Ci3NHUaZ_fs0I" media="all" />
+    
+
+    <script>
+        var CURRENT_LANGUAGE = 'en';
+        var IS_USER_AUTHENTICATED = 'False';
+        var MEMBER_ID = '';
+        var MEMBER_EMAIL = '';
+        var DIDOMI_ENVIRONMENT_KEY = 'jNdfNhGH';
+        var GTM_CONTAINER_ID = 'GTM-KKTD42';
+        var SMART_SITE_ID = '503022';
+        var SMART_NETWORK_ID = '3958';
+        var ENVIRONMENT = 'production';
+        var DISABLE_LAZY_LOAD = true;
+        var DISABLE_DMP = true;
+        var INCLUDED_ROUTES_G_TAP = ["/(nl|fr|en)/(project)?detail/.+","/(nl|fr|en)/(vastgoed|real-estate|immobilier).+","/(nl|fr|en)$"];
+        var INCLUDED_ROUTES_APP_BANNER = ["/(nl|fr|en)/(project)?detail/.+","/(nl|fr|en)/(vastgoedgids|directory|guideimmobilier).*","/(nl|fr|en)/(vastgoed|real-estate|immobilier).+","/(nl|fr|en)/?$"];
+        var APP_BANNER_ENABLED = 'True';
+
+        var layoutParams = new URLSearchParams(window.location.search);
+        if (window.ENVIRONMENT === 'production' &&
+            !(layoutParams.has('dfplog') || layoutParams.has('forcelog'))) {
+            console.group = function () { };
+            console.log = function () { };
+        }
+    </script>
+
+    
+    <style id="critical-css">
+/* Critical above-the-fold styles for Property Detail Page */
+/* Target size: 10-15KB | Focus: Layout, Header, Gallery, Conversion Box, Buttons */
+
+/* ========== CSS Reset (Minimal) ========== */
+*, *::before, *::after { box-sizing: border-box; }
+h1, h2, h3, h4, h5, h6, p, figure, blockquote { margin: 0; padding: 0; font-weight: 400; }
+ol, ul { margin: 0; padding: 0; list-style: none; }
+img { border: none; vertical-align: middle; }
+small { font-size: 80%; }
+
+/* ========== Base Typography & Layout ========== */
+body {
+    color: #333333;
+    font-family: 'Roboto Flex', sans-serif;
+    margin: 0;
+}
+
+a {
+    color: #1a1a1a;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #808080;
+    transition: color .2s;
+}
+
+button { font-family: 'Roboto Flex', sans-serif; }
+
+hr {
+    border: none;
+    height: 1px;
+}
+
+.hr-03-f0f0f0 {
+    background-image: url(/images/divider_dark_theme.svg);
+    height: 3px;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+    width: 100%;
+}
+
+h1 {
+    font-size: 1.9rem;
+    font-weight: 300;
+    margin-bottom: 1.3rem;
+}
+
+/* ========== Main Layout ========== */
+#main_content {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+/* ========== Buttons ========== */
+.button {
+    border-radius: 7px;
+    font-family: 'Roboto Flex', sans-serif;
+    margin: 0;
+    padding: 8px 12px;
+    text-align: center;
+    text-transform: none;
+    transition: all .2s ease-in-out;
+    vertical-align: middle;
+    line-height: normal;
+    text-decoration: none !important;
+}
+
+.button-primary,
+.button-secondary {
+    border-radius: 7px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    text-align: center;
+}
+
+.button-primary {
+    background-color: #6C4C8E;
+    border: 2px solid #6C4C8E;
+    color: #FFFFFF!important;
+    padding: 8px;
+}
+
+.button-secondary {
+    background-color: #FFFFFF;
+    border: 2px solid #b5a5c7;
+    color: #6C4C8E !important;
+    padding: 8px;
+}
+
+.button.button-with-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.button-link {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    text-decoration: underline !important;
+}
+
+/* ========== Badge (Property Status) ========== */
+.badge {
+    display: inline-block;
+    font-size: .8rem;
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.badge.Option { background-color: #fcba03; }
+.badge.Sold { background-color: #03adfc; }
+.badge.Rented { background-color: #28a745; }
+.badge.Offline { background-color: #a82f27; }
+
+/* ========== Property Header (Above Gallery) ========== */
+.detail__header {
+    margin: 0 -20px;
+    padding: 20px;
+    position: absolute;
+    top: 90vw;
+    width: 100%;
+    z-index: 1;
+}
+
+.detail__header:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.detail__header_title_box {
+    float: left;
+    max-width: 100%;
+    width: calc(100% - 340px);
+}
+
+.detail__header_title h1 {
+    display: inline-block;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.detail__header_title h1 .vlancode {
+    color: #585858;
+    font-size: 1rem;
+}
+
+.detail__header_address {
+    font-size: .9rem;
+}
+
+.detail__header_price_data {
+    display: inline-block;
+    font-size: 1.3rem;
+    margin: 5px 10px 0 0;
+}
+
+.detail__header_tool_box,
+#back-url-container {
+    top: calc(-90vw + .5rem);
+}
+
+.detail__header_tool_box_buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.detail__header_tool_box_buttons a {
+    flex: 45%;
+}
+
+.desktop-conversion-buttons {
+    flex: 1;
+    max-width: 340px;
+    opacity: 0;
+    text-transform: capitalize;
+    transition: opacity .5s ease;
+    visibility: hidden;
+    gap: 5px;
+}
+
+.detail__header.is-sticky .desktop-conversion-buttons {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* ========== Gallery Section ========== */
+#col_top_left {
+    float: left;
+    margin-bottom: 1.5rem;
+    max-width: 100%;
+    width: calc(100% - 340px);
+}
+
+/* ========== Conversion Box (Contact Form) ========== */
+.conversion_box {
+    border: 1px solid #d9d9d9;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.conversion_box .conversion-buttons {
+    padding: 20px 20px 5px;
+}
+
+.conversion_box .button-primary,
+.conversion_box .button-secondary {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+#col_right_top {
+    width: 100%;
+}
+
+#contact_property {
+    background-color: #f5f5f5;
+    overflow: hidden;
+    padding: 20px;
+}
+
+#contact_property > div {
+    text-align: center;
+}
+
+#contact_property h2 {
+    display: inherit;
+    font-size: 1rem;
+}
+
+/* ========== Ad Container ========== */
+#rossel-leader-top {
+    text-align: center;
+}
+
+#rossel-leader-top.minHeight {
+    min-height: 100px;
+}
+
+/* ========== Utility Classes ========== */
+.w-100 { width: 100% !important; }
+.d-none { display: none !important; }
+.d-block { display: block !important; }
+.d-inline { display: inline !important; }
+.d-inline-block { display: inline-block !important; }
+.d-flex { display: flex !important; }
+.position-relative { position: relative !important; }
+.text-truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.margin-y-10 { margin-top: 10px; margin-bottom: 10px; }
+.margin-bottom-05 { margin-bottom: 0.5rem !important; }
+.margin-top-05 { margin-top: 0.5rem !important; }
+
+/* ========== Mobile (< 576px) ========== */
+@media (max-width: 575px) {
+    .lg_detail__header_spacing { margin-bottom: 150px; }
+    .lg_detail__header_spacing.with_status { margin-bottom: 185px; }
+    .detail__header_spacing { margin-bottom: 115px; }
+    .detail__header_spacing.with_status { margin-bottom: 150px; }
+
+    .detail__header_title h1.has-status {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .detail__header_title h1 .detail__header_title_main {
+        display: inline-block;
+        max-width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    #col_top_left { padding-top: 0; }
+    .detail__header_tool_box_buttons { top: 0; }
+}
+
+@media (min-width: 451px) and (max-width: 575px) {
+    .detail__header { top: 47vw; }
+    .detail__header_tool_box,
+    #back-url-container { top: calc(-47vw + .5rem); }
+}
+
+/* ========== Small Tablet (576px - 800px) ========== */
+@media (min-width: 576px) {
+    .d-sm-none { display: none !important; }
+    .d-sm-block { display: block !important; }
+    .d-sm-flex { display: flex !important; }
+    .d-sm-inline { display: inline !important; }
+}
+
+@media (min-width: 576px) and (max-width: 800px) {
+    .detail__header { top: 49vw; }
+    .detail__header_tool_box,
+    #back-url-container { top: calc(-49vw + .5rem); }
+    .lg_detail__header_spacing,
+    .detail__header_spacing { margin-bottom: 120px; }
+}
+
+/* ========== Medium Screens (>= 768px) ========== */
+@media (min-width: 768px) {
+    .margin-top-md-0 { margin-top: 0 !important; }
+    .d-md-none { display: none !important; }
+    .d-md-block { display: block !important; }
+    .d-md-flex { display: flex !important; }
+    .d-md-inline { display: inline !important; }
+}
+
+/* ========== Tablet (801px - 991px) ========== */
+@media (min-width: 801px) and (max-width: 991px) {
+    .detail__header { top: 50vw; }
+    .detail__header_tool_box,
+    #back-url-container { top: calc(-50vw + .5rem); }
+    .lg_detail__header_spacing,
+    .detail__header_spacing { margin-bottom: 140px; }
+}
+
+/* ========== Desktop (>= 992px) ========== */
+@media (min-width: 992px) {
+    body.topPadding { padding-top: 102px; }
+    #main_container.minWidth { margin: auto; max-width: 1000px; }
+    #rossel-leader-top { display: none; }
+
+    .detail__header {
+        background-color: white;
+        position: sticky;
+        top: 68px;
+        width: calc(100% + 40px);
+        z-index: 11;
+    }
+
+    .detail__header_tool_box {
+        display: flex;
+        flex-direction: column;
+        float: left;
+        height: 100%;
+        justify-content: end;
+        margin-left: 20px;
+        width: 320px;
+    }
+
+    .detail__header_tool_box_buttons { width: 320px; }
+
+    #col_right_top {
+        float: left;
+        margin-left: 20px;
+        width: 320px;
+    }
+
+    header.is-sticky:before { content: none; }
+
+    .d-lg-none { display: none !important; }
+    .d-lg-block { display: block !important; }
+    .d-lg-inline { display: inline !important; }
+    .d-lg-flex { display: flex !important; }
+}
+
+/* ========== Mobile/Tablet (< 992px) ========== */
+@media (max-width: 991px) {
+    .detail__header_title_box {
+        float: none;
+        width: auto;
+    }
+
+    #back-url-container {
+        left: 30px;
+        position: absolute;
+    }
+
+    .detail__header_tool_box {
+        display: block;
+        height: auto;
+        margin-top: 0;
+        position: absolute;
+        right: 30px;
+        z-index: 1;
+    }
+
+    .detail__header_tool_box .mi-share:before,
+    .detail__header_tool_box .mi-favorite:before,
+    #back-url-container .mi-arrow-l:before {
+        filter: brightness(0) invert(1);
+    }
+
+    .detail__header_tool_box_buttons > .button-secondary,
+    #back-url-container .button-link {
+        align-items: center;
+        background-color: rgba(0, 0, 0, .6);
+        border: none;
+        border-radius: 50%;
+        color: white;
+        display: flex;
+        height: 36px;
+        justify-content: center;
+        width: 36px;
+    }
+
+    .desktop-conversion-buttons {
+        opacity: 1;
+        position: absolute;
+        right: -8px;
+        top: -60px;
+        visibility: visible;
+        width: calc(100vw - 40px);
+    }
+
+    .detail__header.is-sticky:before { content: none; }
+
+    #col_top_left {
+        float: none;
+        margin: 0 auto 1.5rem;
+        width: 100%;
+    }
+
+    .conversion_box {
+        float: none;
+        margin: 0 auto 20px;
+    }
+}
+
+/* ========== Ad Blocker Detection (Layout Shift Prevention) ========== */
+html.ad-blocked body.topPadding {
+    padding-top: 0 !important;
+}
+
+html.ad-blocked #main_container.minWidth {
+    max-width: none !important;
+}
+
+html.ad-blocked #rossel-leader-top.minHeight {
+    min-height: 0 !important;
+}
+
+/* ========== FOUC Prevention ========== */
+.fonts-loading body {
+    opacity: 0.99;
+}
+</style>
+
+
+    
+    
+        <link rel="preload" href="/css/v2/detail-property.min.css?v=OX9azo5rNwp4XgD-No_vciEnAuS99Za_tKbvUzBWhLY" as="style">
+    
+
+    
+    
+        <link rel="stylesheet" href="/css/v2/detail-property.min.css?v=OX9azo5rNwp4XgD-No_vciEnAuS99Za_tKbvUzBWhLY" media="print" onload="this.media='all'; this.onload=null;">
+    
+
+    
+    
+        <noscript>
+            <link rel="stylesheet" href="/css/v2/detail-property.min.css?v=OX9azo5rNwp4XgD-No_vciEnAuS99Za_tKbvUzBWhLY" media="all" />
+        </noscript>
+    
+
+
+    <script type="application/ld&#x2B;json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Immovlan",
+            "url": "https://immovlan.be",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://immovlan.be/images/v2/logo.svg"
+            },
+            "description": "Discover all real estate for sale and for rent: houses, apartments, businesses, garages, offices, land for agriculture or development, student rooms, studios and many other properties."
+        }
+    </script>
+
+    
+    
+
+
+    <script type="application/ld&#x2B;json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Residence for sale with garage and terrace , Solre-sur-Sambre  (RBU62400)",
+        "description": "Residence for sale | 6560 Solre-sur-Sambre | 80 000 € | Livable surface 235m² | EPC G | 3 Bedrooms | 1 Bathroom | Discover all pictures and details.)",
+        "url": "https://immovlan.be/en/detail/residence/for-sale/6560/solre-sur-sambre/rbu62400",
+        "primaryImageOfPage": {
+            "@type": "ImageObject",
+            "url": "https://api-image.immovlan.be/v1/property/RBU62400/thumbnail-webp/ExtraLarge"
+        },
+        "significantLinks": 
+        [
+            "https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&propertytypes=house,apartment&towns=6560-solre-sur-sambre","https://immovlan.be/en/real-estate/house/for-sale/solre-sur-sambre","https://immovlan.be/en/real-estate/house/for-sale/solre-sur-sambre?propertysubtypes=residence","https://immovlan.be/en/real-estate/house/for-sale/solre-sur-sambre?tags=hasterrace&_r=v","https://immovlan.be/en/real-estate/house/for-sale/solre-sur-sambre?facades=3&_r=v","https://immovlan.be/en/real-estate/house/for-sale/solre-sur-sambre?minbedrooms=3&maxbedrooms=3&_r=v","https://immovlan.be/en/real-estate/house/for-sale/solre-sur-sambre?states=to-be-renovated&_r=v"
+        ]
+    }
+    </script>
+    <script type="application/ld&#x2B;json">
+        {
+            "@context": "https://schema.org",
+            "@type": "RealEstateListing",
+            "datePosted": "2025-10-31T08:18:02.1242810&#x2B;00:00"
+        }
+    </script>
+    <script type="application/ld&#x2B;json">
+    {
+        "@context": "https://schema.org",
+        "@type": "GeoCoordinates",
+        "postalCode": "6560"
+
+            ,"latitude": 50.3071512
+
+            ,"longitude": 4.1578836
+    }
+    </script>
+    <script type="application/ld&#x2B;json">
+    {
+        "@context": "https://schema.org",
+        "@type": "PostalAddress",
+        "addressLocality": "Solre-sur-Sambre",
+        "postalCode": "6560",
+        "addressCountry": "BE"
+
+
+    }
+    </script>
+        <script type="application/ld&#x2B;json">
+        {
+            "@context": "https://schema.org",
+            "@type": "House",
+            "description": "Spacious 3-bedroom house in need of complete renovation: Ground floor: large living room, dining room, kitchen, kitchenette, laundry room, bathroom, access to garage and courtyard 1st floor: night hall, 3 bedrooms, 2 small attics 2nd floor: large attic suitable for conversion Large garage and courtyard. Spacious house with great potential after renovation. Offer starting at €80,000. The owner reserves the right to assess the height and quality of offers. PEB n°20210605007638. PEB G.",
+            "url": "https://immovlan.be/en/detail/residence/for-sale/6560/solre-sur-sambre/rbu62400",
+            "image": "https://api-image.immovlan.be/v1/property/RBU62400/thumbnail-webp/Small"
+
+                ,"floorSize": {
+                    "@context": "https://schema.org",
+                    "@type": "QuantitativeValue",
+                    "unitcode": "MTK",
+                    "value": 235
+                }
+
+                ,"numberOfRooms": "3"
+            
+                ,"numberOfBathroomsTotal": "1"
+            
+            
+        }
+        </script>
+        <script type="application/ld&#x2B;json">
+        {
+            "@context": "https://schema.org",
+            "@type": "SellAction",
+            "description": "Spacious 3-bedroom house in need of complete renovation: Ground floor: large living room, dining room, kitchen, kitchenette, laundry room, bathroom, access to garage and courtyard 1st floor: night hall, 3 bedrooms, 2 small attics 2nd floor: large attic suitable for conversion Large garage and courtyard. Spacious house with great potential after renovation. Offer starting at €80,000. The owner reserves the right to assess the height and quality of offers. PEB n°20210605007638. PEB G.",
+            "url": "https://immovlan.be/en/detail/residence/for-sale/6560/solre-sur-sambre/rbu62400",
+            "location": {
+                "@context": "https://schema.org",
+                "@type": "PostalAddress"
+
+
+
+                ,"addressLocality": "Solre-sur-Sambre",
+                "postalCode": "6560",
+                "addressCountry": "BE"
+            }
+
+                ,"price": 80000,
+                "priceSpecification": {
+                    "@context": "https://schema.org",
+                    "@type": "PriceSpecification",
+                    "price": 80000,
+                    "priceCurrency": "EUR"
+                }
+
+            ,"image": "https://api-image.immovlan.be/v1/property/RBU62400/thumbnail-webp/Small"
+        }
+        </script>
+        <script type="application/ld&#x2B;json">
+            {
+            "@context": "https://schema.org",
+            "@type": "RealEstateAgent ",
+            "name": "Limmo-Manage",
+            "logo": "https://api-image.immovlan.be/v1/prouser/HS277135936735/logo/English/webp/Small",
+            "image": "https://api-image.immovlan.be/v1/prouser/HS277135936735/logo/English/webp/Small",
+            "address": {
+                "@context": "https://schema.org",
+                "@type": "PostalAddress",
+                "streetaddress": "Place de la Hestre 4/1",
+                "postalCode": "7170",
+                "addressLocality": "Fayt-lez-Manage"
+            },
+            "url": "https://immovlan.be/en/directory/detail/limmo-manage/48566"
+            }
+        </script>
+
+
+
+</head>
+<body class="en-lang detail-page topPadding">
+
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KKTD42" height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
+
+    <div id="main_container" class="minWidth">
+        <div class="wall-left"></div>
+        <div class="wall-right"></div>
+        <div id="rossel-oop" style="height: 0;"></div>
+
+        <header class="sticky-content" data-offsettop="0">
+            
+
+<div class="navbar">
+    <a href="/en">
+      <img src="/images/v2/logo.svg" id="logo" alt="immovlan" />
+    </a>
+    <i class="mi mi-md mi-open-menu"></i>
+    <div class="menu">
+        <nav class="nav-left">
+            <ul>
+                <li class="dropdown_1st" id="myDropdown">
+                    <span class="dropbtn">Search<i class="mi mi-arrow-b margin-left-05"></i></span>
+                    <ul>
+                        <li>
+                            <a href="/en">In Belgium</a>
+                        </li>
+                        <li>
+                            <a id="search-by-vlan-code-link" href="/en#search-by-vlan-code">Immovlan code</a>
+                        </li>
+                        <li>
+                            <a href="/en/directory">Find a pro</a>
+                        </li>
+                        <li class="dropdown_2nd">
+                            <span>Abroad</span>
+                            <ul>
+                                <li>
+                                    <a href="/en/international/real-estate/france">France</a>
+                                </li>
+                                <li>
+                                    <a href="/en/international/real-estate/spain">Spain</a>
+                                </li>
+                                <li>
+                                    <a href="/en/international/real-estate/italy">Italy</a>
+                                </li>
+                                <li>
+                                    <a href="/en/international/real-estate/the-netherlands">The Netherlands</a>
+                                </li>
+                                <li>
+                                    <a href="/en/international/real-estate/luxemburg">Luxemburg</a>
+                                </li>
+                                <li>
+                                    <a href="/en/international/real-estate/overview">Other</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="dropdown_1st" id="myDropdown">
+                    <span class="dropbtn">News<i class="mi mi-arrow-b margin-left-05"></i></span>
+                    <ul>
+                        <li>
+                            <a href="/en/content">Real estate news</a>
+                        </li>
+                            <li>
+                                <a href="/en/content/real-estate-guides">Guides</a>
+                            </li>
+                            <li>
+                                <a href="/en/content/practical-tips">Practical tips</a>
+                            </li>
+                            <li>
+                                <a href="/en/content/energy">Energy</a>
+                            </li>
+                            <li>
+                                <a href="/en/content/innovation-technology">Innovations - technology</a>
+                            </li>
+                            <li>
+                                <a href="/en/content/news">News</a>
+                            </li>
+                            <li>
+                                <a href="/en/content/finance">Finance</a>
+                            </li>
+                            <li>
+                                <a href="/en/content/legal">Legal</a>
+                            </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a rel="nofollow" href="/en/ad">
+                        Publish an ad
+                    </a>
+                </li>
+
+                <li>
+                    <a rel="nofollow" href="/en/valuate">
+                        Estimate
+                    </a>
+                </li>
+
+                <li>
+                    <a rel="nofollow" class="with-new-tag" href="/en/invest">
+                        Invest
+                        <span class="new-tag-container">
+                            <span class="new-tag-content">NEW</span>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="nav-right">
+            <ul>
+                <li>
+                    <div id="login-partial-container"></div>
+                </li>
+                <li class="dropdown_1st lang-menu">
+                    
+
+
+    <span class="dropbtn">EN<i class="mi mi-arrow-b margin-left-05"></i></span>
+    <ul>
+                <li class="">
+                    <a href="https://immovlan.be/nl/detail/huis/te-koop/6560/solre-sur-sambre/rbu62400">NL</a>
+                </li>
+                <li class="">
+                    <a href="https://immovlan.be/fr/detail/maison/a-vendre/6560/solre-sur-sambre/rbu62400">FR</a>
+                </li>
+                <li class="lng-active">
+                    <a href="https://immovlan.be/en/detail/residence/for-sale/6560/solre-sur-sambre/rbu62400">EN</a>
+                </li>
+    </ul>
+
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+            
+        </header>
+
+        <div class="container">
+
+            <div id="browser-support-container"></div>
+
+            
+
+
+<script>
+// Ad blocker detection (must run before render to prevent layout shift)
+(function() {
+    var testAd = document.createElement('div');
+    testAd.innerHTML = '&nbsp;';
+    testAd.className = 'adsbox';
+    document.body.appendChild(testAd);
+
+    window.setTimeout(function() {
+        if (testAd.offsetHeight === 0) {
+            document.documentElement.classList.add('ad-blocked');
+        }
+        testAd.remove();
+    }, 100);
+})();
+
+// Prevent FOUC while full CSS loads
+document.documentElement.classList.add('fonts-loading');
+
+// Remove class when fonts loaded
+if ('fonts' in document) {
+    Promise.all([
+        document.fonts.load('400 1em Roboto Flex'),
+        document.fonts.load('500 1em Roboto Flex'),
+        document.fonts.load('700 1em Roboto Flex')
+    ]).then(function() {
+        document.documentElement.classList.remove('fonts-loading');
+    }).catch(function() {
+        // Fallback: remove class after timeout
+        setTimeout(function() {
+            document.documentElement.classList.remove('fonts-loading');
+        }, 3000);
+    });
+} else {
+    // Fallback for browsers without Font Loading API
+    setTimeout(function() {
+        document.documentElement.classList.remove('fonts-loading');
+    }, 3000);
+}
+</script>
+
+
+
+
+
+    <script>
+        window.AD_LONGITUDE = '4.1578836';
+        window.AD_LATITUDE = '50.3071512';
+        window.YATMO_SHOW_MARKER = 'False' === "True";
+    </script>
+
+<script>
+    window.IMMOVLAN_REFERENCE = 'RBU62400';
+    window.IMMOVLAN_ID = '10399081';
+    window.PROPERTY_SEARCH_PARAMS = '{"transactionTypes":"for-sale","towns":"solre-sur-sambre","propertyTypes":"house","noIndex":1}';
+    window.PAGE_TYPE = 'propertyDetailResult';
+</script>
+
+<div id="rossel-leader-top" class="margin-y-10 minHeight"></div>
+
+
+<div id="main_content">
+    
+
+<div class="detail__header sticky-content" data-offsettop="68">
+    <div class="detail__header_title_box">
+        <div class="detail__header_title">
+            <div id="back-url-container" class="margin-bottom-05" style="display: none;">
+                <a id="back-url" class="button button-link" rel="nofollow">
+                    <i class="mi mi-arrow-l"></i> <span class="d-lg-inline d-none">Back to results</span>
+                </a>
+            </div>
+            <h1 class="">
+                <span class="detail__header_title_main">
+                    Residence for sale <span class="d-none d-lg-inline">- Solre-sur-Sambre</span> <span class="vlancode">RBU62400</span>
+                </span>
+
+            </h1>
+            <div class="detail__header_address">
+                    <span class="city-line">6560 Solre-sur-Sambre</span>
+            </div>
+            <p class="detail__header_price">
+
+                    <span class="detail__header_price_data">
+                        <small></small> 80&#x202F;000 &#x20AC;
+                        <small></small> 
+                    </span>
+                <span class="d-sm-inline d-block margin-top-05 margin-top-md-0">
+
+
+    <a class="belfius-small-link" href="https://www.belfius.be/retail/fr/produits/emprunter/habitation/simulateur-credit-logement/index.aspx?extc=kimmovl23&extch=el&extsit=immovlan&extfor=oms-bb-fr-txtwidg-1x1&extseg=txtwidg&offer=CrMl000002&dummy=x">
+        Simulez votre crédit hypothécaire
+        <i class="mi mi-arrow-r"></i>
+    </a>
+
+<script>
+    (function () {
+        const ready = function () {
+            if ($(".belfius-small-link").length) {
+                $(".belfius-small-link").on("click",
+                    function (e) {
+                        e.preventDefault();
+
+                        var $target = $(e.currentTarget);
+
+                        //gtm
+                        googleEventRegistry.registerEvent(
+                            googleEventRegistry.events.WIDGET_CLICK,
+                            {
+                                advertiser: 'Belfius',
+                                version: 'link'
+                            },
+                            $target.attr('href'),
+                            '_blank');
+                    });
+
+                //gtm
+                googleEventRegistry.registerEvent(
+                    googleEventRegistry.events.WIDGET_VIEW,
+                    {
+                        trigger_widgetView_BelfiusSale: googleEventRegistry.events.WIDGET_VIEW,
+                        advertiser: 'Belfius',
+                        version: 'link'
+                    });
+            }
+        }
+
+        if (typeof $ === 'undefined') {
+            document.addEventListener("DOMContentLoaded", ready);
+        } else {
+            ready();
+        }
+    })();
+</script>
+
+
+
+
+
+                </span>
+            </p>
+        </div>
+    </div>
+    <div class="detail__header_tool_box">
+        <div class="detail__header_tool_box_buttons position-relative">
+            <a id="share-property-button"
+               class="button button-secondary button-with-icon popover share-btn"
+               data-target="share-popover">
+                <i class="mi mi-share"></i> <span class="d-lg-inline d-none">Share</span>
+            </a>
+            <div class="popover-content" id="share-popover">
+                <div class="share-container">
+                    <a rel="nofollow noopener"
+                       title="Print"
+                       data-value-id="RBU62400"
+                       data-type="print"
+                       href="#">
+                        <i class="mi mi-print"></i> Print
+                    </a>
+                    <a rel="nofollow noopener"
+                       title="Share by email"
+                       data-value-id="RBU62400"
+                       data-type="email"
+                       href="#">
+                        <i class="mi mi-mail"></i> Share by email
+                    </a>
+                    <a target="_blank"
+                       rel="nofollow noopener"
+                       title="Share on facebook"
+                       data-type="facebook"
+                       href="https://www.facebook.com/sharer/sharer.php?u=https://immovlan.be/en/detail/residence/for-sale/6560/solre-sur-sambre/rbu62400%3futm_source%3dfacebook%26utm_medium%3dshare%26utm_campaign%3dshare_prop_en%26utm_content%3dSale">
+                        <i class="mi mi-facebook"></i> Share on facebook
+                    </a>
+                    <a target="_blank"
+                       rel="nofollow noopener"
+                       title="Share on twitter"
+                       data-type="twitter"
+                       href="https://twitter.com/intent/tweet?url=https://immovlan.be/en/detail/residence/for-sale/6560/solre-sur-sambre/rbu62400">
+                        <i class="mi mi-twitter"></i> Share on twitter
+                    </a>
+                </div>
+            </div>
+            <a href="#"
+               class="button button-secondary button-with-icon btn-favorite"
+               data-value-id="RBU62400"
+               data-title-add="Add to favorites"
+               data-title-remove="Remove from favorites">
+                <i class="mi mi-favorite"></i> <span class="d-lg-inline d-none favorite-title">Save</span>
+            </a>
+
+            <div class="d-lg-flex d-none desktop-conversion-buttons">
+                    <a class="button button-primary button-with-icon contact-property-button"><i class="mi mi-mail mi-white"></i> <span class="text-truncate">Email</span></a>
+                    <a class="button button-secondary button-with-icon contact-by-phone-button"><i class="mi mi-phone mi-primary"></i> <span class="text-truncate">Call</span></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    
+
+<div id="col_top_left">
+
+    <div class="gallery lg_detail__header_spacing ">
+        
+
+
+        
+    <div class="pictures">
+            <picture>
+                <source media="(min-width: 576px)"
+                        type="image/webp"
+                        srcset="https://api-image.immovlan.be/v1/property/RBU62400/gallery-like-image/facebook/landscape?w=400 400w, https://api-image.immovlan.be/v1/property/RBU62400/gallery-like-image/facebook/landscape?w=600 600w, https://api-image.immovlan.be/v1/property/RBU62400/gallery-like-image/facebook/landscape?w=800 800w"
+                        sizes="(max-width: 992px) 600px, 620px" />
+
+                <source media="(min-width: 576px)"
+                        type="image/jpeg"
+                        srcset="https://api-image.immovlan.be/v1/property/RBU62400/gallery-like-image/facebook/landscape?w=400 400w, https://api-image.immovlan.be/v1/property/RBU62400/gallery-like-image/facebook/landscape?w=600 600w, https://api-image.immovlan.be/v1/property/RBU62400/gallery-like-image/facebook/landscape?w=800 800w"
+                        sizes="(max-width: 992px) 600px, 620px" />
+
+                <source media="(max-width: 575px)"
+                        srcset="https://api-image.immovlan.be/v1/property/RBU62400/thumbnail/gallery-webp"
+                        sizes="100vw" />
+
+                <img src="https://api-image.immovlan.be/v1/property/RBU62400/gallery-like-image/facebook/landscape?w=800"
+                     alt="RBU62400"
+                     class="hero-image"
+                     fetchpriority="high"
+                     loading="eager"
+                     decoding="async" />
+            </picture>
+            <style>
+                /* Mobile aspect ratio (square 1:1) */
+                .pictures picture img.hero-image {
+                    aspect-ratio: 1 / 1;
+                    width: 100%;
+                    height: auto;
+                }
+
+                /* Desktop aspect ratio (landscape) */
+                @media (min-width: 576px) {
+                    .pictures picture img.hero-image {
+                        aspect-ratio: 1200 / 633;
+                    }
+                }
+            </style>
+                <a class="img-thumb first"
+                   alt="RBU62400-0"
+                   title="RBU62400-0"
+                   data-value-carousel-image-order="0"
+                   data-src="https://api-image.immovlan.be/v1/property/RBU62400/images/eab8b10f3a534a50812a871dd845e5f0.jpg/webp/Medium?mode=pad&amp;format=webp&amp;quality=75"
+                   href="#"></a>
+                <a class="img-thumb second"
+                   alt="RBU62400-1"
+                   title="RBU62400-1"
+                   data-value-carousel-image-order="1"
+                   data-src="https://api-image.immovlan.be/v1/property/RBU62400/images/8ab1f4f2104549d3b0e0234fc1910b33.jpg/webp/Medium?mode=pad&amp;format=webp&amp;quality=75"
+                   href="#"></a>
+                <a class="img-thumb third"
+                   alt="RBU62400-2"
+                   title="RBU62400-2"
+                   data-value-carousel-image-order="2"
+                   data-src="https://api-image.immovlan.be/v1/property/RBU62400/images/1a77deba783842ff98ccc2be24d71e00.jpg/webp/Medium?mode=pad&amp;format=webp&amp;quality=75"
+                   href="#"></a>
+    </div>
+        <p class="energy-consumption WalloniaG"></p>
+
+    </div>
+
+    <div class="assets">
+        <div class="margin-bottom-10">
+            <ul class="text-right">
+            </ul>
+        </div>
+
+        
+<ul>
+        <li class="property-highlight margin-bottom-05 margin-right-05">
+            <strong>3</strong>
+            Bedroom(s)
+        </li>
+        <li class="property-highlight margin-bottom-05 margin-right-05">
+            <strong>235</strong>
+            m&#xB2;
+        </li>
+        <li class="property-highlight margin-bottom-05 margin-right-05">
+            <strong>1</strong>
+            Garage
+        </li>
+        <li class="property-highlight margin-bottom-05 margin-right-05">
+            <strong>1</strong>
+            Bathroom(s)
+        </li>
+</ul>
+
+    </div>
+
+
+    <div class="partner-banner margin-top-10">
+        
+    <div id="partial-container-belfius-sale"></div>
+
+
+
+
+
+
+    </div>
+</div>
+
+
+    <div id="col_right_top">
+        <!--DESKTOP-->
+        <div class="conversion_box d-none d-sm-block">
+
+<div id="contact_property">
+        <div class="margin-bottom-05">
+            <a class="d-inline-block" href="/tracking/prouser/goto?proUserId=48566&websiteUrl=https://www.limmo-manage.be:443/&advertId=10399081&advertReference=RBU62400"
+               class="lnk-pro-website"
+               data-id="48566"
+               target="_blank" rel="nofollow noopener">
+                <img src="https://api-image.immovlan.be/v1/prouser/HS277135936735/logo/English/webp/Small" alt="Limmo-Manage" title="Limmo-Manage"/>
+            </a>
+        </div>
+        <p>
+            <a href="/tracking/prouser/goto?proUserId=48566&websiteUrl=https://www.limmo-manage.be:443/&advertId=10399081&advertReference=RBU62400"
+               class="lnk-pro-website owner_url"
+               data-id="48566"
+               target="_blank" rel="nofollow noopener">
+                <span class="owner_name">Limmo-Manage&nbsp;</span>
+                <span><i class="mi mi-arrow-r"></i></span>
+            </a>
+        </p>
+    <p>
+        <a href="https://immovlan.be/en/directory/detail/limmo-manage/48566">
+            View all properties <i class="mi mi-arrow-r"></i>
+        </a>
+    </p>
+</div>
+            <div class="conversion-buttons">
+
+<div class="d-lg-block d-none">
+    <a class="button button-primary contact-property-button">Contact by email</a>
+        <a class="button button-secondary contact-by-phone-button"
+           data-value-id="RBU62400"
+           data-value-property-id="10399081"
+           data-value-project-id="">Contact by phone</a>
+</div>
+
+    <a class="button button-secondary" id="folder-request-button">Receive the property folder</a>
+            </div>
+        </div>
+
+
+<div class="alert-box w-100">
+    <p>
+        Are you searching for <b>Residence for sale - Solre-sur-Sambre</b>?
+    </p>
+    <p>
+        Receive an email as soon as there&#x27;s a new property available!
+    </p>
+    <div class="button button-primary btn-create-alert">
+        Create an alert
+    </div>
+</div>    </div>
+
+    
+
+    <div class="description w-100 col-12">
+        <h2 class="padding-top-10">Description</h2>
+        <div class="dynamic-description" data-height="200">
+            Spacious 3-bedroom house in need of complete renovation: Ground floor: large living room, dining room, kitchen, kitchenette, laundry room, bathroom, access to garage and courtyard 1st floor: night hall, 3 bedrooms, 2 small attics 2nd floor: large attic suitable for conversion Large garage and courtyard. Spacious house with great potential after renovation. Offer starting at €80,000. The owner reserves the right to assess the height and quality of offers. PEB n°20210605007638. PEB G.
+            <a class="dynamic-description-show-more">
+                Show all
+                <i class="mi mi-arrow-b"></i>
+            </a>
+            <a class="dynamic-description-show-less">
+                Show less
+                <i class="mi mi-arrow-t"></i>
+            </a>
+        </div>
+    </div>
+        <script>
+
+            (function () {
+                const ready = function () {
+                    $('.to-dealer-website-description').on('click',
+                        function (e) {
+                            const websiteUrl = $(this).attr('href');
+
+                            if (!websiteUrl) return;
+
+                            e.preventDefault();
+
+                            const proUserId = '48566';
+                            const advertId = '10399081';
+                            const advertReference = 'RBU62400';
+
+                            const url = `/tracking/prouser/goto?prouserId=${proUserId}&websiteUrl=${encodeURIComponent(websiteUrl)}&advertId=${advertId}&advertReference=${advertReference}`;
+
+
+                            //gtm
+                            googleEventRegistry.registerEvent(
+                                googleEventRegistry.events.PRO_WEBSITE_CLICK,
+                                {
+                                    page_type: window.PAGE_TYPE || 'propertyDetailResult',
+                                    seller_id: '48566'
+                                },
+                                url,
+                                '_blank');
+                        });
+                }
+
+                if (typeof $ === 'undefined') {
+                    document.addEventListener("DOMContentLoaded", ready);
+                } else {
+                    ready();
+                }
+            })();
+        </script>
+
+
+    <hr class="hr-03-f0f0f0">
+
+    <!--MOBILE-->
+    <div class="d-block d-sm-none w-100">
+        <div class="conversion_box">
+
+<div id="contact_property">
+        <div class="margin-bottom-05">
+            <a class="d-inline-block" href="/tracking/prouser/goto?proUserId=48566&websiteUrl=https://www.limmo-manage.be:443/&advertId=10399081&advertReference=RBU62400"
+               class="lnk-pro-website"
+               data-id="48566"
+               target="_blank" rel="nofollow noopener">
+                <img src="https://api-image.immovlan.be/v1/prouser/HS277135936735/logo/English/webp/Small" alt="Limmo-Manage" title="Limmo-Manage"/>
+            </a>
+        </div>
+        <p>
+            <a href="/tracking/prouser/goto?proUserId=48566&websiteUrl=https://www.limmo-manage.be:443/&advertId=10399081&advertReference=RBU62400"
+               class="lnk-pro-website owner_url"
+               data-id="48566"
+               target="_blank" rel="nofollow noopener">
+                <span class="owner_name">Limmo-Manage&nbsp;</span>
+                <span><i class="mi mi-arrow-r"></i></span>
+            </a>
+        </p>
+    <p>
+        <a href="https://immovlan.be/en/directory/detail/limmo-manage/48566">
+            View all properties <i class="mi mi-arrow-r"></i>
+        </a>
+    </p>
+</div>
+            <div class="conversion-buttons">
+
+<div class="d-lg-block d-none">
+    <a class="button button-primary contact-property-button">Contact by email</a>
+        <a class="button button-secondary contact-by-phone-button"
+           data-value-id="RBU62400"
+           data-value-property-id="10399081"
+           data-value-project-id="">Contact by phone</a>
+</div>
+
+    <a class="button button-secondary" id="folder-request-button">Receive the property folder</a>
+            </div>
+        </div>
+        <hr class="hr-03-f0f0f0">
+    </div>
+
+    <div class="financial w-100">
+        
+
+    <h2>Financial details</h2>
+    <ul>
+            <li><strong>Price</strong>: 80&#x202F;000 &#x20AC;</li>
+            <li><strong>Cadastral income</strong>: 510 &#x20AC;</li>
+            <li><strong>VAT</strong>: No</li>
+
+    </ul>
+    <div id="rossel-textlink-top"></div>
+    <div id="rossel-textlink-middle"></div>
+    <div id="rossel-textlink-bottom"></div>
+
+    </div>
+
+
+    <hr class="hr-03-f0f0f0 show-services">
+
+    <div class="services w-100 show-services">
+        <h2>Services</h2>
+<div id="rossel-native-top-left"></div>
+<div id="rossel-native-top-right"></div>
+<div id="rossel-native-bottom-left"></div>
+<div id="rossel-native-bottom-right"></div>
+    </div>
+
+    
+
+    <hr class="hr-03-f0f0f0">
+    <div class="general-info w-100">
+        <h2>More information</h2>
+        <div class="general-info-wrapper">
+
+                <div class="data-row">
+                    <h3>General info</h3>
+
+                    <div class="data-row-wrapper">
+                            <div>
+                                <h4>State of the property</h4>
+                                <p>To be renovated</p>
+                            </div>
+                            <div>
+                                <h4>Currently leased</h4>
+                                <p>No</p>
+                            </div>
+                            <div>
+                                <h4>Availability</h4>
+                                <p>Immediately</p>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="data-row">
+                    <h3>Interior description</h3>
+
+                    <div class="data-row-wrapper">
+                            <div>
+                                <h4>Number of bedrooms</h4>
+                                <p>3</p>
+                            </div>
+                            <div>
+                                <h4>Livable surface</h4>
+                                <p>235 m&#xB2;</p>
+                            </div>
+                            <div>
+                                <h4>Furnished</h4>
+                                <p>No</p>
+                            </div>
+                            <div>
+                                <h4>Attic</h4>
+                                <p>Yes</p>
+                            </div>
+                            <div>
+                                <h4>Garage</h4>
+                                <p>Yes</p>
+                            </div>
+                            <div>
+                                <h4>Number of garages</h4>
+                                <p>1</p>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="data-row">
+                    <h3>Kitchen and bathrooms</h3>
+
+                    <div class="data-row-wrapper">
+                            <div>
+                                <h4>Number of bathrooms</h4>
+                                <p>1</p>
+                            </div>
+                            <div>
+                                <h4>Number of toilets</h4>
+                                <p>1</p>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="data-row">
+                    <h3>Heating and energy</h3>
+
+                    <div class="data-row-wrapper">
+                            <div>
+                                <h4>Type of heating</h4>
+                                <p>Coal</p>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="data-row">
+                    <h3>Equipment</h3>
+
+                    <div class="data-row-wrapper">
+                            <div>
+                                <h4>Elevator</h4>
+                                <p>No</p>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="data-row">
+                    <h3>Outdoor description</h3>
+
+                    <div class="data-row-wrapper">
+                            <div>
+                                <h4>Orientation of the front facade</h4>
+                                <p>East</p>
+                            </div>
+                            <div>
+                                <h4>Number of facades</h4>
+                                <p>3</p>
+                            </div>
+                            <div>
+                                <h4>Garden</h4>
+                                <p>No</p>
+                            </div>
+                            <div>
+                                <h4>Terrace</h4>
+                                <p>Yes</p>
+                            </div>
+                            <div>
+                                <h4>Surface terrace</h4>
+                                <p>30 m&#xB2;</p>
+                            </div>
+                            <div>
+                                <h4>Total land surface</h4>
+                                <p>280 m&#xB2;</p>
+                            </div>
+                            <div>
+                                <h4>Gas</h4>
+                                <p>Yes</p>
+                            </div>
+                            <div>
+                                <h4>Running water</h4>
+                                <p>Yes</p>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="data-row">
+                    <h3>Certificates and Compliance</h3>
+
+                    <div class="data-row-wrapper">
+                            <div>
+                                <h4>Specific primary energy consumption</h4>
+                                <p>970 kWh/m&#xB2;/year</p>
+                            </div>
+                            <div>
+                                <h4>EPC/PEB reference</h4>
+                                <p>20210605007638</p>
+                            </div>
+                            <div>
+                                <h4>Validity date EPC/PEB</h4>
+                                <p>05/06/2031</p>
+                            </div>
+                            <div>
+                                <h4>CO2 emission</h4>
+                                <p>277</p>
+                            </div>
+                            <div>
+                                <h4>Certification - Electrical installation</h4>
+                                <p>Not applicable</p>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="data-row">
+                    <h3>Town planning and environmental risks</h3>
+
+                    <div class="data-row-wrapper">
+                            <div>
+                                <h4>
+                                    Flooding Area type
+                                </h4>
+                                <p>
+                                    (information not available)
+                                </p>
+                            </div>
+                            <div>
+                                <h4>
+                                    Demarcated flooding area
+                                </h4>
+                                <p>
+                                    (information not available)
+                                </p>
+                            </div>
+                    </div>
+                </div>
+
+            <div class="data-row">
+                <p>
+                    <small>Immovlan.be displays the data received from the seller. If some important or obligatory data is missing it is because they were not provided to us.</small>
+                </p>
+            </div>
+            <div class="margin-bottom-05">
+                <small class="margin-right-05">
+                    <span> Immovlan ref.:</span> <span>RBU62400</span>
+                </small>
+
+                    <small class="seller-reference margin-right-05">
+                        <span> Seller&#x27;s ref.:</span> <span>28</span>
+                    </small>
+                <small>
+                    <a href="#" class="report-scam-btn">Report fraud</a> <i class="mi mi-arrow-r"></i>
+                </small>
+            </div>
+        </div>
+    </div>
+
+
+    <hr class="hr-03-f0f0f0">
+
+    
+<div class="yatmo-holder w-100">
+    <div id="yatmo-tabs" class="ui-tabs ui-widget ui-widget-content ui-corner-all">
+        <h2 class="py-3 d-flex align-items-center flex-wrap">
+            Points of interest
+            <span class="clearfix margin-left-05">
+                <ul id="yatmo-tabs-list" class="ui-tabs-nav" role="tablist">
+                    <li role="presentation">
+                        <a class="ui-tabs-anchor" href="#tabs-poi">
+                            (Summary)
+                        </a>
+                    </li>
+                    <li role="presentation">
+                        <a class="ui-tabs-anchor" href="#tabs-summary">
+                            (Text version)
+                        </a>
+                    </li>
+                </ul>
+            </span>
+        </h2>
+
+        <div class="ui-tabs-panel ui-widget-content ui-corner-bottom" id="tabs-poi">
+            
+        <div class="yatmo-holder w-100">
+            <div id="poi-tabs" class="ui-tabs ui-widget ui-widget-content ui-corner-all">
+                <ul class="navtabs ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+
+                        <li
+                            class="ui-state-default ui-corner-top">
+                            <a class="ui-tabs-anchor"
+                               href="#tabs-1">
+                                Education
+                            </a>
+                        </li>
+                        <li
+                            class="ui-state-default ui-corner-top">
+                            <a class="ui-tabs-anchor"
+                               href="#tabs-2">
+                                Transports
+                            </a>
+                        </li>
+                        <li
+                            class="ui-state-default ui-corner-top">
+                            <a class="ui-tabs-anchor"
+                               href="#tabs-3">
+                                Shopping
+                            </a>
+                        </li>
+                        <li
+                            class="ui-state-default ui-corner-top">
+                            <a class="ui-tabs-anchor"
+                               href="#tabs-4">
+                                Tourism
+                            </a>
+                        </li>
+                </ul>
+                
+                <div class="yatmo-wrapper">
+                        <div class="ui-tabs-panel ui-widget-content ui-corner-bottom"
+                             id='tabs-1'>
+                                        <div class="data-row">
+                                                    <h3>
+                                                        <i class="mi mi-nursery"></i>
+                                                        Nurseries
+                                                    </h3>
+                                                <div>
+                                                    <h4 class="notype ">Le Cerf-Volant</h4>
+                                                    <p>
+                                                            <span title='Bicycling'>
+                                                                <i class="mi mi-bicycle-travel"></i>
+                                                                575 m 1&#x27; 55&#x27;&#x27;
+                                                            </span>
+                                                            <span title='Driving'>
+                                                                <i class="mi mi-car-travel"></i>
+                                                                575 m 45&#x27;&#x27;
+                                                            </span>
+                                                            <span title='Transit'>
+                                                                <i class="mi mi-public-trans-travel"></i>
+                                                                549 m 7&#x27;
+                                                            </span>
+                                                            <span title='Walking'>
+                                                                <i class="mi mi-on-foot-travel"></i>
+                                                                575 m 7&#x27;
+                                                            </span>
+                                                    </p>
+
+                                                </div>
+                                        </div>
+                                        <div class="data-row">
+                                                    <h3>
+                                                        <i class="mi mi-preschools"></i>
+                                                        Preschools
+                                                    </h3>
+                                                <div>
+                                                    <h4 class="notype ">Ecole Fondamentale Libre De Solre-Sur-Sambre</h4>
+                                                    <p>
+                                                            <span title='Bicycling'>
+                                                                <i class="mi mi-bicycle-travel"></i>
+                                                                879 m 5&#x27;
+                                                            </span>
+                                                            <span title='Driving'>
+                                                                <i class="mi mi-car-travel"></i>
+                                                                1.4 km 2&#x27; 32&#x27;&#x27;
+                                                            </span>
+                                                            <span title='Transit'>
+                                                                <i class="mi mi-public-trans-travel"></i>
+                                                                405 m 5&#x27;
+                                                            </span>
+                                                            <span title='Walking'>
+                                                                <i class="mi mi-on-foot-travel"></i>
+                                                                405 m 5&#x27;
+                                                            </span>
+                                                    </p>
+
+                                                </div>
+                                        </div>
+                                        <div class="data-row">
+                                                    <h3>
+                                                        <i class="mi mi-elementary"></i>
+                                                        Elementary schools
+                                                    </h3>
+                                                <div>
+                                                    <h4 class="notype ">Ecole Fondamentale Libre De Solre-Sur-Sambre</h4>
+                                                    <p>
+                                                            <span title='Bicycling'>
+                                                                <i class="mi mi-bicycle-travel"></i>
+                                                                879 m 5&#x27;
+                                                            </span>
+                                                            <span title='Driving'>
+                                                                <i class="mi mi-car-travel"></i>
+                                                                1.4 km 2&#x27; 32&#x27;&#x27;
+                                                            </span>
+                                                            <span title='Transit'>
+                                                                <i class="mi mi-public-trans-travel"></i>
+                                                                405 m 5&#x27;
+                                                            </span>
+                                                            <span title='Walking'>
+                                                                <i class="mi mi-on-foot-travel"></i>
+                                                                405 m 5&#x27;
+                                                            </span>
+                                                    </p>
+
+                                                </div>
+                                        </div>
+                                        <div class="data-row">
+                                                    <h3>
+                                                        <i class="mi mi-highschool"></i>
+                                                        High schools
+                                                    </h3>
+                                                <div>
+                                                    <h4 class="notype ">Institut Technique De La Communaute Francaise Erquelinnes</h4>
+                                                    <p>
+                                                            <span title='Bicycling'>
+                                                                <i class="mi mi-bicycle-travel"></i>
+                                                                3.3 km 14&#x27;
+                                                            </span>
+                                                            <span title='Driving'>
+                                                                <i class="mi mi-car-travel"></i>
+                                                                4.2 km 4&#x27;
+                                                            </span>
+                                                            <span title='Transit'>
+                                                                <i class="mi mi-public-trans-travel"></i>
+                                                                2.5 km 17&#x27;
+                                                            </span>
+                                                            <span title='Walking'>
+                                                                <i class="mi mi-on-foot-travel"></i>
+                                                                2.8 km 34&#x27;
+                                                            </span>
+                                                    </p>
+
+                                                </div>
+                                        </div>
+                        </div>
+                        <div class="ui-tabs-panel ui-widget-content ui-corner-bottom"
+                             id='tabs-2'>
+                                        <div class="data-row">
+                                                    <h3>
+                                                        <i class="mi mi-bus"></i>
+                                                        Bus
+                                                    </h3>
+                                                <div>
+                                                    <h4 class="notype ">TEC Hainaut - 134/ - Mons - Beaumont</h4>
+                                                    <p>
+                                                            <span title='Walking'>
+                                                                <i class="mi mi-on-foot-travel"></i>
+                                                                184 m 2&#x27; 13&#x27;&#x27;
+                                                            </span>
+                                                    </p>
+
+                                                </div>
+                                                <div>
+                                                    <h4 class="notype ">TEC Hainaut - 134/ - Mons - Beaumont</h4>
+                                                    <p>
+                                                            <span title='Walking'>
+                                                                <i class="mi mi-on-foot-travel"></i>
+                                                                184 m 2&#x27; 13&#x27;&#x27;
+                                                            </span>
+                                                    </p>
+
+                                                </div>
+                                                <div>
+                                                    <h4 class="notype ">TEC Hainaut - 108 - Binche - Erquelinnes</h4>
+                                                    <p>
+                                                            <span title='Walking'>
+                                                                <i class="mi mi-on-foot-travel"></i>
+                                                                184 m 2&#x27; 13&#x27;&#x27;
+                                                            </span>
+                                                    </p>
+
+                                                </div>
+                                        </div>
+                                        <div class="data-row">
+                                                    <h3>
+                                                        <i class="mi mi-train"></i>
+                                                        Train stations
+                                                    </h3>
+                                                <div>
+                                                    <h4 class="notype ">Solre-Sur-Sambre</h4>
+                                                    <p>
+                                                            <span title='Bicycling'>
+                                                                <i class="mi mi-bicycle-travel"></i>
+                                                                798 m 4&#x27;
+                                                            </span>
+                                                            <span title='Driving'>
+                                                                <i class="mi mi-car-travel"></i>
+                                                                731 m 1&#x27; 13&#x27;&#x27;
+                                                            </span>
+                                                            <span title='Transit'>
+                                                                <i class="mi mi-public-trans-travel"></i>
+                                                                596 m 9&#x27;
+                                                            </span>
+                                                            <span title='Walking'>
+                                                                <i class="mi mi-on-foot-travel"></i>
+                                                                789 m 9&#x27;
+                                                            </span>
+                                                    </p>
+
+                                                </div>
+                                        </div>
+                        </div>
+                        <div class="ui-tabs-panel ui-widget-content ui-corner-bottom"
+                             id='tabs-3'>
+                                        <div class="data-row">
+                                                    <h3>
+                                                        <i class="mi mi-notype"></i>
+                                                        Supermarkets
+                                                    </h3>
+                                                <div>
+                                                    <h4 class="aldi ico-shop">Aldi Erquelinnes</h4>
+                                                    <p>
+                                                            <span title='Bicycling'>
+                                                                <i class="mi mi-bicycle-travel"></i>
+                                                                2.4 km 12&#x27;
+                                                            </span>
+                                                            <span title='Driving'>
+                                                                <i class="mi mi-car-travel"></i>
+                                                                3.3 km 4&#x27;
+                                                            </span>
+                                                            <span title='Transit'>
+                                                                <i class="mi mi-public-trans-travel"></i>
+                                                                1.7 km 17&#x27;
+                                                            </span>
+                                                            <span title='Walking'>
+                                                                <i class="mi mi-on-foot-travel"></i>
+                                                                2.1 km 26&#x27;
+                                                            </span>
+                                                    </p>
+
+                                                </div>
+                                                <div>
+                                                    <h4 class="delhaize-proxy ico-shop">Proxy Delhaize Erquelinnes</h4>
+                                                    <p>
+                                                            <span title='Bicycling'>
+                                                                <i class="mi mi-bicycle-travel"></i>
+                                                                2.4 km 11&#x27;
+                                                            </span>
+                                                            <span title='Driving'>
+                                                                <i class="mi mi-car-travel"></i>
+                                                                3.3 km 3&#x27;
+                                                            </span>
+                                                            <span title='Transit'>
+                                                                <i class="mi mi-public-trans-travel"></i>
+                                                                1.8 km 15&#x27;
+                                                            </span>
+                                                            <span title='Walking'>
+                                                                <i class="mi mi-on-foot-travel"></i>
+                                                                2.1 km 25&#x27;
+                                                            </span>
+                                                    </p>
+
+                                                </div>
+                                                <div>
+                                                    <h4 class="lidl ico-shop">Lidl Erquelinnes</h4>
+                                                    <p>
+                                                            <span title='Bicycling'>
+                                                                <i class="mi mi-bicycle-travel"></i>
+                                                                2.7 km 12&#x27;
+                                                            </span>
+                                                            <span title='Driving'>
+                                                                <i class="mi mi-car-travel"></i>
+                                                                3.6 km 4&#x27;
+                                                            </span>
+                                                            <span title='Transit'>
+                                                                <i class="mi mi-public-trans-travel"></i>
+                                                                2 km 20&#x27;
+                                                            </span>
+                                                            <span title='Walking'>
+                                                                <i class="mi mi-on-foot-travel"></i>
+                                                                2.4 km 28&#x27;
+                                                            </span>
+                                                    </p>
+
+                                                </div>
+                                        </div>
+                        </div>
+                        <div class="ui-tabs-panel ui-widget-content ui-corner-bottom"
+                             id='tabs-4'>
+                                        <div class="data-row">
+                                                    <h3>
+                                                        <i class="mi mi-notype"></i>
+                                                        Amusement parks
+                                                    </h3>
+                                                <div>
+                                                    <h4 class="notype ">Parc Spin Leisure</h4>
+                                                    <p>
+                                                            <span title='Driving'>
+                                                                <i class="mi mi-car-travel"></i>
+                                                                22.8 km 22&#x27;
+                                                            </span>
+                                                    </p>
+
+                                                </div>
+                                        </div>
+                                        <div class="data-row">
+                                                    <h3>
+                                                        <i class="mi mi-notype"></i>
+                                                        Museums
+                                                    </h3>
+                                                <div>
+                                                    <h4 class="notype ">Mus&#xE9;e International Du Carnaval Et Du Masque</h4>
+                                                    <p>
+                                                            <span title='Driving'>
+                                                                <i class="mi mi-car-travel"></i>
+                                                                12.9 km 15&#x27;
+                                                            </span>
+                                                    </p>
+
+                                                </div>
+                                        </div>
+                                        <div class="data-row">
+                                                    <h3>
+                                                        <i class="mi mi-notype"></i>
+                                                        Religious monuments
+                                                    </h3>
+                                                <div>
+                                                    <h4 class="notype ">Abbaye D&#x27;Aulne</h4>
+                                                    <p>
+                                                            <span title='Driving'>
+                                                                <i class="mi mi-car-travel"></i>
+                                                                19.6 km 27&#x27;
+                                                            </span>
+                                                    </p>
+
+                                                </div>
+                                        </div>
+                                        <div class="data-row">
+                                                    <h3>
+                                                        <i class="mi mi-notype"></i>
+                                                        Activities
+                                                    </h3>
+                                                <div>
+                                                    <h4 class="notype ">Distillerie De Bierc&#xE9;e</h4>
+                                                    <p>
+                                                            <span title='Driving'>
+                                                                <i class="mi mi-car-travel"></i>
+                                                                13.9 km 12&#x27;
+                                                            </span>
+                                                    </p>
+
+                                                </div>
+                                        </div>
+                                        <div class="data-row">
+                                                    <h3>
+                                                        <i class="mi mi-notype"></i>
+                                                        Boat trips
+                                                    </h3>
+                                                <div>
+                                                    <h4 class="notype ">Ascenseur Funiculaire De Str&#xE9;py-Thieu Et Croisi&#xE8;re Sur Le Canal Du Centre Historique</h4>
+                                                    <p>
+                                                            <span title='Driving'>
+                                                                <i class="mi mi-car-travel"></i>
+                                                                24.6 km 25&#x27;
+                                                            </span>
+                                                    </p>
+
+                                                </div>
+                                        </div>
+                                        <div class="data-row">
+                                                    <h3>
+                                                        <i class="mi mi-notype"></i>
+                                                        Castles
+                                                    </h3>
+                                                <div>
+                                                    <h4 class="notype ">Tour Salamandre</h4>
+                                                    <p>
+                                                            <span title='Driving'>
+                                                                <i class="mi mi-car-travel"></i>
+                                                                10.4 km 9&#x27;
+                                                            </span>
+                                                    </p>
+
+                                                </div>
+                                        </div>
+                                        <div class="data-row">
+                                                    <h3>
+                                                        <i class="mi mi-notype"></i>
+                                                        Golfs
+                                                    </h3>
+                                                <div>
+                                                    <h4 class="notype ">Ragnies Golf Club</h4>
+                                                    <p>
+                                                            <span title='Driving'>
+                                                                <i class="mi mi-car-travel"></i>
+                                                                14.2 km 13&#x27;
+                                                            </span>
+                                                    </p>
+
+                                                </div>
+                                        </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+        <div class="ui-tabs-panel ui-widget-content ui-corner-bottom" id="tabs-summary">
+            
+        <div class="yatmo-holder w-100">
+            <div class="dynamic-description" data-height="250">
+                    <h3>Transports</h3>
+                    <p>
+A <strong>SNCB station</strong> ("Solre-Sur-Sambre") is located 4 minutes away by bike, or 1 minute by car.                    </p>
+                    <h3>Public transports</h3>
+                    <p>
+You can access these <strong>bus</strong> lines: TEC Hainaut - 108 - Binche - Erquelinnes, TEC Hainaut - 134/ - Mons - Beaumont with a stand 2 minutes’ walk away.                    </p>
+                    <h3>Nearby cities</h3>
+                    <p>
+Only 29 minutes are needed to reach <strong>Charleroi</strong> with your car. <strong>Namur</strong> is 53 minutes away by car. In just 28 minutes by car you can reach <strong>Mons</strong>. <strong>La Louvière</strong> is only 29 minutes away by car.                    </p>
+                    <h3>Education</h3>
+                    <p>
+You can find a close <strong>preschool</strong> and <strong>elementary school</strong>: "Ecole Fondamentale Libre De Solre-Sur-Sambre", 3 minutes away by car.If you are looking for a <strong>nursery</strong>, "Le Cerf-Volant" it is 7 minutes away by foot.Institut Technique De La Communaute Francaise Erquelinnes is the most convieniently located <strong>high school</strong>: just 14 minutes away by bike.                    </p>
+                    <h3>Tourism</h3>
+                    <p>
+<strong>"Abbaye D'Aulne"</strong> is 27 minutes away by car.Just 12 minutes away is the <strong>"Distillerie De Biercée"</strong>.An <strong>amusement park</strong> is 22 minutes away by car :"Parc Spin Leisure"<strong>"Ascenseur Funiculaire De Strépy-Thieu Et Croisière Sur Le Canal Du Centre Historique"</strong> is 25 minutes away.The "Ragnies Golf Club" <strong>golf</strong> is 13 minutes away by car.A {minuteCar} minutes drive away is the "Tour Salamandre" <strong>castle</strong>.It will take you approximately 15 minutes to reach the <strong>museum</strong> "Musée International Du Carnaval Et Du Masque".                    </p>
+                    <h3>Shopping</h3>
+                    <p>
+For your <strong>food shopping</strong>, you have multiple options: "<strong>Aldi Erquelinnes</strong>" (26 minutes by foot or 4 minutes by car), "<strong>Proxy Delhaize Erquelinnes</strong>" (25 minutes by foot or 3 minutes by car), "<strong>Lidl Erquelinnes</strong>" (28 minutes by foot or 4 minutes by car).                    </p>
+                <a class="dynamic-description-show-more">
+                    Show all <i class="mi mi-arrow-b"></i>
+                </a>
+                <a class="dynamic-description-show-less">
+                    Show less <i class="mi mi-arrow-t"></i>
+                </a>
+            </div>
+        </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+    
+
+
+
+    <div id="recommendation-results" class="mt-3 mt-md-0 w-100"></div>
+
+    <div id="rossel-leader-bottom" class="w-100"></div>
+
+    
+    <script type="application/ld&#x2B;json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "numberOfItems": 19,
+        "itemListElement": [
+                 {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "item": {
+                      "@id": "https://immovlan.be/en/real-estate/house/for-sale",
+                      "name": "House for sale"
+                  }
+                 } ,
+                 {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "item": {
+                      "@id": "https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&amp;propertytypes=house,apartment&amp;towns=6560-solre-sur-sambre",
+                      "name": "For sale  - Solre-sur-Sambre"
+                  }
+                 } ,
+                 {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "item": {
+                      "@id": "https://immovlan.be/en/real-estate/house/for-sale/solre-sur-sambre",
+                      "name": "House for sale in Solre-sur-Sambre"
+                  }
+                 } ,
+                 {
+                  "@type": "ListItem",
+                  "position": 4,
+                  "item": {
+                      "@id": "https://immovlan.be/en/real-estate/house/for-sale?provinces=hainaut",
+                      "name": "House for sale - Hainaut (Province)"
+                  }
+                 } ,
+                 {
+                  "@type": "ListItem",
+                  "position": 5,
+                  "item": {
+                      "@id": "https://immovlan.be/en/real-estate/house/for-sale?propertysubtypes=residence",
+                      "name": "Residence for sale"
+                  }
+                 } ,
+                 {
+                  "@type": "ListItem",
+                  "position": 6,
+                  "item": {
+                      "@id": "https://immovlan.be/en/real-estate/house/for-sale/solre-sur-sambre?propertysubtypes=residence",
+                      "name": "Residence for sale in Solre-sur-Sambre"
+                  }
+                 } ,
+                 {
+                  "@type": "ListItem",
+                  "position": 7,
+                  "item": {
+                      "@id": "https://immovlan.be/en/real-estate/house/for-sale?propertysubtypes=residence&amp;provinces=hainaut",
+                      "name": "Residence for sale - Hainaut (Province)"
+                  }
+                 } ,
+                 {
+                  "@type": "ListItem",
+                  "position": 8,
+                  "item": {
+                      "@id": "https://immovlan.be/en/real-estate/house/for-sale/solre-sur-sambre?tags=hasterrace&amp;_r=v",
+                      "name": "House for sale with terrace in Solre-sur-Sambre"
+                  }
+                 } ,
+                 {
+                  "@type": "ListItem",
+                  "position": 9,
+                  "item": {
+                      "@id": "https://immovlan.be/en/real-estate/house/for-sale?tags=hasterrace&amp;_r=v",
+                      "name": "House for sale with terrace"
+                  }
+                 } ,
+                 {
+                  "@type": "ListItem",
+                  "position": 10,
+                  "item": {
+                      "@id": "https://immovlan.be/en/real-estate/house/for-sale?provinces=hainaut&amp;tags=hasterrace&amp;_r=v",
+                      "name": "House for sale with terrace - Hainaut (Province)"
+                  }
+                 } ,
+                 {
+                  "@type": "ListItem",
+                  "position": 11,
+                  "item": {
+                      "@id": "https://immovlan.be/en/real-estate/house/for-sale/solre-sur-sambre?facades=3&amp;_r=v",
+                      "name": "House for sale with 3 facades  in Solre-sur-Sambre"
+                  }
+                 } ,
+                 {
+                  "@type": "ListItem",
+                  "position": 12,
+                  "item": {
+                      "@id": "https://immovlan.be/en/real-estate/house/for-sale?facades=3&amp;_r=v",
+                      "name": "House for sale with 3 facades"
+                  }
+                 } ,
+                 {
+                  "@type": "ListItem",
+                  "position": 13,
+                  "item": {
+                      "@id": "https://immovlan.be/en/real-estate/house/for-sale?provinces=hainaut&amp;facades=3&amp;_r=v",
+                      "name": "House for sale with 3 facades  - Hainaut (Province)"
+                  }
+                 } ,
+                 {
+                  "@type": "ListItem",
+                  "position": 14,
+                  "item": {
+                      "@id": "https://immovlan.be/en/real-estate/house/for-sale/solre-sur-sambre?minbedrooms=3&amp;maxbedrooms=3&amp;_r=v",
+                      "name": "House for sale with 3 bedrooms in Solre-sur-Sambre"
+                  }
+                 } ,
+                 {
+                  "@type": "ListItem",
+                  "position": 15,
+                  "item": {
+                      "@id": "https://immovlan.be/en/real-estate/house/for-sale?minbedrooms=3&amp;maxbedrooms=3&amp;_r=v",
+                      "name": "House for sale with 3 bedrooms"
+                  }
+                 } ,
+                 {
+                  "@type": "ListItem",
+                  "position": 16,
+                  "item": {
+                      "@id": "https://immovlan.be/en/real-estate/house/for-sale?provinces=hainaut&amp;minbedrooms=3&amp;maxbedrooms=3&amp;_r=v",
+                      "name": "House for sale with 3 bedrooms - Hainaut (Province)"
+                  }
+                 } ,
+                 {
+                  "@type": "ListItem",
+                  "position": 17,
+                  "item": {
+                      "@id": "https://immovlan.be/en/real-estate/house/for-sale/solre-sur-sambre?states=to-be-renovated&amp;_r=v",
+                      "name": "House for sale to renovate in Solre-sur-Sambre"
+                  }
+                 } ,
+                 {
+                  "@type": "ListItem",
+                  "position": 18,
+                  "item": {
+                      "@id": "https://immovlan.be/en/real-estate/house/for-sale?states=to-be-renovated&amp;_r=v",
+                      "name": "House for sale to renovate"
+                  }
+                 } ,
+                 {
+                  "@type": "ListItem",
+                  "position": 19,
+                  "item": {
+                      "@id": "https://immovlan.be/en/real-estate/house/for-sale?provinces=hainaut&amp;states=to-be-renovated&amp;_r=v",
+                      "name": "House for sale to renovate - Hainaut (Province)"
+                  }
+                 } 
+        ]
+    }
+    </script>
+    <nav aria-label="breadcrumb" class="breadcrumb padding-bottom-10">
+        <ol>
+                <li>
+                    <a id="https://immovlan.be/en/real-estate/house/for-sale"
+                       href="https://immovlan.be/en/real-estate/house/for-sale"
+                       title="House for sale"
+                       rel="">
+                        <span>House for sale</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&amp;propertytypes=house,apartment&amp;towns=6560-solre-sur-sambre"
+                       href="https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&amp;propertytypes=house,apartment&amp;towns=6560-solre-sur-sambre"
+                       title="For sale  - Solre-sur-Sambre"
+                       rel="">
+                        <span>For sale  - Solre-sur-Sambre</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="https://immovlan.be/en/real-estate/house/for-sale/solre-sur-sambre"
+                       href="https://immovlan.be/en/real-estate/house/for-sale/solre-sur-sambre"
+                       title="House for sale in Solre-sur-Sambre"
+                       rel="">
+                        <span>House for sale in Solre-sur-Sambre</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="https://immovlan.be/en/real-estate/house/for-sale?provinces=hainaut"
+                       href="https://immovlan.be/en/real-estate/house/for-sale?provinces=hainaut"
+                       title="House for sale - Hainaut (Province)"
+                       rel="">
+                        <span>House for sale - Hainaut (Province)</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="https://immovlan.be/en/real-estate/house/for-sale?propertysubtypes=residence"
+                       href="https://immovlan.be/en/real-estate/house/for-sale?propertysubtypes=residence"
+                       title="Residence for sale"
+                       rel="">
+                        <span>Residence for sale</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="https://immovlan.be/en/real-estate/house/for-sale/solre-sur-sambre?propertysubtypes=residence"
+                       href="https://immovlan.be/en/real-estate/house/for-sale/solre-sur-sambre?propertysubtypes=residence"
+                       title="Residence for sale in Solre-sur-Sambre"
+                       rel="">
+                        <span>Residence for sale in Solre-sur-Sambre</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="https://immovlan.be/en/real-estate/house/for-sale?propertysubtypes=residence&amp;provinces=hainaut"
+                       href="https://immovlan.be/en/real-estate/house/for-sale?propertysubtypes=residence&amp;provinces=hainaut"
+                       title="Residence for sale - Hainaut (Province)"
+                       rel="">
+                        <span>Residence for sale - Hainaut (Province)</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="https://immovlan.be/en/real-estate/house/for-sale/solre-sur-sambre?tags=hasterrace&amp;_r=v"
+                       href="https://immovlan.be/en/real-estate/house/for-sale/solre-sur-sambre?tags=hasterrace&amp;_r=v"
+                       title="House for sale with terrace in Solre-sur-Sambre"
+                       rel="">
+                        <span>House for sale with terrace in Solre-sur-Sambre</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="https://immovlan.be/en/real-estate/house/for-sale?tags=hasterrace&amp;_r=v"
+                       href="https://immovlan.be/en/real-estate/house/for-sale?tags=hasterrace&amp;_r=v"
+                       title="House for sale with terrace"
+                       rel="">
+                        <span>House for sale with terrace</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="https://immovlan.be/en/real-estate/house/for-sale?provinces=hainaut&amp;tags=hasterrace&amp;_r=v"
+                       href="https://immovlan.be/en/real-estate/house/for-sale?provinces=hainaut&amp;tags=hasterrace&amp;_r=v"
+                       title="House for sale with terrace - Hainaut (Province)"
+                       rel="">
+                        <span>House for sale with terrace - Hainaut (Province)</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="https://immovlan.be/en/real-estate/house/for-sale/solre-sur-sambre?facades=3&amp;_r=v"
+                       href="https://immovlan.be/en/real-estate/house/for-sale/solre-sur-sambre?facades=3&amp;_r=v"
+                       title="House for sale with 3 facades  in Solre-sur-Sambre"
+                       rel="">
+                        <span>House for sale with 3 facades  in Solre-sur-Sambre</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="https://immovlan.be/en/real-estate/house/for-sale?facades=3&amp;_r=v"
+                       href="https://immovlan.be/en/real-estate/house/for-sale?facades=3&amp;_r=v"
+                       title="House for sale with 3 facades"
+                       rel="">
+                        <span>House for sale with 3 facades</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="https://immovlan.be/en/real-estate/house/for-sale?provinces=hainaut&amp;facades=3&amp;_r=v"
+                       href="https://immovlan.be/en/real-estate/house/for-sale?provinces=hainaut&amp;facades=3&amp;_r=v"
+                       title="House for sale with 3 facades  - Hainaut (Province)"
+                       rel="">
+                        <span>House for sale with 3 facades  - Hainaut (Province)</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="https://immovlan.be/en/real-estate/house/for-sale/solre-sur-sambre?minbedrooms=3&amp;maxbedrooms=3&amp;_r=v"
+                       href="https://immovlan.be/en/real-estate/house/for-sale/solre-sur-sambre?minbedrooms=3&amp;maxbedrooms=3&amp;_r=v"
+                       title="House for sale with 3 bedrooms in Solre-sur-Sambre"
+                       rel="">
+                        <span>House for sale with 3 bedrooms in Solre-sur-Sambre</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="https://immovlan.be/en/real-estate/house/for-sale?minbedrooms=3&amp;maxbedrooms=3&amp;_r=v"
+                       href="https://immovlan.be/en/real-estate/house/for-sale?minbedrooms=3&amp;maxbedrooms=3&amp;_r=v"
+                       title="House for sale with 3 bedrooms"
+                       rel="">
+                        <span>House for sale with 3 bedrooms</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="https://immovlan.be/en/real-estate/house/for-sale?provinces=hainaut&amp;minbedrooms=3&amp;maxbedrooms=3&amp;_r=v"
+                       href="https://immovlan.be/en/real-estate/house/for-sale?provinces=hainaut&amp;minbedrooms=3&amp;maxbedrooms=3&amp;_r=v"
+                       title="House for sale with 3 bedrooms - Hainaut (Province)"
+                       rel="">
+                        <span>House for sale with 3 bedrooms - Hainaut (Province)</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="https://immovlan.be/en/real-estate/house/for-sale/solre-sur-sambre?states=to-be-renovated&amp;_r=v"
+                       href="https://immovlan.be/en/real-estate/house/for-sale/solre-sur-sambre?states=to-be-renovated&amp;_r=v"
+                       title="House for sale to renovate in Solre-sur-Sambre"
+                       rel="">
+                        <span>House for sale to renovate in Solre-sur-Sambre</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="https://immovlan.be/en/real-estate/house/for-sale?states=to-be-renovated&amp;_r=v"
+                       href="https://immovlan.be/en/real-estate/house/for-sale?states=to-be-renovated&amp;_r=v"
+                       title="House for sale to renovate"
+                       rel="">
+                        <span>House for sale to renovate</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="https://immovlan.be/en/real-estate/house/for-sale?provinces=hainaut&amp;states=to-be-renovated&amp;_r=v"
+                       href="https://immovlan.be/en/real-estate/house/for-sale?provinces=hainaut&amp;states=to-be-renovated&amp;_r=v"
+                       title="House for sale to renovate - Hainaut (Province)"
+                       rel="">
+                        <span>House for sale to renovate - Hainaut (Province)</span>
+                    </a>
+                </li>
+        </ol>
+    </nav>
+
+
+    
+
+<div class="mobile-cta d-lg-none d-flex">
+        <a class="button button-secondary button-with-icon contact-property-button">
+            <i class="mi mi-mail mi-white"></i>
+            Email
+        </a>
+    
+        <a class="button button-primary button-with-icon contact-by-phone-button"
+           data-value-id="RBU62400"
+           data-value-property-id="10399081"
+           data-value-project-id="">
+            <i class="mi mi-phone mi-primary"></i>
+            Call
+        </a>
+</div>
+</div>
+
+
+        </div>
+
+        
+
+
+<footer>
+    <div class="footer-wrapper">
+        <div class="row">
+            <div class="col">
+                    <div class="heading">
+                        <a href="/en/content">Blog</a>
+                    </div>
+
+                <div class="heading">
+                    <a href="/en/services/ad">
+                        Publish an ad
+                    </a>
+                </div>
+
+                <ul>
+                    <li>
+                        <a href="/en/services/ad/house/for-sale">
+                            Sell my house
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/en/services/ad/house/for-rent">
+                            Rent my house
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/en/services/ad/apartment/for-sale">
+                            Sell my apartment
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/en/services/ad/apartment/for-rent">
+                            Rent my apartment
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/en/services/ad">
+                            Other
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="heading">
+                    <a href="/en/services/valuate">
+                        Free real estate valuation
+                    </a>
+                </div>
+
+                <ul>
+                    <li>
+                        <a href="/en/services/valuate/house/for-sale">
+                            Free valuation of your house for sale
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/en/services/valuate/house/for-rent">
+                            Free valuation of your house for rent
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/en/services/valuate/apartment/for-sale">
+                            Free valuation of your apartment for sale
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/en/services/valuate/apartment/for-rent">
+                            Free valuation of your apartment for rent
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="heading">Social media</div>
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/immovlan"
+                           target="_blank"
+                           rel="nofollow noopener">
+                            <i class="mi mi-facebook"></i> Immovlan.be on Facebook
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/immovlan-be/"
+                           target="_blank"
+                           rel="nofollow noopener">
+                            <i class="mi mi-linkedin"></i> Immovlan.be on LinkedIn
+                        </a>
+                    </li>
+                </ul>
+                <div class="heading">Mobile App</div>
+                <ul>
+                    <li>
+                        <a href="https://play.google.com/store/apps/details?id=com.czaam"
+                           target="_blank"
+                           rel="nofollow noopener"
+                           class="logo_android logo_android_en"
+                           alt="Android app"
+                           title="Android app">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://itunes.apple.com/be/app/ozaam-by-immovlan/id968691127?mt=8"
+                           target="_blank"
+                           rel="nofollow noopener"
+                           class="logo_iphone logo_iphone_en"
+                           alt="Iphone app"
+                           title="Iphone app">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                <div class="heading">
+                    <a href="/en/catalogue/search">Real estates index</a>
+                </div>
+
+                    <ul>
+                            <li>
+                                <a href="/en/real-estate/house/for-sale">Houses for sale</a>
+                            </li>
+                            <li>
+                                <a href="/en/real-estate/apartment/for-sale">Apartments for sale</a>
+                            </li>
+                            <li>
+                                <a href="/en/real-estate/land/for-sale">Lands for sale</a>
+                            </li>
+                            <li>
+                                <a href="/en/real-estate/business/for-sale">Businesses for sale</a>
+                            </li>
+                            <li>
+                                <a href="/en/real-estate/garage/for-sale">Garages for sale</a>
+                            </li>
+                    </ul>
+
+                    <ul>
+                            <li>
+                                <a href="/en/real-estate/house/for-rent">Houses for rent</a>
+                            </li>
+                            <li>
+                                <a href="/en/real-estate/apartment/for-rent">Apartments to rent</a>
+                            </li>
+                            <li>
+                                <a href="/en/real-estate/business/for-rent">Business for rent</a>
+                            </li>
+                            <li>
+                                <a href="/en/real-estate/garage/for-rent">Garages for rent</a>
+                            </li>
+                    </ul>
+
+
+                    <ul>
+                        <li>
+                            <a rel="nofollow" href="/en/keep-me-posted">
+                                Create your email alert
+                            </a>
+                        </li>
+                    </ul>
+
+                <div class="heading">
+                    <a href="/en/catalogue/content-section">Articles index</a>
+                </div>
+
+                    <div class="heading">
+                        <a href="https://www.vacancesweb.be/?utm_source=immovlan.be&amp;utm_medium=crosspromo&amp;utm_campaign=en" class="vacancesweb" target="_blank">Holiday locations</a>
+                    </div>
+
+
+            </div>
+        </div>
+        <p>
+            <a rel="nofollow" href="/en/privacy">
+                Privacy
+            </a> -
+            <a rel="nofollow" href="/en/general-conditions">
+                General conditions
+            </a> -
+            <a href="https://help.immovlan.be/en/wikimmovlan"
+               target="_blank"
+               rel="nofollow">
+                Support
+            </a> -
+            <a rel="nofollow" href="/en/cookie-management">
+                Cookies policy
+            </a> -
+            <a href="javascript:Didomi.preferences.show()" rel="nofollow">Consent preferences</a>
+        </p>
+        <p>
+            &copy; Immovlan 
+                <a href="https://www.cim.be/nl/internet/disclaimer-cim-internet" target="_blank" class="logo_cim" alt="CIM Metriweb" title="CIM Metriweb" rel="nofollw noopener noreferrer"></a>
+        </p>
+    </div>
+</footer>
+    </div>
+
+    <div id="modal-containers">
+        <div id="login-modal-container"></div>
+        <div id="accept-privacy-policy-modal-container"></div>
+        <div id="welcome-back-modal-container"></div>
+        
+<div id="app-banner-container">
+    <div class="app-banner" role="dialog">
+        <div class="app-banner-dialog text-center" role="document" id="app-banner">
+            <h3>Discover our app</h3>
+            <p>Brand new app, new features!</p>
+            <div class="app-banner-buttons">
+                <a class="button button-primary" id="open-app" href="javascript:;">
+                    <img src="/images/v2/logo_small.svg" alt="Immovlan"/>Open Immovlan
+                </a>
+                <button class="button-link" data-dismiss="app-banner" aria-label="Close">Not now</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+  if (INCLUDED_ROUTES_APP_BANNER.some(r => window.location.href.match(new RegExp(r, 'gis')))) {
+    window.addEventListener("load", function () {
+      $('#app-banner').appBanner('show');
+    });
+  }
+</script>        
+        
+    <div id="light-gallery-container"></div>
+    <div id="contact-property-modal-container"></div>
+    <div id="request-folder-modal-container"></div>
+    <div id="send-to-friend-property-modal-container"></div>
+    <div id="alert-modal-container"></div>
+    <div id="report-scam-property-modal-container"></div>
+    <div id="print-container"></div>
+
+    </div>
+
+    
+
+    
+        <script src="/js/dist/misc/browser.min.js?v=435Pp6WOE5L39MbqONHs2B7OWHOS8-aF6g5tzKHy3Hs"></script>
+        <script src="/lib/jquery/jquery.min.js?v=9_aliU8dGd2tb6OSsuzixeV4y_faTqgFtohetphbbj0"></script>
+        <script src="/js/dist/misc/local-storage.min.js?v=GJlon8qk7T2C972ptKe7inklsMm6iB4V51rAW5p174g"></script>
+        <script src="/lib/lazysizes/lazysizes.min.js?v=-2SfyuYhd9_mPmcIHdzrgwtc4fBaQYTpu7fYesS49OU"></script>
+        <script src="/js/dist/misc/geolocation-db.min.js?v=R1Lj46fiLGR40RNYJumUU58St_35PgYTH_89fy0X21o"></script>
+        <script src="/js/dist/misc/sticky-header-loader.min.js?v=xTS5CbithlYjrMrZqnNWFsqYQUA-m42qRy1TrmWbc6k"></script>
+        <script src="/js/dist/v2/main.min.js?v=x1jFZCOZ8R0UWYINBbASM3saqiZ47hmwNpkkG5rPKn0"></script>
+    
+
+    <script>
+        if (navigator.isIE) {
+            var worker = new Worker('/js/services/support/modal-browser-support-worker.js');
+
+            worker.onmessage = function (e) {
+                $("#browser-support-container").html(e.data);
+                $("#browser-support-modal").modal({
+                    keyboard: false
+                });
+            };
+
+            worker.postMessage({ language: window.CURRENT_LANGUAGE });
+        }
+    </script>
+
+    <div id="google-one-tap"></div>
+
+    
+    
+<script>
+    var STORAGE_KEY_PROUSER_WALLPAPER = "__prouser_wallpaper__";
+    var STORAGE_KEY_PROPERTY_DETAILS = "__property_details__";
+</script>
+
+
+
+
+    <script src="/lib/jquery-validate/jquery.validate.min.js?v=sPB0F50YUDK0otDnsfNHawYmA5M0pjjUf4TvRJkGFrI"></script>
+    <script src="/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js?v=4xJOkIkaeBplN5tlcvxnCbBz34o5_kzpXcpjNkonVos"></script>
+    <script src="/lib/jquery-ajax-unobtrusive/dist/jquery.unobtrusive-ajax.min.js?v=fuBWW3_dt8xnFx0_eD0rVXYP0XgpLhbFheovo5YdZIk"></script>
+
+
+<script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+
+    dataLayer.push({
+  "property_type": "house",
+  "property_sub_type": "house",
+  "transaction_type": "sale",
+  "zip_code": "6560",
+  "vlan_code": "rbu62400",
+  "livable_surface": "235.00",
+  "price": "80000.00",
+  "seller_type": "estateAgents",
+  "seller_id": "48566",
+  "is_new_construction_project": false,
+  "country_id": 318,
+  "software": "Omnicasa",
+  "page_language": "en",
+  "page_type": "propertyDetailResult",
+  "is_user_authenticated": false,
+  "member_id": null
+} || {});
+</script>
+
+<script>
+    $(document).ready(() => {
+        localStore.setItem(
+            STORAGE_KEY_PROPERTY_DETAILS,
+            JSON.stringify({
+                reference: 'RBU62400',
+                transactionTypeId: 74,
+                transactionType: 'Sale',
+                propertyTypeId: 1,
+                propertyType: 'House',
+                propertySubTypeId: 11,
+                propertySubType: 'House',
+                id: '10399081',
+                price: '80000.00',
+                vlanCode: 'rbu62400',
+                sellerType: 'estateAgents',
+                sellerTypes: 'estateAgents',
+                sellerId: '48566',
+                priceRangeId: '21',
+                zipCode: '6560',
+                city: 'Solre-sur-Sambre',
+                country: 'Belgium',
+                countryId: '1',
+                widgets: {
+  "displayBelfiusSaleWidget": true,
+  "displayCbcWidget": false,
+  "displayLottoWidget": false,
+  "displayInvestrWidget": false,
+  "displaySecondHomeWidget": false,
+  "displayVerisureWidget": false,
+  "displayVeluxWidget": false
+} || {}
+            }));
+    });
+</script>
+
+
+    <script>
+        localStore.removeItem(STORAGE_KEY_PROUSER_WALLPAPER);
+    </script>
+
+<script>
+    $(document).ready(() => {
+
+            // Initialize Yatmo map with error handling
+            if (window.AD_LATITUDE && window.AD_LONGITUDE && $('#map').length) {
+                const doYatmoMap = (params, timeout = 5000) => {
+                    return new Promise((resolve, reject) => {
+                        // Check for Web Worker support
+                        if (!window.Worker) {
+                            console.warn('Web Workers not supported, using fallback');
+                            reject(new Error('Web Workers not supported'));
+                            return;
+                        }
+                        
+                        const worker = new Worker('/js/services/yatmo/view-yatmo-map-worker.js');
+                        
+                        // Set timeout for worker
+                        const timeoutId = setTimeout(() => {
+                            worker.terminate();
+                            reject(new Error('Yatmo map worker timeout'));
+                        }, timeout);
+                        
+                        worker.onmessage = (e) => {
+                            clearTimeout(timeoutId);
+                            worker.terminate();
+                            resolve(e.data);
+                        };
+                        
+                        worker.onerror = (error) => {
+                            clearTimeout(timeoutId);
+                            worker.terminate();
+                            console.error('Yatmo map worker error:', error);
+                            reject(error);
+                        };
+                        
+                        worker.postMessage(params);
+                    });
+                };
+                
+                doYatmoMap({
+                    language: window.CURRENT_LANGUAGE,
+                    latitude: window.AD_LATITUDE,
+                    longitude: window.AD_LONGITUDE
+                })
+                .then((html) => {
+                    $('#map').html(html);
+                })
+                .catch((error) => {
+                    console.error('Failed to load Yatmo map:', error);
+                    // Show fallback message
+                    $('#map').html('<div class="map-fallback"><p>Map temporarily unavailable</p></div>');
+                });
+            }
+
+        // Initialize vanilla JS tabs (replaces jQuery UI)
+        if (document.getElementById('poi-tabs')) {
+            ImmovlanTabs.init('#poi-tabs');
+        }
+        if (document.getElementById('yatmo-tabs')) {
+            ImmovlanTabs.init('#yatmo-tabs');
+        }
+    });
+</script>
+
+
+
+
+    <script src="/js/dist/components/tabs.min.js?v=K-duypozsW72iVZtnlmq6Jot3XL7kXckmuetBh7BEIU"></script>
+    <script src="/js/dist/pages/v2/detail-property.min.js?v=62BCRlokhAMtUktDtyRoLocXNG4ylZHqMwL-p61-Y0w" defer></script>
+    <script src="/js/dist/misc/didomi.min.js?v=Vb9Ki2p7ndKhSnKiH1loADfG4VaPpB-0NlsjasloGys" defer async></script>
+    <script src="/js/dist/pub/pubimmo-detail.min.js?v=OCFymPfGhZ7FGAvc_LMoRVW05NmwjDsoNuhii03rnDw" defer async></script>
+
+
+
+
+
+
+
+
+
+        <script>
+            var gemius_consent = false;
+        
+            var pp_gemius_identifier = 'ndCVVLLx7SdCcZ88ek5ykMQL7FkWA_y.kyGgl2_nbHf.y7';
+            var pp_gemius_extraparameters = new Array('lan=EN',
+                'key=BUY',
+                'subs=Other');
+
+            var pp_gemius_use_cmp = true;
+            var gemius_use_cmp = true;
+            
+            window.runGemius = function() {
+                
+                console.log('%c Gemius : Running Gemius!', 'background: #222; color: #26A69A;');
+                
+                gemius_consent = getConsent('gemius');
+                
+                if (typeof gemius_hcconn == "undefined") {
+                    try {
+                        var gt = document.createElement('script'),
+                            s = document.getElementsByTagName('script')[0],
+                            l = 'http' + ((location.protocol === 'https:') ? 's' : '');
+                        gt.setAttribute('async', 'async');
+                        gt.setAttribute('defer', 'defer');
+                        gt.src = l + '://gabe.hit.gemius.pl/xgemius.min.js';
+                        s.parentNode.insertBefore(gt, s);
+                    } catch (e) {
+                        console.log(e);
+                    }
+                } else {
+                    gemius_hcconn.has_consent = gemius_consent;
+                }
+            }
+        </script>
+
+    <script>
+        $(document).ready(() => {
+            if (isMobile() !== true && INCLUDED_ROUTES_G_TAP.some(r => window.location.href.match(new RegExp(r, 'gis'))))
+                $('#google-one-tap').load('/google/one-tap');
+
+            $(".nav-link").removeClass("waves-effect waves-light");
+        });
+    </script>
+</body>
+</html>

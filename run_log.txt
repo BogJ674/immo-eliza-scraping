@@ -1,0 +1,457 @@
+2025-11-03 14:33:32 [scrapy.utils.log] INFO: Scrapy 2.13.3 started (bot: scrapybot)
+2025-11-03 14:33:32 [scrapy.utils.log] INFO: Versions:
+{'lxml': '5.2.1',
+ 'libxml2': '2.11.7',
+ 'cssselect': '1.3.0',
+ 'parsel': '1.10.0',
+ 'w3lib': '2.3.1',
+ 'Twisted': '25.5.0',
+ 'Python': '3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 '
+           '64 bit (AMD64)]',
+ 'pyOpenSSL': '25.3.0 (OpenSSL 3.5.4 30 Sep 2025)',
+ 'cryptography': '46.0.3',
+ 'Platform': 'Windows-10-10.0.19045-SP0'}
+2025-11-03 14:33:32 [scrapy.addons] INFO: Enabled addons:
+[]
+2025-11-03 14:33:32 [asyncio] DEBUG: Using selector: SelectSelector
+2025-11-03 14:33:32 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2025-11-03 14:33:32 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2025-11-03 14:33:32 [scrapy.extensions.telnet] INFO: Telnet Password: f19c3680f01722c0
+2025-11-03 14:33:32 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2025-11-03 14:33:32 [scrapy.crawler] INFO: Overridden settings:
+{'CONCURRENT_REQUESTS': 2, 'DOWNLOAD_DELAY': 1.5}
+2025-11-03 14:33:32 [asyncio] DEBUG: Using proactor: IocpProactor
+2025-11-03 14:33:32 [scrapy-playwright] INFO: Started loop on separate thread: <ProactorEventLoop running=True closed=False debug=False>
+2025-11-03 14:33:32 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2025-11-03 14:33:32 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
+ 'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-11-03 14:33:32 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2025-11-03 14:33:32 [scrapy.core.engine] INFO: Spider opened
+2025-11-03 14:33:32 [py.warnings] WARNING: C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\core\spidermw.py:433: ScrapyDeprecationWarning: scraper.spiders.immoeliza_spider.ImmoElizaSpider defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
+  warn(
+
+2025-11-03 14:33:32 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-11-03 14:33:32 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2025-11-03 14:33:32 [scrapy-playwright] INFO: Starting download handler
+2025-11-03 14:33:32 [scrapy-playwright] INFO: Starting download handler
+2025-11-03 14:33:33 [scrapy-playwright] INFO: Launching browser chromium
+2025-11-03 14:33:33 [scrapy-playwright] INFO: Browser chromium launched
+2025-11-03 14:33:33 [scrapy-playwright] DEBUG: Browser context started: 'default' (persistent=False, remote=False)
+2025-11-03 14:33:33 [scrapy-playwright] DEBUG: [Context=default] New page created, page count is 1 (1 for all contexts)
+2025-11-03 14:33:33 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://www.immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1> (resource type: document)
+2025-11-03 14:33:34 [scrapy-playwright] DEBUG: [Context=default] Response: <302 https://www.immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1> (location: https://immovlan.be:443/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1> (resource type: document, referrer: https://www.google.com/)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1>
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://www.googletagmanager.com/gtm.js?id=GTM-KKTD42> (resource type: script, referrer: https://immovlan.be/)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://ced.sascdn.com/tag/3958/smart.js> (resource type: script, referrer: https://immovlan.be/)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/lib/font-awesome/webfonts/fa-brands-400.woff2> (resource type: font, referrer: https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/lib/font-awesome/webfonts/fa-regular-400.woff2> (resource type: font, referrer: https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/lib/font-awesome/webfonts/fa-solid-900.woff2> (resource type: font, referrer: https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@300;400;500;600;700&display=swap> (resource type: stylesheet, referrer: https://immovlan.be/)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2> (resource type: font, referrer: https://immovlan.be/)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/css/v1/main.min.css?v=JOyTNI8y8x2kN6lat4XkrvyfvYDTNrq1wbKBW1bLyVc> (resource type: stylesheet, referrer: https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/css/mdb-search.min.css?v=97nbBOURRGXYrcQHqAqBLnaZR0H4SyjLJvx7mCYYTHI> (resource type: stylesheet, referrer: https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/css/search-list.min.css?v=aOMEzvFEZ1MmVk3gPy3yc-IKXEuPANURo7nv1rjK3Xc> (resource type: stylesheet, referrer: https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/images/v2/logo.svg> (resource type: image, referrer: https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/images/nopic.png> (resource type: image, referrer: https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@300;400;500;600;700&display=swap> (resource type: stylesheet, referrer: https://immovlan.be/)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/lib/font-awesome/webfonts/fa-brands-400.woff2>
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/lib/font-awesome/webfonts/fa-regular-400.woff2>
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/lib/font-awesome/webfonts/fa-solid-900.woff2>
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/css/v1/main.min.css?v=JOyTNI8y8x2kN6lat4XkrvyfvYDTNrq1wbKBW1bLyVc>
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/css/mdb-search.min.css?v=97nbBOURRGXYrcQHqAqBLnaZR0H4SyjLJvx7mCYYTHI>
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/css/search-list.min.css?v=aOMEzvFEZ1MmVk3gPy3yc-IKXEuPANURo7nv1rjK3Xc>
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/images/v2/logo.svg>
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/images/nopic.png>
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://api-image.immovlan.be/v1/prouser/01267921/logo/English/webp/Small> (resource type: image, referrer: https://immovlan.be/)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://api-image.immovlan.be/v1/prouser/00694206/logo/English/webp/Small> (resource type: image, referrer: https://immovlan.be/)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2>
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://ced.sascdn.com/tag/3958/smart.js>
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@300;400;500;600;700&display=swap>
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://api-image.immovlan.be/v1/prouser/01267921/logo/English/webp/Small>
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/lib/bootstrap-md/js/popper.min.js?v=3fYo1mdoGRoxrYT1WVmKFmEZ7ntgww2bkqI78bStNmA> (resource type: script, referrer: https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://api-image.immovlan.be/v1/prouser/00694206/logo/English/webp/Small>
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/misc/browser.min.js?v=435Pp6WOE5L39MbqONHs2B7OWHOS8-aF6g5tzKHy3Hs> (resource type: script, referrer: https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@300;400;500;600;700&display=swap>
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/lib/jquery/jquery.min.js?v=9_aliU8dGd2tb6OSsuzixeV4y_faTqgFtohetphbbj0> (resource type: script, referrer: https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/lib/bootstrap-md/js/bootstrap.min.js?v=Sfs54BRqMCNoA5vG9KtiUinx6cmbIAkjBbjK4N-rkZg> (resource type: script, referrer: https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/misc/local-storage.min.js?v=GJlon8qk7T2C972ptKe7inklsMm6iB4V51rAW5p174g> (resource type: script, referrer: https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/lib/lazysizes/lazysizes.min.js?v=-2SfyuYhd9_mPmcIHdzrgwtc4fBaQYTpu7fYesS49OU> (resource type: script, referrer: https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/misc/geolocation-db.min.js?v=R1Lj46fiLGR40RNYJumUU58St_35PgYTH_89fy0X21o> (resource type: script, referrer: https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/misc/sticky-header-loader.min.js?v=xTS5CbithlYjrMrZqnNWFsqYQUA-m42qRy1TrmWbc6k> (resource type: script, referrer: https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/lib/jquery-validate/jquery.validate.min.js?v=sPB0F50YUDK0otDnsfNHawYmA5M0pjjUf4TvRJkGFrI> (resource type: script, referrer: https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js?v=4xJOkIkaeBplN5tlcvxnCbBz34o5_kzpXcpjNkonVos> (resource type: script, referrer: https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/lib/jquery-ajax-unobtrusive/dist/jquery.unobtrusive-ajax.min.js?v=fuBWW3_dt8xnFx0_eD0rVXYP0XgpLhbFheovo5YdZIk> (resource type: script, referrer: https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/vendor/mdb-search.min.js?v=FQU-1ZcwaDEOnKntFy_z38WS5x2Y20dTu6dLm7iydAo> (resource type: script, referrer: https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/v1/main.min.js?v=x1jFZCOZ8R0UWYINBbASM3saqiZ47hmwNpkkG5rPKn0> (resource type: script, referrer: https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://api-image.immovlan.be/v1/property/1485771-01267921_OM_272263/thumbnail-webp/Small> (resource type: image, referrer: https://immovlan.be/)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://api-image.immovlan.be/v1/prouser/01033712/logo/English/webp/Small> (resource type: image, referrer: https://immovlan.be/)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://api-image.immovlan.be/v1/prouser/00003152/logo/English/webp/Small> (resource type: image, referrer: https://immovlan.be/)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://api-image.immovlan.be/v1/prouser/IN00563851/logo/English/webp/Small> (resource type: image, referrer: https://immovlan.be/)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://api-image.immovlan.be/v1/prouser/IN00001109/logo/English/webp/Small> (resource type: image, referrer: https://immovlan.be/)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://api-image.immovlan.be/v1/prouser/HS277135936735/logo/English/webp/Small> (resource type: image, referrer: https://immovlan.be/)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://api-image.immovlan.be/v1/prouser/01107438/logo/English/webp/Small> (resource type: image, referrer: https://immovlan.be/)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://api-image.immovlan.be/v1/prouser/01157579/logo/English/webp/Small> (resource type: image, referrer: https://immovlan.be/)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://api-image.immovlan.be/v1/prouser/IN00564558/logo/English/webp/Small> (resource type: image, referrer: https://immovlan.be/)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://api-image.immovlan.be/v1/prouser/01227109/logo/English/webp/Small> (resource type: image, referrer: https://immovlan.be/)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://api-image.immovlan.be/v1/prouser/RMG01373104/logo/English/webp/Small> (resource type: image, referrer: https://immovlan.be/)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://api-image.immovlan.be/v1/prouser/VLAN93003798/logo/English/webp/Small> (resource type: image, referrer: https://immovlan.be/)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://api-image.immovlan.be/v1/prouser/IN00563620/logo/English/webp/Small> (resource type: image, referrer: https://immovlan.be/)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://api-image.immovlan.be/v1/prouser/RMG01401010/logo/English/webp/Small> (resource type: image, referrer: https://immovlan.be/)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/images/v2/logo_small.svg> (resource type: image, referrer: https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/pages/search-list.min.js?v=G5v8bZ6A7rP8b-XD5h2P2FE621pXAWmvODMEfrQiAPg> (resource type: script, referrer: https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/misc/didomi.min.js?v=Vb9Ki2p7ndKhSnKiH1loADfG4VaPpB-0NlsjasloGys> (resource type: script, referrer: https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/pub/pubimmo-search.min.js?v=JuZetwAUU3SscA9bILLwcbndn3oJP-4rM9et7y2Q2jA> (resource type: script, referrer: https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://ced-ns.sascdn.com/diff/js/modules/topics.js> (resource type: script, referrer: https://immovlan.be/)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/images/nopic.png> (resource type: image, referrer: https://immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1)
+2025-11-03 14:33:35 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://www.googletagmanager.com/gtm.js?id=GTM-KKTD42>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/lib/bootstrap-md/js/popper.min.js?v=3fYo1mdoGRoxrYT1WVmKFmEZ7ntgww2bkqI78bStNmA>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/lib/jquery/jquery.min.js?v=9_aliU8dGd2tb6OSsuzixeV4y_faTqgFtohetphbbj0>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/misc/browser.min.js?v=435Pp6WOE5L39MbqONHs2B7OWHOS8-aF6g5tzKHy3Hs>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/lib/bootstrap-md/js/bootstrap.min.js?v=Sfs54BRqMCNoA5vG9KtiUinx6cmbIAkjBbjK4N-rkZg>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/misc/local-storage.min.js?v=GJlon8qk7T2C972ptKe7inklsMm6iB4V51rAW5p174g>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/misc/geolocation-db.min.js?v=R1Lj46fiLGR40RNYJumUU58St_35PgYTH_89fy0X21o>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/lib/lazysizes/lazysizes.min.js?v=-2SfyuYhd9_mPmcIHdzrgwtc4fBaQYTpu7fYesS49OU>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/misc/sticky-header-loader.min.js?v=xTS5CbithlYjrMrZqnNWFsqYQUA-m42qRy1TrmWbc6k>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/lib/jquery-validate/jquery.validate.min.js?v=sPB0F50YUDK0otDnsfNHawYmA5M0pjjUf4TvRJkGFrI>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js?v=4xJOkIkaeBplN5tlcvxnCbBz34o5_kzpXcpjNkonVos>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/lib/jquery-ajax-unobtrusive/dist/jquery.unobtrusive-ajax.min.js?v=fuBWW3_dt8xnFx0_eD0rVXYP0XgpLhbFheovo5YdZIk>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/vendor/mdb-search.min.js?v=FQU-1ZcwaDEOnKntFy_z38WS5x2Y20dTu6dLm7iydAo>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/v1/main.min.js?v=x1jFZCOZ8R0UWYINBbASM3saqiZ47hmwNpkkG5rPKn0>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://www.googletagmanager.com/gtag/js?id=AW-1062846172&cx=c&gtm=4e5at1> (resource type: script, referrer: https://immovlan.be/)
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://api-image.immovlan.be/v1/prouser/01033712/logo/English/webp/Small>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://api-image.immovlan.be/v1/prouser/00003152/logo/English/webp/Small>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://api-image.immovlan.be/v1/prouser/IN00001109/logo/English/webp/Small>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/images/v2/logo_small.svg>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://api-image.immovlan.be/v1/prouser/HS277135936735/logo/English/webp/Small>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/images/nopic.png>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://api-image.immovlan.be/v1/prouser/IN00563851/logo/English/webp/Small>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/pages/search-list.min.js?v=G5v8bZ6A7rP8b-XD5h2P2FE621pXAWmvODMEfrQiAPg>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/pub/pubimmo-search.min.js?v=JuZetwAUU3SscA9bILLwcbndn3oJP-4rM9et7y2Q2jA>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/misc/didomi.min.js?v=Vb9Ki2p7ndKhSnKiH1loADfG4VaPpB-0NlsjasloGys>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://ced-ns.sascdn.com/diff/js/modules/topics.js>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://ced-ns.sascdn.com/diff/js/assets/topics_frame.html> (resource type: document, referrer: https://immovlan.be/)
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://api-image.immovlan.be/v1/prouser/IN00564558/logo/English/webp/Small>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <404 https://api-image.immovlan.be/v1/property/1485771-01267921_OM_272263/thumbnail-webp/Small>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://api-image.immovlan.be/v1/prouser/01107438/logo/English/webp/Small>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://api-image.immovlan.be/v1/prouser/01227109/logo/English/webp/Small>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://api-image.immovlan.be/v1/prouser/01157579/logo/English/webp/Small>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://api-image.immovlan.be/v1/prouser/RMG01373104/logo/English/webp/Small>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://api-image.immovlan.be/v1/prouser/VLAN93003798/logo/English/webp/Small>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://api-image.immovlan.be/v1/prouser/IN00563620/logo/English/webp/Small>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://api-image.immovlan.be/v1/prouser/RMG01401010/logo/English/webp/Small>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://www.googletagmanager.com/gtag/js?id=AW-1062846172&cx=c&gtm=4e5at1>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://ced-ns.sascdn.com/diff/js/assets/topics_frame.html>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://ced-ns.sascdn.com/diff/js/modules/topicsFrameLogic.js> (resource type: script, referrer: https://ced-ns.sascdn.com/diff/js/assets/topics_frame.html)
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://ced-ns.sascdn.com/diff/js/modules/topicsFrameLogic.js>
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://tag.aticdn.net/piano-analytics.js> (resource type: script, referrer: https://immovlan.be/)
+2025-11-03 14:33:36 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://tag.aticdn.net/piano-analytics.js>
+2025-11-03 14:33:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.immovlan.be/en/real-estate?transactiontypes=for-sale,in-public-sale&page=1> (referer: https://www.google.com/) ['playwright']
+2025-11-03 14:33:37 [immoeliza] INFO: \u2705 Listing page loaded — checking cookie popup & rendering...
+2025-11-03 14:33:43 [immoeliza] DEBUG: No cookie popup or click failed (continuing)
+2025-11-03 14:33:53 [immoeliza] INFO: \U0001f517 Found 64 property links
+2025-11-03 14:33:53 [scrapy.dupefilters] DEBUG: Filtered duplicate request: <GET https://immovlan.be/en/detail/villa/for-sale/7180/seneffe/vwd15538> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2025-11-03 14:33:53 [scrapy-playwright] DEBUG: [Context=default] New page created, page count is 1 (1 for all contexts)
+2025-11-03 14:33:53 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/en/detail/villa/for-sale/7180/seneffe/vwd15538> (resource type: document)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://immovlan.be/en/detail/villa/for-sale/7180/seneffe/vwd15538>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://www.googletagmanager.com/gtm.js?id=GTM-KKTD42> (resource type: script, referrer: https://immovlan.be/)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://ced.sascdn.com/tag/3958/smart.js> (resource type: script, referrer: https://immovlan.be/)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/fonts/roboto-flex/roboto-flex-400-normal-latin.woff2> (resource type: font, referrer: https://immovlan.be/en/detail/villa/for-sale/7180/seneffe/vwd15538)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/fonts/roboto-flex/roboto-flex-700-normal-latin.woff2> (resource type: font, referrer: https://immovlan.be/en/detail/villa/for-sale/7180/seneffe/vwd15538)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/css/v2/main.min.css?v=Dcp8qRyi8oClPZoLkqO_RSRg5XnRK1Ci3NHUaZ_fs0I> (resource type: stylesheet, referrer: https://immovlan.be/en/detail/villa/for-sale/7180/seneffe/vwd15538)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/css/v2/detail-property.min.css?v=OX9azo5rNwp4XgD-No_vciEnAuS99Za_tKbvUzBWhLY> (resource type: stylesheet, referrer: https://immovlan.be/en/detail/villa/for-sale/7180/seneffe/vwd15538)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/images/v2/logo.svg> (resource type: image, referrer: https://immovlan.be/en/detail/villa/for-sale/7180/seneffe/vwd15538)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://api-image.immovlan.be/v1/property/VWD15538/gallery-like-image/facebook/landscape?w=800> (resource type: image, referrer: https://immovlan.be/)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://api-image.immovlan.be/v1/prouser/IN00563851/logo/English/webp/Small> (resource type: image, referrer: https://immovlan.be/)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://ced.sascdn.com/tag/3958/smart.js>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/fonts/roboto-flex/roboto-flex-400-normal-latin.woff2>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://api-image.immovlan.be/v1/prouser/IN00563851/logo/English/webp/Small>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/css/v2/main.min.css?v=Dcp8qRyi8oClPZoLkqO_RSRg5XnRK1Ci3NHUaZ_fs0I>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/css/v2/detail-property.min.css?v=OX9azo5rNwp4XgD-No_vciEnAuS99Za_tKbvUzBWhLY>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/fonts/roboto-flex/roboto-flex-700-normal-latin.woff2>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/images/v2/logo_small.svg> (resource type: image, referrer: https://immovlan.be/en/detail/villa/for-sale/7180/seneffe/vwd15538)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/misc/browser.min.js?v=435Pp6WOE5L39MbqONHs2B7OWHOS8-aF6g5tzKHy3Hs> (resource type: script, referrer: https://immovlan.be/en/detail/villa/for-sale/7180/seneffe/vwd15538)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/lib/jquery/jquery.min.js?v=9_aliU8dGd2tb6OSsuzixeV4y_faTqgFtohetphbbj0> (resource type: script, referrer: https://immovlan.be/en/detail/villa/for-sale/7180/seneffe/vwd15538)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/misc/local-storage.min.js?v=GJlon8qk7T2C972ptKe7inklsMm6iB4V51rAW5p174g> (resource type: script, referrer: https://immovlan.be/en/detail/villa/for-sale/7180/seneffe/vwd15538)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/lib/lazysizes/lazysizes.min.js?v=-2SfyuYhd9_mPmcIHdzrgwtc4fBaQYTpu7fYesS49OU> (resource type: script, referrer: https://immovlan.be/en/detail/villa/for-sale/7180/seneffe/vwd15538)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/misc/geolocation-db.min.js?v=R1Lj46fiLGR40RNYJumUU58St_35PgYTH_89fy0X21o> (resource type: script, referrer: https://immovlan.be/en/detail/villa/for-sale/7180/seneffe/vwd15538)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/misc/sticky-header-loader.min.js?v=xTS5CbithlYjrMrZqnNWFsqYQUA-m42qRy1TrmWbc6k> (resource type: script, referrer: https://immovlan.be/en/detail/villa/for-sale/7180/seneffe/vwd15538)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/v2/main.min.js?v=x1jFZCOZ8R0UWYINBbASM3saqiZ47hmwNpkkG5rPKn0> (resource type: script, referrer: https://immovlan.be/en/detail/villa/for-sale/7180/seneffe/vwd15538)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/lib/jquery-validate/jquery.validate.min.js?v=sPB0F50YUDK0otDnsfNHawYmA5M0pjjUf4TvRJkGFrI> (resource type: script, referrer: https://immovlan.be/en/detail/villa/for-sale/7180/seneffe/vwd15538)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js?v=4xJOkIkaeBplN5tlcvxnCbBz34o5_kzpXcpjNkonVos> (resource type: script, referrer: https://immovlan.be/en/detail/villa/for-sale/7180/seneffe/vwd15538)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://api-image.immovlan.be/v1/property/VWD15538/gallery-like-image/facebook/landscape?w=800>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/lib/jquery-ajax-unobtrusive/dist/jquery.unobtrusive-ajax.min.js?v=fuBWW3_dt8xnFx0_eD0rVXYP0XgpLhbFheovo5YdZIk> (resource type: script, referrer: https://immovlan.be/en/detail/villa/for-sale/7180/seneffe/vwd15538)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/components/tabs.min.js?v=K-duypozsW72iVZtnlmq6Jot3XL7kXckmuetBh7BEIU> (resource type: script, referrer: https://immovlan.be/en/detail/villa/for-sale/7180/seneffe/vwd15538)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/pages/v2/detail-property.min.js?v=62BCRlokhAMtUktDtyRoLocXNG4ylZHqMwL-p61-Y0w> (resource type: script, referrer: https://immovlan.be/en/detail/villa/for-sale/7180/seneffe/vwd15538)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/misc/didomi.min.js?v=Vb9Ki2p7ndKhSnKiH1loADfG4VaPpB-0NlsjasloGys> (resource type: script, referrer: https://immovlan.be/en/detail/villa/for-sale/7180/seneffe/vwd15538)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/pub/pubimmo-detail.min.js?v=OCFymPfGhZ7FGAvc_LMoRVW05NmwjDsoNuhii03rnDw> (resource type: script, referrer: https://immovlan.be/en/detail/villa/for-sale/7180/seneffe/vwd15538)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://ced-ns.sascdn.com/diff/js/modules/topics.js> (resource type: script, referrer: https://immovlan.be/)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/fonts/roboto-flex/roboto-flex-500-normal-latin.woff2> (resource type: font, referrer: https://immovlan.be/en/detail/villa/for-sale/7180/seneffe/vwd15538)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/images/divider_dark_theme.svg> (resource type: image, referrer: https://immovlan.be/en/detail/villa/for-sale/7180/seneffe/vwd15538)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/images/v2/logo.svg>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/images/v2/logo_small.svg>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://www.googletagmanager.com/gtm.js?id=GTM-KKTD42>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/misc/browser.min.js?v=435Pp6WOE5L39MbqONHs2B7OWHOS8-aF6g5tzKHy3Hs>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/v2/main.min.js?v=x1jFZCOZ8R0UWYINBbASM3saqiZ47hmwNpkkG5rPKn0>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/lib/jquery/jquery.min.js?v=9_aliU8dGd2tb6OSsuzixeV4y_faTqgFtohetphbbj0>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/lib/lazysizes/lazysizes.min.js?v=-2SfyuYhd9_mPmcIHdzrgwtc4fBaQYTpu7fYesS49OU>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/misc/geolocation-db.min.js?v=R1Lj46fiLGR40RNYJumUU58St_35PgYTH_89fy0X21o>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/lib/jquery-validate/jquery.validate.min.js?v=sPB0F50YUDK0otDnsfNHawYmA5M0pjjUf4TvRJkGFrI>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/components/tabs.min.js?v=K-duypozsW72iVZtnlmq6Jot3XL7kXckmuetBh7BEIU>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://ced-ns.sascdn.com/diff/js/modules/topics.js>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://ced-ns.sascdn.com/diff/js/assets/topics_frame.html> (resource type: document, referrer: https://immovlan.be/)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/misc/local-storage.min.js?v=GJlon8qk7T2C972ptKe7inklsMm6iB4V51rAW5p174g>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/misc/sticky-header-loader.min.js?v=xTS5CbithlYjrMrZqnNWFsqYQUA-m42qRy1TrmWbc6k>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js?v=4xJOkIkaeBplN5tlcvxnCbBz34o5_kzpXcpjNkonVos>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/lib/jquery-ajax-unobtrusive/dist/jquery.unobtrusive-ajax.min.js?v=fuBWW3_dt8xnFx0_eD0rVXYP0XgpLhbFheovo5YdZIk>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://www.googletagmanager.com/gtag/js?id=AW-1062846172&cx=c&gtm=4e5at1> (resource type: script, referrer: https://immovlan.be/)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/fonts/roboto-flex/roboto-flex-500-normal-latin.woff2>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/misc/didomi.min.js?v=Vb9Ki2p7ndKhSnKiH1loADfG4VaPpB-0NlsjasloGys>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/pub/pubimmo-detail.min.js?v=OCFymPfGhZ7FGAvc_LMoRVW05NmwjDsoNuhii03rnDw>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/images/divider_dark_theme.svg>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/pages/v2/detail-property.min.js?v=62BCRlokhAMtUktDtyRoLocXNG4ylZHqMwL-p61-Y0w>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://ced-ns.sascdn.com/diff/js/assets/topics_frame.html>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://ced-ns.sascdn.com/diff/js/modules/topicsFrameLogic.js> (resource type: script, referrer: https://ced-ns.sascdn.com/diff/js/assets/topics_frame.html)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://ced-ns.sascdn.com/diff/js/modules/topicsFrameLogic.js>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://www.googletagmanager.com/gtag/js?id=AW-1062846172&cx=c&gtm=4e5at1>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://tag.aticdn.net/piano-analytics.js> (resource type: script, referrer: https://immovlan.be/)
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://tag.aticdn.net/piano-analytics.js>
+2025-11-03 14:33:54 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://logs1412.xiti.com/event?s=632499&idclient=mhj6l7ufo2j1vttz> (resource type: ping, referrer: https://immovlan.be/)
+2025-11-03 14:33:55 [scrapy-playwright] DEBUG: [Context=default] Response: <204 https://logs1412.xiti.com/event?s=632499&idclient=mhj6l7ufo2j1vttz>
+2025-11-03 14:33:55 [scrapy-playwright] DEBUG: [Context=default] New page created, page count is 2 (2 for all contexts)
+2025-11-03 14:33:55 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/en/detail/development-site/for-sale/6836/dohan/vwd15534> (resource type: document)
+2025-11-03 14:33:55 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://immovlan.be/en/detail/development-site/for-sale/6836/dohan/vwd15534>
+2025-11-03 14:33:55 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://www.googletagmanager.com/gtm.js?id=GTM-KKTD42> (resource type: script, referrer: https://immovlan.be/)
+2025-11-03 14:33:55 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://ced.sascdn.com/tag/3958/smart.js> (resource type: script, referrer: https://immovlan.be/)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/fonts/roboto-flex/roboto-flex-400-normal-latin.woff2> (resource type: font, referrer: https://immovlan.be/en/detail/development-site/for-sale/6836/dohan/vwd15534)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/fonts/roboto-flex/roboto-flex-700-normal-latin.woff2> (resource type: font, referrer: https://immovlan.be/en/detail/development-site/for-sale/6836/dohan/vwd15534)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/css/v2/main.min.css?v=Dcp8qRyi8oClPZoLkqO_RSRg5XnRK1Ci3NHUaZ_fs0I> (resource type: stylesheet, referrer: https://immovlan.be/en/detail/development-site/for-sale/6836/dohan/vwd15534)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/css/v2/detail-property.min.css?v=OX9azo5rNwp4XgD-No_vciEnAuS99Za_tKbvUzBWhLY> (resource type: stylesheet, referrer: https://immovlan.be/en/detail/development-site/for-sale/6836/dohan/vwd15534)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/images/v2/logo.svg> (resource type: image, referrer: https://immovlan.be/en/detail/development-site/for-sale/6836/dohan/vwd15534)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://api-image.immovlan.be/v1/property/VWD15534/gallery-like-image/facebook/landscape?w=800> (resource type: image, referrer: https://immovlan.be/)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://api-image.immovlan.be/v1/prouser/IN00001109/logo/English/webp/Small> (resource type: image, referrer: https://immovlan.be/)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://ced.sascdn.com/tag/3958/smart.js>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/css/v2/main.min.css?v=Dcp8qRyi8oClPZoLkqO_RSRg5XnRK1Ci3NHUaZ_fs0I>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/images/v2/logo_small.svg> (resource type: image, referrer: https://immovlan.be/en/detail/development-site/for-sale/6836/dohan/vwd15534)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/css/v2/detail-property.min.css?v=OX9azo5rNwp4XgD-No_vciEnAuS99Za_tKbvUzBWhLY>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/misc/browser.min.js?v=435Pp6WOE5L39MbqONHs2B7OWHOS8-aF6g5tzKHy3Hs> (resource type: script, referrer: https://immovlan.be/en/detail/development-site/for-sale/6836/dohan/vwd15534)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/lib/jquery/jquery.min.js?v=9_aliU8dGd2tb6OSsuzixeV4y_faTqgFtohetphbbj0> (resource type: script, referrer: https://immovlan.be/en/detail/development-site/for-sale/6836/dohan/vwd15534)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/misc/local-storage.min.js?v=GJlon8qk7T2C972ptKe7inklsMm6iB4V51rAW5p174g> (resource type: script, referrer: https://immovlan.be/en/detail/development-site/for-sale/6836/dohan/vwd15534)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/lib/lazysizes/lazysizes.min.js?v=-2SfyuYhd9_mPmcIHdzrgwtc4fBaQYTpu7fYesS49OU> (resource type: script, referrer: https://immovlan.be/en/detail/development-site/for-sale/6836/dohan/vwd15534)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/misc/geolocation-db.min.js?v=R1Lj46fiLGR40RNYJumUU58St_35PgYTH_89fy0X21o> (resource type: script, referrer: https://immovlan.be/en/detail/development-site/for-sale/6836/dohan/vwd15534)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/misc/sticky-header-loader.min.js?v=xTS5CbithlYjrMrZqnNWFsqYQUA-m42qRy1TrmWbc6k> (resource type: script, referrer: https://immovlan.be/en/detail/development-site/for-sale/6836/dohan/vwd15534)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/v2/main.min.js?v=x1jFZCOZ8R0UWYINBbASM3saqiZ47hmwNpkkG5rPKn0> (resource type: script, referrer: https://immovlan.be/en/detail/development-site/for-sale/6836/dohan/vwd15534)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/lib/jquery-validate/jquery.validate.min.js?v=sPB0F50YUDK0otDnsfNHawYmA5M0pjjUf4TvRJkGFrI> (resource type: script, referrer: https://immovlan.be/en/detail/development-site/for-sale/6836/dohan/vwd15534)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js?v=4xJOkIkaeBplN5tlcvxnCbBz34o5_kzpXcpjNkonVos> (resource type: script, referrer: https://immovlan.be/en/detail/development-site/for-sale/6836/dohan/vwd15534)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/lib/jquery-ajax-unobtrusive/dist/jquery.unobtrusive-ajax.min.js?v=fuBWW3_dt8xnFx0_eD0rVXYP0XgpLhbFheovo5YdZIk> (resource type: script, referrer: https://immovlan.be/en/detail/development-site/for-sale/6836/dohan/vwd15534)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/components/tabs.min.js?v=K-duypozsW72iVZtnlmq6Jot3XL7kXckmuetBh7BEIU> (resource type: script, referrer: https://immovlan.be/en/detail/development-site/for-sale/6836/dohan/vwd15534)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/pages/v2/detail-property.min.js?v=62BCRlokhAMtUktDtyRoLocXNG4ylZHqMwL-p61-Y0w> (resource type: script, referrer: https://immovlan.be/en/detail/development-site/for-sale/6836/dohan/vwd15534)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/misc/didomi.min.js?v=Vb9Ki2p7ndKhSnKiH1loADfG4VaPpB-0NlsjasloGys> (resource type: script, referrer: https://immovlan.be/en/detail/development-site/for-sale/6836/dohan/vwd15534)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/pub/pubimmo-detail.min.js?v=OCFymPfGhZ7FGAvc_LMoRVW05NmwjDsoNuhii03rnDw> (resource type: script, referrer: https://immovlan.be/en/detail/development-site/for-sale/6836/dohan/vwd15534)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://ced-ns.sascdn.com/diff/js/modules/topics.js> (resource type: script, referrer: https://immovlan.be/)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/fonts/roboto-flex/roboto-flex-500-normal-latin.woff2> (resource type: font, referrer: https://immovlan.be/en/detail/development-site/for-sale/6836/dohan/vwd15534)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/fonts/roboto-flex/roboto-flex-400-normal-latin.woff2>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/fonts/roboto-flex/roboto-flex-700-normal-latin.woff2>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/images/divider_dark_theme.svg> (resource type: image, referrer: https://immovlan.be/en/detail/development-site/for-sale/6836/dohan/vwd15534)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://api-image.immovlan.be/v1/property/VWD15534/gallery-like-image/facebook/landscape?w=800>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/images/v2/logo.svg>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://api-image.immovlan.be/v1/prouser/IN00001109/logo/English/webp/Small>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/images/v2/logo_small.svg>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://www.googletagmanager.com/gtm.js?id=GTM-KKTD42>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/misc/browser.min.js?v=435Pp6WOE5L39MbqONHs2B7OWHOS8-aF6g5tzKHy3Hs>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/lib/jquery/jquery.min.js?v=9_aliU8dGd2tb6OSsuzixeV4y_faTqgFtohetphbbj0>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/lib/lazysizes/lazysizes.min.js?v=-2SfyuYhd9_mPmcIHdzrgwtc4fBaQYTpu7fYesS49OU>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/misc/local-storage.min.js?v=GJlon8qk7T2C972ptKe7inklsMm6iB4V51rAW5p174g>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/misc/geolocation-db.min.js?v=R1Lj46fiLGR40RNYJumUU58St_35PgYTH_89fy0X21o>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/misc/sticky-header-loader.min.js?v=xTS5CbithlYjrMrZqnNWFsqYQUA-m42qRy1TrmWbc6k>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/v2/main.min.js?v=x1jFZCOZ8R0UWYINBbASM3saqiZ47hmwNpkkG5rPKn0>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/lib/jquery-validate/jquery.validate.min.js?v=sPB0F50YUDK0otDnsfNHawYmA5M0pjjUf4TvRJkGFrI>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js?v=4xJOkIkaeBplN5tlcvxnCbBz34o5_kzpXcpjNkonVos>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/lib/jquery-ajax-unobtrusive/dist/jquery.unobtrusive-ajax.min.js?v=fuBWW3_dt8xnFx0_eD0rVXYP0XgpLhbFheovo5YdZIk>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/components/tabs.min.js?v=K-duypozsW72iVZtnlmq6Jot3XL7kXckmuetBh7BEIU>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://www.googletagmanager.com/gtag/js?id=AW-1062846172&cx=c&gtm=4e5at1> (resource type: script, referrer: https://immovlan.be/)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/fonts/roboto-flex/roboto-flex-500-normal-latin.woff2>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://ced-ns.sascdn.com/diff/js/modules/topics.js>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/pages/v2/detail-property.min.js?v=62BCRlokhAMtUktDtyRoLocXNG4ylZHqMwL-p61-Y0w>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/misc/didomi.min.js?v=Vb9Ki2p7ndKhSnKiH1loADfG4VaPpB-0NlsjasloGys>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/pub/pubimmo-detail.min.js?v=OCFymPfGhZ7FGAvc_LMoRVW05NmwjDsoNuhii03rnDw>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://ced-ns.sascdn.com/diff/js/assets/topics_frame.html> (resource type: document, referrer: https://immovlan.be/)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/images/divider_dark_theme.svg>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://ced-ns.sascdn.com/diff/js/assets/topics_frame.html>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://ced-ns.sascdn.com/diff/js/modules/topicsFrameLogic.js> (resource type: script, referrer: https://ced-ns.sascdn.com/diff/js/assets/topics_frame.html)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://ced-ns.sascdn.com/diff/js/modules/topicsFrameLogic.js>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://www.googletagmanager.com/gtag/js?id=AW-1062846172&cx=c&gtm=4e5at1>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://tag.aticdn.net/piano-analytics.js> (resource type: script, referrer: https://immovlan.be/)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://tag.aticdn.net/piano-analytics.js>
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://logs1412.xiti.com/event?s=632499&idclient=mhj6l7ufo2j1vttz> (resource type: ping, referrer: https://immovlan.be/)
+2025-11-03 14:33:56 [scrapy-playwright] DEBUG: [Context=default] Response: <204 https://logs1412.xiti.com/event?s=632499&idclient=mhj6l7ufo2j1vttz>
+2025-11-03 14:34:09 [scrapy.core.scraper] ERROR: Error downloading <GET https://immovlan.be/en/detail/villa/for-sale/7180/seneffe/vwd15538>
+Traceback (most recent call last):
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\twisted\internet\defer.py", line 1853, in _inlineCallbacks
+    result = context.run(
+             ^^^^^^^^^^^^
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\twisted\python\failure.py", line 467, in throwExceptionIntoGenerator
+    return g.throw(self.value.with_traceback(self.tb))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\core\downloader\middleware.py", line 68, in process_request
+    return (yield download_func(request, spider))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy_playwright\_utils.py", line 123, in _handle_coro
+    result = await coro
+             ^^^^^^^^^^
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy_playwright\handler.py", line 380, in _download_request
+    return await self._download_request_with_retry(request=request, spider=spider)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy_playwright\handler.py", line 433, in _download_request_with_retry
+    return await self._download_request_with_page(request, page, spider)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy_playwright\handler.py", line 481, in _download_request_with_page
+    await self._apply_page_methods(page, request, spider)
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy_playwright\handler.py", line 632, in _apply_page_methods
+    pm.result = await _maybe_await(method(*pm.args, **pm.kwargs))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy_playwright\_utils.py", line 22, in _maybe_await
+    return await obj
+           ^^^^^^^^^
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\async_api\_generated.py", line 8181, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_page.py", line 423, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_frame.py", line 369, in wait_for_selector
+    await self._channel.send(
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator("main, div.property__main, div[class*='classified']") to be visible
+
+2025-11-03 14:34:11 [scrapy.core.scraper] ERROR: Error downloading <GET https://immovlan.be/en/detail/development-site/for-sale/6836/dohan/vwd15534>
+Traceback (most recent call last):
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\twisted\internet\defer.py", line 1853, in _inlineCallbacks
+    result = context.run(
+             ^^^^^^^^^^^^
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\twisted\python\failure.py", line 467, in throwExceptionIntoGenerator
+    return g.throw(self.value.with_traceback(self.tb))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\core\downloader\middleware.py", line 68, in process_request
+    return (yield download_func(request, spider))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy_playwright\_utils.py", line 123, in _handle_coro
+    result = await coro
+             ^^^^^^^^^^
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy_playwright\handler.py", line 380, in _download_request
+    return await self._download_request_with_retry(request=request, spider=spider)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy_playwright\handler.py", line 433, in _download_request_with_retry
+    return await self._download_request_with_page(request, page, spider)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy_playwright\handler.py", line 481, in _download_request_with_page
+    await self._apply_page_methods(page, request, spider)
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy_playwright\handler.py", line 632, in _apply_page_methods
+    pm.result = await _maybe_await(method(*pm.args, **pm.kwargs))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy_playwright\_utils.py", line 22, in _maybe_await
+    return await obj
+           ^^^^^^^^^
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\async_api\_generated.py", line 8181, in wait_for_selector
+    await self._impl_obj.wait_for_selector(
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_page.py", line 423, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_frame.py", line 369, in wait_for_selector
+    await self._channel.send(
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\playwright\_impl\_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator("main, div.property__main, div[class*='classified']") to be visible
+
+2025-11-03 14:34:11 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-11-03 14:34:11 [scrapy.extensions.feedexport] INFO: Stored csv feed (0 items) in: data/raw/immoeliza_ghent.csv
+2025-11-03 14:34:11 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 2,
+ 'downloader/exception_type_count/playwright._impl._errors.TimeoutError': 2,
+ 'downloader/request_bytes': 1468,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 224143,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'dupefilter/filtered': 3,
+ 'elapsed_time_seconds': 39.093273,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2025, 11, 3, 13, 34, 11, 773149, tzinfo=datetime.timezone.utc),
+ 'items_per_minute': 0.0,
+ 'log_count/DEBUG': 251,
+ 'log_count/ERROR': 2,
+ 'log_count/INFO': 18,
+ 'log_count/WARNING': 1,
+ 'playwright/browser_count': 1,
+ 'playwright/context_count': 1,
+ 'playwright/context_count/max_concurrent': 1,
+ 'playwright/context_count/persistent/False': 1,
+ 'playwright/context_count/remote/False': 1,
+ 'playwright/page_count': 3,
+ 'playwright/page_count/max_concurrent': 2,
+ 'playwright/request_count': 120,
+ 'playwright/request_count/method/GET': 118,
+ 'playwright/request_count/method/POST': 2,
+ 'playwright/request_count/navigation': 7,
+ 'playwright/request_count/resource_type/document': 7,
+ 'playwright/request_count/resource_type/font': 10,
+ 'playwright/request_count/resource_type/image': 30,
+ 'playwright/request_count/resource_type/ping': 2,
+ 'playwright/request_count/resource_type/script': 62,
+ 'playwright/request_count/resource_type/stylesheet': 9,
+ 'playwright/response_count': 120,
+ 'playwright/response_count/method/GET': 118,
+ 'playwright/response_count/method/POST': 2,
+ 'playwright/response_count/resource_type/document': 7,
+ 'playwright/response_count/resource_type/font': 10,
+ 'playwright/response_count/resource_type/image': 30,
+ 'playwright/response_count/resource_type/ping': 2,
+ 'playwright/response_count/resource_type/script': 62,
+ 'playwright/response_count/resource_type/stylesheet': 9,
+ 'request_depth_max': 1,
+ 'response_received_count': 1,
+ 'responses_per_minute': 1.5384615384615383,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2025, 11, 3, 13, 33, 32, 679876, tzinfo=datetime.timezone.utc)}
+2025-11-03 14:34:11 [scrapy.core.engine] INFO: Spider closed (finished)
+2025-11-03 14:34:11 [scrapy-playwright] INFO: Closing download handler
+2025-11-03 14:34:11 [scrapy-playwright] INFO: Closing download handler
+2025-11-03 14:34:11 [scrapy-playwright] DEBUG: Browser context closed: 'default' (persistent=False, remote=False)
+2025-11-03 14:34:11 [scrapy-playwright] INFO: Closing browser
+2025-11-03 14:34:11 [scrapy-playwright] DEBUG: Browser disconnected
