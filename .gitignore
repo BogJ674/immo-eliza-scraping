@@ -1,6 +1,7 @@
 house.html
 log.txt
 house_files/
+page_dump.html
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -219,4 +220,6 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 log.txt
+log.txt
+page_dump.html
 log.txt
