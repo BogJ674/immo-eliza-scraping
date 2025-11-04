@@ -2,6 +2,7 @@
 """
 Test script for the DataCleaningPipeline
 Verifies that data is cleaned correctly according to project requirements
+Tests DYNAMIC field detection - no hardcoded field lists!
 """
 
 from immoeliza.pipelines import DataCleaningPipeline
@@ -132,6 +133,46 @@ def test_pipeline():
     print("  • Convert energy values (kWh/m²/year) to integers")
     print("  • Convert '(information not available)' and similar to None")
     print("  • Preserve text fields as-is")
+    print()
+    print("=" * 80)
+    print("TESTING DYNAMIC FIELD DETECTION")
+    print("=" * 80)
+    print()
+    print("Testing with UNKNOWN field names (not in any hardcoded list):")
+    print()
+
+    # Test with completely new field names that weren't hardcoded
+    dynamic_item = PropertyItem()
+    dynamic_item['sale_price_euros'] = '350 000 €'  # Should detect € and clean
+    dynamic_item['bedroom_1_surface_area'] = '18 m²'  # Should detect m² and clean
+    dynamic_item['has_solar_panels'] = 'Yes'  # Should detect Yes/No and clean
+    dynamic_item['number_of_windows'] = '12'  # Should detect number_ prefix and clean
+    dynamic_item['annual_energy_usage'] = '450 kWh/year'  # Should detect kWh and clean
+    dynamic_item['property_description'] = 'Beautiful house'  # Should preserve text
+
+    cleaned_dynamic = pipeline.process_item(dynamic_item, None)
+
+    # Test dynamic detection
+    print(f"  sale_price_euros: '{dynamic_item['sale_price_euros']}' → {cleaned_dynamic['sale_price_euros']}")
+    assert cleaned_dynamic['sale_price_euros'] == 350000, "Dynamic currency detection failed"
+
+    print(f"  bedroom_1_surface_area: '{dynamic_item['bedroom_1_surface_area']}' → {cleaned_dynamic['bedroom_1_surface_area']}")
+    assert cleaned_dynamic['bedroom_1_surface_area'] == 18, "Dynamic area detection failed"
+
+    print(f"  has_solar_panels: '{dynamic_item['has_solar_panels']}' → {cleaned_dynamic['has_solar_panels']}")
+    assert cleaned_dynamic['has_solar_panels'] == 1, "Dynamic binary detection failed"
+
+    print(f"  number_of_windows: '{dynamic_item['number_of_windows']}' → {cleaned_dynamic['number_of_windows']}")
+    assert cleaned_dynamic['number_of_windows'] == 12, "Dynamic integer detection failed"
+
+    print(f"  annual_energy_usage: '{dynamic_item['annual_energy_usage']}' → {cleaned_dynamic['annual_energy_usage']}")
+    assert cleaned_dynamic['annual_energy_usage'] == 450, "Dynamic energy detection failed"
+
+    print(f"  property_description: '{dynamic_item['property_description']}' → '{cleaned_dynamic['property_description']}'")
+    assert cleaned_dynamic['property_description'] == 'Beautiful house', "Text preservation failed"
+
+    print()
+    print("  ✓ Dynamic field detection works! No hardcoded lists needed!")
     print()
 
 
