@@ -1,0 +1,967 @@
+2025-11-04 03:31:16 [scrapy.utils.log] INFO: Scrapy 2.13.3 started (bot: immoeliza)
+2025-11-04 03:31:16 [scrapy.utils.log] INFO: Versions:
+{'lxml': '5.2.1',
+ 'libxml2': '2.11.7',
+ 'cssselect': '1.3.0',
+ 'parsel': '1.10.0',
+ 'w3lib': '2.3.1',
+ 'Twisted': '25.5.0',
+ 'Python': '3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 '
+           '64 bit (AMD64)]',
+ 'pyOpenSSL': '25.3.0 (OpenSSL 3.5.4 30 Sep 2025)',
+ 'cryptography': '46.0.3',
+ 'Platform': 'Windows-10-10.0.19045-SP0'}
+2025-11-04 03:31:16 [scrapy.addons] INFO: Enabled addons:
+[]
+2025-11-04 03:31:16 [asyncio] DEBUG: Using selector: SelectSelector
+2025-11-04 03:31:16 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2025-11-04 03:31:16 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2025-11-04 03:31:16 [scrapy.extensions.telnet] INFO: Telnet Password: f1a58aa5d8d1e02c
+2025-11-04 03:31:17 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2025-11-04 03:31:17 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'immoeliza',
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 1,
+ 'DOWNLOAD_DELAY': 1,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'immoeliza.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['immoeliza.spiders']}
+2025-11-04 03:31:17 [asyncio] DEBUG: Using proactor: IocpProactor
+2025-11-04 03:31:17 [scrapy-playwright] INFO: Started loop on separate thread: <ProactorEventLoop running=True closed=False debug=False>
+2025-11-04 03:31:17 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2025-11-04 03:31:17 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
+ 'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-11-04 03:31:17 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2025-11-04 03:31:17 [scrapy.core.engine] INFO: Spider opened
+2025-11-04 03:31:17 [py.warnings] WARNING: C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\core\spidermw.py:433: ScrapyDeprecationWarning: immoeliza.spiders.immoeliza_spider.ImmoElizaSpider defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
+  warn(
+
+2025-11-04 03:31:17 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-11-04 03:31:17 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2025-11-04 03:31:17 [scrapy-playwright] INFO: Starting download handler
+2025-11-04 03:31:17 [scrapy-playwright] INFO: Starting download handler
+2025-11-04 03:31:18 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://immovlan.be:443/robots.txt> from <GET https://www.immovlan.be/robots.txt>
+2025-11-04 03:31:20 [scrapy.core.engine] DEBUG: Crawled (403) <GET https://immovlan.be:443/robots.txt> (referer: None)
+2025-11-04 03:31:20 [protego._protego] DEBUG: Rule at line 5 without any user agent to enforce it on.
+2025-11-04 03:31:20 [protego._protego] DEBUG: Rule at line 8 without any user agent to enforce it on.
+2025-11-04 03:31:20 [protego._protego] DEBUG: Rule at line 9 without any user agent to enforce it on.
+2025-11-04 03:31:20 [protego._protego] DEBUG: Rule at line 10 without any user agent to enforce it on.
+2025-11-04 03:31:21 [scrapy-playwright] INFO: Launching browser chromium
+2025-11-04 03:31:21 [scrapy-playwright] INFO: Browser chromium launched
+2025-11-04 03:31:21 [scrapy-playwright] DEBUG: Browser context started: 'default' (persistent=False, remote=False)
+2025-11-04 03:31:21 [scrapy-playwright] DEBUG: [Context=default] New page created, page count is 1 (1 for all contexts)
+2025-11-04 03:31:21 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://www.immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr> (resource type: document)
+2025-11-04 03:31:21 [scrapy-playwright] DEBUG: [Context=default] Response: <302 https://www.immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr> (location: https://immovlan.be:443/en/projectdetail/24431-p-vk0101-tfjkrblr)
+2025-11-04 03:31:21 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr> (resource type: document)
+2025-11-04 03:31:21 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr>
+2025-11-04 03:31:21 [scrapy-playwright] WARNING: Ignoring {'method': 'wait_for_selector', 'args': ['body']}: expected PageMethod, got <class 'dict'>
+2025-11-04 03:31:21 [scrapy.core.engine] DEBUG: Crawled (403) <GET https://www.immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr> (referer: None) ['playwright']
+2025-11-04 03:31:21 [immoeliza] ERROR: <twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+2025-11-04 03:31:21 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-11-04 03:31:21 [scrapy.extensions.feedexport] INFO: Stored csv feed (0 items) in: data/immoeliza_single.csv
+2025-11-04 03:31:21 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 704,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 1592,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/302': 1,
+ 'downloader/response_status_count/403': 2,
+ 'elapsed_time_seconds': 4.130571,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2025, 11, 4, 2, 31, 21, 663074, tzinfo=datetime.timezone.utc),
+ 'items_per_minute': 0.0,
+ 'log_count/DEBUG': 17,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 16,
+ 'log_count/WARNING': 2,
+ 'playwright/browser_count': 1,
+ 'playwright/context_count': 1,
+ 'playwright/context_count/max_concurrent': 1,
+ 'playwright/context_count/persistent/False': 1,
+ 'playwright/context_count/remote/False': 1,
+ 'playwright/page_count': 1,
+ 'playwright/page_count/closed': 1,
+ 'playwright/page_count/max_concurrent': 1,
+ 'playwright/request_count': 2,
+ 'playwright/request_count/method/GET': 2,
+ 'playwright/request_count/navigation': 2,
+ 'playwright/request_count/resource_type/document': 2,
+ 'playwright/response_count': 2,
+ 'playwright/response_count/method/GET': 2,
+ 'playwright/response_count/resource_type/document': 2,
+ 'response_received_count': 2,
+ 'responses_per_minute': 30.0,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/403': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2025, 11, 4, 2, 31, 17, 532503, tzinfo=datetime.timezone.utc)}
+2025-11-04 03:31:21 [scrapy.core.engine] INFO: Spider closed (finished)
+2025-11-04 03:31:21 [scrapy-playwright] INFO: Closing download handler
+2025-11-04 03:31:21 [scrapy-playwright] INFO: Closing download handler
+2025-11-04 03:31:21 [scrapy-playwright] DEBUG: Browser context closed: 'default' (persistent=False, remote=False)
+2025-11-04 03:31:21 [scrapy-playwright] INFO: Closing browser
+2025-11-04 03:31:21 [scrapy-playwright] DEBUG: Browser disconnected
+2025-11-04 03:35:11 [scrapy.utils.log] INFO: Scrapy 2.13.3 started (bot: immoeliza)
+2025-11-04 03:35:11 [scrapy.utils.log] INFO: Versions:
+{'lxml': '5.2.1',
+ 'libxml2': '2.11.7',
+ 'cssselect': '1.3.0',
+ 'parsel': '1.10.0',
+ 'w3lib': '2.3.1',
+ 'Twisted': '25.5.0',
+ 'Python': '3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 '
+           '64 bit (AMD64)]',
+ 'pyOpenSSL': '25.3.0 (OpenSSL 3.5.4 30 Sep 2025)',
+ 'cryptography': '46.0.3',
+ 'Platform': 'Windows-10-10.0.19045-SP0'}
+2025-11-04 03:35:11 [scrapy.addons] INFO: Enabled addons:
+[]
+2025-11-04 03:35:11 [asyncio] DEBUG: Using selector: SelectSelector
+2025-11-04 03:35:11 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2025-11-04 03:35:11 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2025-11-04 03:35:11 [scrapy.extensions.telnet] INFO: Telnet Password: 1f8f24682205dcb4
+2025-11-04 03:35:11 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2025-11-04 03:35:11 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'immoeliza',
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 1,
+ 'DOWNLOAD_DELAY': 1,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'immoeliza.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['immoeliza.spiders']}
+2025-11-04 03:35:11 [asyncio] DEBUG: Using proactor: IocpProactor
+2025-11-04 03:35:11 [scrapy-playwright] INFO: Started loop on separate thread: <ProactorEventLoop running=True closed=False debug=False>
+2025-11-04 03:35:11 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2025-11-04 03:35:11 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
+ 'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-11-04 03:35:11 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2025-11-04 03:35:11 [scrapy.core.engine] INFO: Spider opened
+2025-11-04 03:35:11 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-11-04 03:35:11 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2025-11-04 03:35:11 [scrapy-playwright] INFO: Starting download handler
+2025-11-04 03:35:11 [scrapy-playwright] INFO: Starting download handler
+2025-11-04 03:35:12 [scrapy.core.engine] ERROR: Error while reading start items and requests: 'async for' requires an object with __aiter__ method, got generator.
+Traceback (most recent call last):
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\core\engine.py", line 200, in _process_start_next
+    item_or_request = await self._start.__anext__()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\spidermiddlewares\base.py", line 51, in process_start
+    async for o in start:
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\spidermiddlewares\base.py", line 51, in process_start
+    async for o in start:
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\spidermiddlewares\base.py", line 51, in process_start
+    async for o in start:
+  [Previous line repeated 1 more time]
+TypeError: 'async for' requires an object with __aiter__ method, got generator
+Traceback (most recent call last):
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\core\engine.py", line 200, in _process_start_next
+    item_or_request = await self._start.__anext__()
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\spidermiddlewares\base.py", line 51, in process_start
+    async for o in start:
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\spidermiddlewares\base.py", line 51, in process_start
+    async for o in start:
+  File "C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\spidermiddlewares\base.py", line 51, in process_start
+    async for o in start:
+  [Previous line repeated 1 more time]
+TypeError: 'async for' requires an object with __aiter__ method, got generator
+2025-11-04 03:35:12 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-11-04 03:35:12 [scrapy.extensions.feedexport] INFO: Stored csv feed (0 items) in: data/immoeliza_single.csv
+2025-11-04 03:35:12 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'elapsed_time_seconds': 1.243223,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2025, 11, 4, 2, 35, 12, 949696, tzinfo=datetime.timezone.utc),
+ 'items_per_minute': 0.0,
+ 'log_count/DEBUG': 4,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 14,
+ 'responses_per_minute': 0.0,
+ 'start_time': datetime.datetime(2025, 11, 4, 2, 35, 11, 706473, tzinfo=datetime.timezone.utc)}
+2025-11-04 03:35:12 [scrapy.core.engine] INFO: Spider closed (finished)
+2025-11-04 03:35:12 [scrapy-playwright] INFO: Closing download handler
+2025-11-04 03:35:12 [scrapy-playwright] INFO: Closing download handler
+2025-11-04 03:36:31 [scrapy.utils.log] INFO: Scrapy 2.13.3 started (bot: immoeliza)
+2025-11-04 03:36:31 [scrapy.utils.log] INFO: Versions:
+{'lxml': '5.2.1',
+ 'libxml2': '2.11.7',
+ 'cssselect': '1.3.0',
+ 'parsel': '1.10.0',
+ 'w3lib': '2.3.1',
+ 'Twisted': '25.5.0',
+ 'Python': '3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 '
+           '64 bit (AMD64)]',
+ 'pyOpenSSL': '25.3.0 (OpenSSL 3.5.4 30 Sep 2025)',
+ 'cryptography': '46.0.3',
+ 'Platform': 'Windows-10-10.0.19045-SP0'}
+2025-11-04 03:36:31 [scrapy.addons] INFO: Enabled addons:
+[]
+2025-11-04 03:36:31 [asyncio] DEBUG: Using selector: SelectSelector
+2025-11-04 03:36:31 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2025-11-04 03:36:31 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2025-11-04 03:36:31 [scrapy.extensions.telnet] INFO: Telnet Password: d336154d9131d49b
+2025-11-04 03:36:31 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2025-11-04 03:36:31 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'immoeliza',
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 1,
+ 'DOWNLOAD_DELAY': 1,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'immoeliza.spiders',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['immoeliza.spiders']}
+2025-11-04 03:36:32 [asyncio] DEBUG: Using proactor: IocpProactor
+2025-11-04 03:36:32 [scrapy-playwright] INFO: Started loop on separate thread: <ProactorEventLoop running=True closed=False debug=False>
+2025-11-04 03:36:32 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2025-11-04 03:36:32 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
+ 'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-11-04 03:36:32 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2025-11-04 03:36:32 [scrapy.core.engine] INFO: Spider opened
+2025-11-04 03:36:32 [py.warnings] WARNING: C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\core\spidermw.py:433: ScrapyDeprecationWarning: immoeliza.spiders.immoeliza_spider.ImmoElizaSpider defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
+  warn(
+
+2025-11-04 03:36:32 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-11-04 03:36:32 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2025-11-04 03:36:32 [scrapy-playwright] INFO: Starting download handler
+2025-11-04 03:36:32 [scrapy-playwright] INFO: Starting download handler
+2025-11-04 03:36:33 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://immovlan.be:443/robots.txt> from <GET https://www.immovlan.be/robots.txt>
+2025-11-04 03:36:34 [scrapy.core.engine] DEBUG: Crawled (403) <GET https://immovlan.be:443/robots.txt> (referer: None)
+2025-11-04 03:36:34 [protego._protego] DEBUG: Rule at line 5 without any user agent to enforce it on.
+2025-11-04 03:36:34 [protego._protego] DEBUG: Rule at line 8 without any user agent to enforce it on.
+2025-11-04 03:36:34 [protego._protego] DEBUG: Rule at line 9 without any user agent to enforce it on.
+2025-11-04 03:36:34 [protego._protego] DEBUG: Rule at line 10 without any user agent to enforce it on.
+2025-11-04 03:36:35 [scrapy-playwright] INFO: Launching browser chromium
+2025-11-04 03:36:36 [scrapy-playwright] INFO: Browser chromium launched
+2025-11-04 03:36:36 [scrapy-playwright] DEBUG: Browser context started: 'default' (persistent=False, remote=False)
+2025-11-04 03:36:36 [scrapy-playwright] DEBUG: [Context=default] New page created, page count is 1 (1 for all contexts)
+2025-11-04 03:36:36 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://www.immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr> (resource type: document)
+2025-11-04 03:36:36 [scrapy-playwright] DEBUG: [Context=default] Response: <302 https://www.immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr> (location: https://immovlan.be:443/en/projectdetail/24431-p-vk0101-tfjkrblr)
+2025-11-04 03:36:36 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr> (resource type: document)
+2025-11-04 03:36:36 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr>
+2025-11-04 03:36:36 [scrapy-playwright] WARNING: Ignoring {'method': 'wait_for_selector', 'args': ['body']}: expected PageMethod, got <class 'dict'>
+2025-11-04 03:36:36 [scrapy.core.engine] DEBUG: Crawled (403) <GET https://www.immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr> (referer: None) ['playwright']
+2025-11-04 03:36:36 [immoeliza] ERROR: <twisted.python.failure.Failure scrapy.spidermiddlewares.httperror.HttpError: Ignoring non-200 response>
+2025-11-04 03:36:36 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-11-04 03:36:36 [scrapy.extensions.feedexport] INFO: Stored csv feed (0 items) in: data/immoeliza_single.csv
+2025-11-04 03:36:36 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 704,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 1591,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/302': 1,
+ 'downloader/response_status_count/403': 2,
+ 'elapsed_time_seconds': 4.06242,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2025, 11, 4, 2, 36, 36, 545769, tzinfo=datetime.timezone.utc),
+ 'items_per_minute': 0.0,
+ 'log_count/DEBUG': 17,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 16,
+ 'log_count/WARNING': 2,
+ 'playwright/browser_count': 1,
+ 'playwright/context_count': 1,
+ 'playwright/context_count/max_concurrent': 1,
+ 'playwright/context_count/persistent/False': 1,
+ 'playwright/context_count/remote/False': 1,
+ 'playwright/page_count': 1,
+ 'playwright/page_count/closed': 1,
+ 'playwright/page_count/max_concurrent': 1,
+ 'playwright/request_count': 2,
+ 'playwright/request_count/method/GET': 2,
+ 'playwright/request_count/navigation': 2,
+ 'playwright/request_count/resource_type/document': 2,
+ 'playwright/response_count': 2,
+ 'playwright/response_count/method/GET': 2,
+ 'playwright/response_count/resource_type/document': 2,
+ 'response_received_count': 2,
+ 'responses_per_minute': 30.0,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/403': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2025, 11, 4, 2, 36, 32, 483349, tzinfo=datetime.timezone.utc)}
+2025-11-04 03:36:36 [scrapy.core.engine] INFO: Spider closed (finished)
+2025-11-04 03:36:36 [scrapy-playwright] INFO: Closing download handler
+2025-11-04 03:36:36 [scrapy-playwright] INFO: Closing download handler
+2025-11-04 03:36:36 [scrapy-playwright] DEBUG: Browser context closed: 'default' (persistent=False, remote=False)
+2025-11-04 03:36:36 [scrapy-playwright] INFO: Closing browser
+2025-11-04 03:36:36 [scrapy-playwright] DEBUG: Browser disconnected
+2025-11-04 03:39:37 [scrapy.utils.log] INFO: Scrapy 2.13.3 started (bot: immoeliza)
+2025-11-04 03:39:37 [scrapy.utils.log] INFO: Versions:
+{'lxml': '5.2.1',
+ 'libxml2': '2.11.7',
+ 'cssselect': '1.3.0',
+ 'parsel': '1.10.0',
+ 'w3lib': '2.3.1',
+ 'Twisted': '25.5.0',
+ 'Python': '3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 '
+           '64 bit (AMD64)]',
+ 'pyOpenSSL': '25.3.0 (OpenSSL 3.5.4 30 Sep 2025)',
+ 'cryptography': '46.0.3',
+ 'Platform': 'Windows-10-10.0.19045-SP0'}
+2025-11-04 03:39:37 [scrapy.addons] INFO: Enabled addons:
+[]
+2025-11-04 03:39:37 [asyncio] DEBUG: Using selector: SelectSelector
+2025-11-04 03:39:37 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2025-11-04 03:39:37 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2025-11-04 03:39:37 [scrapy.extensions.telnet] INFO: Telnet Password: 016b3140483f0ce4
+2025-11-04 03:39:37 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2025-11-04 03:39:37 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'immoeliza',
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 1,
+ 'DOWNLOAD_DELAY': 1,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'log.txt',
+ 'NEWSPIDER_MODULE': 'immoeliza.spiders',
+ 'SPIDER_MODULES': ['immoeliza.spiders']}
+2025-11-04 03:39:38 [asyncio] DEBUG: Using proactor: IocpProactor
+2025-11-04 03:39:38 [scrapy-playwright] INFO: Started loop on separate thread: <ProactorEventLoop running=True closed=False debug=False>
+2025-11-04 03:39:38 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2025-11-04 03:39:38 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
+ 'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-11-04 03:39:38 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2025-11-04 03:39:38 [scrapy.core.engine] INFO: Spider opened
+2025-11-04 03:39:38 [py.warnings] WARNING: C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\core\spidermw.py:433: ScrapyDeprecationWarning: immoeliza.spiders.immoeliza_spider.ImmoElizaSpider defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
+  warn(
+
+2025-11-04 03:39:38 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-11-04 03:39:38 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2025-11-04 03:39:38 [scrapy-playwright] INFO: Starting download handler
+2025-11-04 03:39:38 [scrapy-playwright] INFO: Starting download handler
+2025-11-04 03:39:39 [scrapy-playwright] INFO: Launching browser chromium
+2025-11-04 03:39:39 [scrapy-playwright] INFO: Browser chromium launched
+2025-11-04 03:39:39 [scrapy-playwright] DEBUG: Browser context started: 'default' (persistent=False, remote=False)
+2025-11-04 03:39:39 [scrapy-playwright] DEBUG: [Context=default] New page created, page count is 1 (1 for all contexts)
+2025-11-04 03:39:39 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://www.immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr> (resource type: document)
+2025-11-04 03:39:40 [scrapy-playwright] DEBUG: [Context=default] Response: <302 https://www.immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr> (location: https://immovlan.be:443/en/projectdetail/24431-p-vk0101-tfjkrblr)
+2025-11-04 03:39:40 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr> (resource type: document)
+2025-11-04 03:39:40 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://www.googletagmanager.com/gtm.js?id=GTM-KKTD42> (resource type: script, referrer: https://immovlan.be/)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://ced.sascdn.com/tag/3958/smart.js> (resource type: script, referrer: https://immovlan.be/)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/lib/font-awesome/webfonts/fa-brands-400.woff2> (resource type: font, referrer: https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/lib/font-awesome/webfonts/fa-regular-400.woff2> (resource type: font, referrer: https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/lib/font-awesome/webfonts/fa-solid-900.woff2> (resource type: font, referrer: https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@300;400;500;600;700&display=swap> (resource type: stylesheet, referrer: https://immovlan.be/)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2> (resource type: font, referrer: https://immovlan.be/)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/css/v1/main.min.css?v=JOyTNI8y8x2kN6lat4XkrvyfvYDTNrq1wbKBW1bLyVc> (resource type: stylesheet, referrer: https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/css/mdb.min.css?v=yDMtyCYp-tvKPiCD61huDNym20cpBUs-qoMktRVlAe8> (resource type: stylesheet, referrer: https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/css/detail-project.min.css?v=n6ZCuQ8h6eLp8islnWRXYen43enHtafi5cRPEzQJRg8> (resource type: stylesheet, referrer: https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/images/v2/logo.svg> (resource type: image, referrer: https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://api-image.immovlan.be/v1/prouser/00694206/logo/English/webp/Small> (resource type: image, referrer: https://immovlan.be/)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@300;400;500;600;700&display=swap> (resource type: stylesheet, referrer: https://immovlan.be/)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/lib/font-awesome/webfonts/fa-brands-400.woff2>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/lib/font-awesome/webfonts/fa-regular-400.woff2>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/lib/font-awesome/webfonts/fa-solid-900.woff2>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/css/v1/main.min.css?v=JOyTNI8y8x2kN6lat4XkrvyfvYDTNrq1wbKBW1bLyVc>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://ced.sascdn.com/tag/3958/smart.js>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/css/mdb.min.css?v=yDMtyCYp-tvKPiCD61huDNym20cpBUs-qoMktRVlAe8>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/css/detail-project.min.css?v=n6ZCuQ8h6eLp8islnWRXYen43enHtafi5cRPEzQJRg8>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/images/v2/logo.svg>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/images/nopic.png> (resource type: image, referrer: https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://api-image.immovlan.be/v1/prouser/00694206/logo/English/webp/Small>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@300;400;500;600;700&display=swap>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/misc/browser.min.js?v=435Pp6WOE5L39MbqONHs2B7OWHOS8-aF6g5tzKHy3Hs> (resource type: script, referrer: https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@300;400;500;600;700&display=swap>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/lib/jquery/jquery.min.js?v=9_aliU8dGd2tb6OSsuzixeV4y_faTqgFtohetphbbj0> (resource type: script, referrer: https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/lib/bootstrap-md/js/bootstrap.min.js?v=Sfs54BRqMCNoA5vG9KtiUinx6cmbIAkjBbjK4N-rkZg> (resource type: script, referrer: https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/misc/local-storage.min.js?v=GJlon8qk7T2C972ptKe7inklsMm6iB4V51rAW5p174g> (resource type: script, referrer: https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/lib/lazysizes/lazysizes.min.js?v=-2SfyuYhd9_mPmcIHdzrgwtc4fBaQYTpu7fYesS49OU> (resource type: script, referrer: https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/misc/geolocation-db.min.js?v=R1Lj46fiLGR40RNYJumUU58St_35PgYTH_89fy0X21o> (resource type: script, referrer: https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/misc/sticky-header-loader.min.js?v=xTS5CbithlYjrMrZqnNWFsqYQUA-m42qRy1TrmWbc6k> (resource type: script, referrer: https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/lib/jquery-validate/jquery.validate.min.js?v=sPB0F50YUDK0otDnsfNHawYmA5M0pjjUf4TvRJkGFrI> (resource type: script, referrer: https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js?v=4xJOkIkaeBplN5tlcvxnCbBz34o5_kzpXcpjNkonVos> (resource type: script, referrer: https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/lib/jquery-ajax-unobtrusive/dist/jquery.unobtrusive-ajax.min.js?v=fuBWW3_dt8xnFx0_eD0rVXYP0XgpLhbFheovo5YdZIk> (resource type: script, referrer: https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/v1/main.min.js?v=x1jFZCOZ8R0UWYINBbASM3saqiZ47hmwNpkkG5rPKn0> (resource type: script, referrer: https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://api-image.immovlan.be/v1/project/24431-P-Vk0101-TFjkrblr/image/017d2cff6f994a938e4efd45cdb40394.jpg/webp/Medium> (resource type: image, referrer: https://immovlan.be/)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/images/v2/logo_small.svg> (resource type: image, referrer: https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/pages/detail-project.min.js?v=2frW0oRzm8E_6mnroDHP337ptAGDjmBKdzD4w4L5LbU> (resource type: script, referrer: https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/misc/didomi.min.js?v=Vb9Ki2p7ndKhSnKiH1loADfG4VaPpB-0NlsjasloGys> (resource type: script, referrer: https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://immovlan.be/js/dist/pub/pubimmo-detail-project.min.js?v=qN0TFWdQ4LzufGyDROAqA2Rpwl9i-h-sCMBXLhgLcTw> (resource type: script, referrer: https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://ced-ns.sascdn.com/diff/js/modules/topics.js> (resource type: script, referrer: https://immovlan.be/)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://securepubads.g.doubleclick.net/tag/js/gpt.js> (resource type: script, referrer: https://immovlan.be/)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/images/nopic.png>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://www.googletagmanager.com/gtm.js?id=GTM-KKTD42>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/misc/browser.min.js?v=435Pp6WOE5L39MbqONHs2B7OWHOS8-aF6g5tzKHy3Hs>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/lib/jquery/jquery.min.js?v=9_aliU8dGd2tb6OSsuzixeV4y_faTqgFtohetphbbj0>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/lib/bootstrap-md/js/bootstrap.min.js?v=Sfs54BRqMCNoA5vG9KtiUinx6cmbIAkjBbjK4N-rkZg>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/misc/local-storage.min.js?v=GJlon8qk7T2C972ptKe7inklsMm6iB4V51rAW5p174g>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://api-image.immovlan.be/v1/project/24431-P-Vk0101-TFjkrblr/image/017d2cff6f994a938e4efd45cdb40394.jpg/webp/Medium>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/images/v2/logo_small.svg>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/lib/lazysizes/lazysizes.min.js?v=-2SfyuYhd9_mPmcIHdzrgwtc4fBaQYTpu7fYesS49OU>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/misc/geolocation-db.min.js?v=R1Lj46fiLGR40RNYJumUU58St_35PgYTH_89fy0X21o>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/misc/sticky-header-loader.min.js?v=xTS5CbithlYjrMrZqnNWFsqYQUA-m42qRy1TrmWbc6k>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/lib/jquery-validate/jquery.validate.min.js?v=sPB0F50YUDK0otDnsfNHawYmA5M0pjjUf4TvRJkGFrI>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js?v=4xJOkIkaeBplN5tlcvxnCbBz34o5_kzpXcpjNkonVos>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/lib/jquery-ajax-unobtrusive/dist/jquery.unobtrusive-ajax.min.js?v=fuBWW3_dt8xnFx0_eD0rVXYP0XgpLhbFheovo5YdZIk>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/v1/main.min.js?v=x1jFZCOZ8R0UWYINBbASM3saqiZ47hmwNpkkG5rPKn0>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/pages/detail-project.min.js?v=2frW0oRzm8E_6mnroDHP337ptAGDjmBKdzD4w4L5LbU>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/misc/didomi.min.js?v=Vb9Ki2p7ndKhSnKiH1loADfG4VaPpB-0NlsjasloGys>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <403 https://immovlan.be/js/dist/pub/pubimmo-detail-project.min.js?v=qN0TFWdQ4LzufGyDROAqA2Rpwl9i-h-sCMBXLhgLcTw>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://ced-ns.sascdn.com/diff/js/modules/topics.js>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://www.googletagmanager.com/gtag/js?id=AW-1062846172&cx=c&gtm=4e5av1> (resource type: script, referrer: https://immovlan.be/)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://securepubads.g.doubleclick.net/tag/js/gpt.js>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://ced-ns.sascdn.com/diff/js/assets/topics_frame.html> (resource type: document, referrer: https://immovlan.be/)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://ced-ns.sascdn.com/diff/js/assets/topics_frame.html>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202510290101/pubads_impl.js> (resource type: script, referrer: https://immovlan.be/)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://ced-ns.sascdn.com/diff/js/modules/topicsFrameLogic.js> (resource type: script, referrer: https://ced-ns.sascdn.com/diff/js/assets/topics_frame.html)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://securepubads.g.doubleclick.net/pagead/managed/dict/m202510140101/gpt> (resource type: other)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://ced-ns.sascdn.com/diff/js/modules/topicsFrameLogic.js>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://www.googletagmanager.com/gtag/js?id=AW-1062846172&cx=c&gtm=4e5av1>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://securepubads.g.doubleclick.net/pagead/managed/dict/m202510140101/gpt>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202510290101/pubads_impl.js>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://tag.aticdn.net/piano-analytics.js> (resource type: script, referrer: https://immovlan.be/)
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://tag.aticdn.net/piano-analytics.js>
+2025-11-04 03:39:41 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://logs1412.xiti.com/event?s=632499&idclient=mhjynqna9dq92ukc> (resource type: ping, referrer: https://immovlan.be/)
+2025-11-04 03:39:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr> (referer: None) ['playwright']
+2025-11-04 03:39:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr>
+{'living_area': '179 m²',
+ 'locality': 'Project: BegijnHof',
+ 'price': '363\u202f000 € - 405\u202f000 €',
+ 'property_id': '24431',
+ 'property_type': '',
+ 'rooms': 'Residence 3 Bedrooms',
+ 'subtype': '',
+ 'url': 'https://immovlan.be/en/projectdetail/24431-p-vk0101-tfjkrblr'}
+2025-11-04 03:39:41 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-11-04 03:39:41 [scrapy.extensions.feedexport] INFO: Stored csv feed (1 items) in: data/immoeliza_single.csv
+2025-11-04 03:39:41 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 276,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 72464,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 3.642915,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2025, 11, 4, 2, 39, 41, 997950, tzinfo=datetime.timezone.utc),
+ 'item_scraped_count': 1,
+ 'items_per_minute': 20.0,
+ 'log_count/DEBUG': 89,
+ 'log_count/INFO': 16,
+ 'log_count/WARNING': 1,
+ 'playwright/browser_count': 1,
+ 'playwright/context_count': 1,
+ 'playwright/context_count/max_concurrent': 1,
+ 'playwright/context_count/persistent/False': 1,
+ 'playwright/context_count/remote/False': 1,
+ 'playwright/page_count': 1,
+ 'playwright/page_count/closed': 1,
+ 'playwright/page_count/max_concurrent': 1,
+ 'playwright/request_count': 41,
+ 'playwright/request_count/method/GET': 40,
+ 'playwright/request_count/method/POST': 1,
+ 'playwright/request_count/navigation': 3,
+ 'playwright/request_count/resource_type/document': 3,
+ 'playwright/request_count/resource_type/font': 4,
+ 'playwright/request_count/resource_type/image': 5,
+ 'playwright/request_count/resource_type/other': 1,
+ 'playwright/request_count/resource_type/ping': 1,
+ 'playwright/request_count/resource_type/script': 22,
+ 'playwright/request_count/resource_type/stylesheet': 5,
+ 'playwright/response_count': 40,
+ 'playwright/response_count/method/GET': 40,
+ 'playwright/response_count/resource_type/document': 3,
+ 'playwright/response_count/resource_type/font': 4,
+ 'playwright/response_count/resource_type/image': 5,
+ 'playwright/response_count/resource_type/other': 1,
+ 'playwright/response_count/resource_type/script': 22,
+ 'playwright/response_count/resource_type/stylesheet': 5,
+ 'response_received_count': 1,
+ 'responses_per_minute': 20.0,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2025, 11, 4, 2, 39, 38, 355035, tzinfo=datetime.timezone.utc)}
+2025-11-04 03:39:41 [scrapy.core.engine] INFO: Spider closed (finished)
+2025-11-04 03:39:41 [scrapy-playwright] INFO: Closing download handler
+2025-11-04 03:39:42 [scrapy-playwright] INFO: Closing download handler
+2025-11-04 03:39:42 [scrapy-playwright] DEBUG: Browser context closed: 'default' (persistent=False, remote=False)
+2025-11-04 03:39:42 [scrapy-playwright] INFO: Closing browser
+2025-11-04 03:39:42 [scrapy-playwright] DEBUG: Browser disconnected
+2025-11-04 03:42:15 [scrapy.utils.log] INFO: Scrapy 2.13.3 started (bot: immoeliza)
+2025-11-04 03:42:15 [scrapy.utils.log] INFO: Versions:
+{'lxml': '5.2.1',
+ 'libxml2': '2.11.7',
+ 'cssselect': '1.3.0',
+ 'parsel': '1.10.0',
+ 'w3lib': '2.3.1',
+ 'Twisted': '25.5.0',
+ 'Python': '3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 '
+           '64 bit (AMD64)]',
+ 'pyOpenSSL': '25.3.0 (OpenSSL 3.5.4 30 Sep 2025)',
+ 'cryptography': '46.0.3',
+ 'Platform': 'Windows-10-10.0.19045-SP0'}
+2025-11-04 03:42:15 [scrapy.addons] INFO: Enabled addons:
+[]
+2025-11-04 03:42:15 [scrapy.extensions.telnet] INFO: Telnet Password: 553b3c67c8f9aa89
+2025-11-04 03:42:15 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2025-11-04 03:42:15 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'immoeliza',
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 1,
+ 'DOWNLOAD_DELAY': 2,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'log.txt',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'immoeliza.spiders',
+ 'RETRY_HTTP_CODES': [403, 429, 503],
+ 'RETRY_TIMES': 3,
+ 'SPIDER_MODULES': ['immoeliza.spiders']}
+2025-11-04 03:42:16 [scrapy-playwright] INFO: Started loop on separate thread: <ProactorEventLoop running=True closed=False debug=False>
+2025-11-04 03:42:16 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2025-11-04 03:42:16 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
+ 'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-11-04 03:42:16 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2025-11-04 03:42:16 [scrapy.core.engine] INFO: Spider opened
+2025-11-04 03:42:16 [py.warnings] WARNING: C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\core\spidermw.py:433: ScrapyDeprecationWarning: immoeliza.spiders.immoeliza_spider.ImmoElizaSpider defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
+  warn(
+
+2025-11-04 03:42:16 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-11-04 03:42:16 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2025-11-04 03:42:16 [scrapy-playwright] INFO: Starting download handler
+2025-11-04 03:42:16 [scrapy-playwright] INFO: Starting download handler
+2025-11-04 03:42:17 [scrapy-playwright] INFO: Launching 1 startup context(s)
+2025-11-04 03:42:17 [scrapy-playwright] INFO: Launching browser chromium
+2025-11-04 03:42:17 [scrapy-playwright] INFO: Launching 1 startup context(s)
+2025-11-04 03:42:17 [scrapy-playwright] INFO: Launching browser chromium
+2025-11-04 03:42:17 [scrapy-playwright] INFO: Browser chromium launched
+2025-11-04 03:42:17 [scrapy-playwright] INFO: Startup context(s) launched
+2025-11-04 03:42:17 [scrapy-playwright] INFO: Browser chromium launched
+2025-11-04 03:42:17 [scrapy-playwright] INFO: Startup context(s) launched
+2025-11-04 03:42:21 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-11-04 03:42:21 [scrapy.extensions.feedexport] INFO: Stored csv feed (1 items) in: data/immoeliza_single.csv
+2025-11-04 03:42:21 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 301,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 72318,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 4.993986,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2025, 11, 4, 2, 42, 21, 275651, tzinfo=datetime.timezone.utc),
+ 'item_scraped_count': 1,
+ 'items_per_minute': 15.0,
+ 'log_count/INFO': 22,
+ 'log_count/WARNING': 1,
+ 'playwright/browser_count': 2,
+ 'playwright/context_count': 2,
+ 'playwright/context_count/max_concurrent': 1,
+ 'playwright/context_count/persistent/False': 2,
+ 'playwright/context_count/remote/False': 2,
+ 'playwright/page_count': 1,
+ 'playwright/page_count/closed': 1,
+ 'playwright/page_count/max_concurrent': 1,
+ 'playwright/request_count': 41,
+ 'playwright/request_count/method/GET': 40,
+ 'playwright/request_count/method/POST': 1,
+ 'playwright/request_count/navigation': 3,
+ 'playwright/request_count/resource_type/document': 3,
+ 'playwright/request_count/resource_type/font': 4,
+ 'playwright/request_count/resource_type/image': 5,
+ 'playwright/request_count/resource_type/other': 1,
+ 'playwright/request_count/resource_type/ping': 1,
+ 'playwright/request_count/resource_type/script': 22,
+ 'playwright/request_count/resource_type/stylesheet': 5,
+ 'playwright/response_count': 41,
+ 'playwright/response_count/method/GET': 40,
+ 'playwright/response_count/method/POST': 1,
+ 'playwright/response_count/resource_type/document': 3,
+ 'playwright/response_count/resource_type/font': 4,
+ 'playwright/response_count/resource_type/image': 5,
+ 'playwright/response_count/resource_type/other': 1,
+ 'playwright/response_count/resource_type/ping': 1,
+ 'playwright/response_count/resource_type/script': 22,
+ 'playwright/response_count/resource_type/stylesheet': 5,
+ 'response_received_count': 1,
+ 'responses_per_minute': 15.0,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2025, 11, 4, 2, 42, 16, 281665, tzinfo=datetime.timezone.utc)}
+2025-11-04 03:42:21 [scrapy.core.engine] INFO: Spider closed (finished)
+2025-11-04 03:42:21 [scrapy-playwright] INFO: Closing download handler
+2025-11-04 03:42:21 [scrapy-playwright] INFO: Closing browser
+2025-11-04 03:42:21 [scrapy-playwright] INFO: Closing download handler
+2025-11-04 03:42:21 [scrapy-playwright] INFO: Closing browser
+2025-11-04 03:59:33 [scrapy.utils.log] INFO: Scrapy 2.13.3 started (bot: immoeliza)
+2025-11-04 03:59:33 [scrapy.utils.log] INFO: Versions:
+{'lxml': '5.2.1',
+ 'libxml2': '2.11.7',
+ 'cssselect': '1.3.0',
+ 'parsel': '1.10.0',
+ 'w3lib': '2.3.1',
+ 'Twisted': '25.5.0',
+ 'Python': '3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 '
+           '64 bit (AMD64)]',
+ 'pyOpenSSL': '25.3.0 (OpenSSL 3.5.4 30 Sep 2025)',
+ 'cryptography': '46.0.3',
+ 'Platform': 'Windows-10-10.0.19045-SP0'}
+2025-11-04 03:59:33 [scrapy.addons] INFO: Enabled addons:
+[]
+2025-11-04 03:59:33 [scrapy.extensions.telnet] INFO: Telnet Password: 765b089a0c721708
+2025-11-04 03:59:33 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2025-11-04 03:59:33 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'immoeliza',
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 1,
+ 'DOWNLOAD_DELAY': 2,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'log.txt',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'immoeliza.spiders',
+ 'RETRY_HTTP_CODES': [403, 429, 503],
+ 'RETRY_TIMES': 3,
+ 'SPIDER_MODULES': ['immoeliza.spiders']}
+2025-11-04 03:59:34 [scrapy-playwright] INFO: Started loop on separate thread: <ProactorEventLoop running=True closed=False debug=False>
+2025-11-04 03:59:34 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2025-11-04 03:59:34 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
+ 'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-11-04 03:59:34 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2025-11-04 03:59:34 [scrapy.core.engine] INFO: Spider opened
+2025-11-04 03:59:34 [py.warnings] WARNING: C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\core\spidermw.py:433: ScrapyDeprecationWarning: immoeliza.spiders.immoeliza_spider.ImmoElizaSpider defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
+  warn(
+
+2025-11-04 03:59:34 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-11-04 03:59:34 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2025-11-04 03:59:34 [scrapy-playwright] INFO: Starting download handler
+2025-11-04 03:59:34 [scrapy-playwright] INFO: Starting download handler
+2025-11-04 03:59:35 [scrapy-playwright] INFO: Launching 1 startup context(s)
+2025-11-04 03:59:35 [scrapy-playwright] INFO: Launching browser chromium
+2025-11-04 03:59:35 [scrapy-playwright] INFO: Launching 1 startup context(s)
+2025-11-04 03:59:35 [scrapy-playwright] INFO: Launching browser chromium
+2025-11-04 03:59:35 [scrapy-playwright] INFO: Browser chromium launched
+2025-11-04 03:59:35 [scrapy-playwright] INFO: Startup context(s) launched
+2025-11-04 03:59:35 [scrapy-playwright] INFO: Browser chromium launched
+2025-11-04 03:59:35 [scrapy-playwright] INFO: Startup context(s) launched
+2025-11-04 03:59:42 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-11-04 03:59:42 [scrapy.extensions.feedexport] INFO: Stored csv feed (1 items) in: data/immoeliza_single.csv
+2025-11-04 03:59:42 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 338,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 72464,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 8.446746,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2025, 11, 4, 2, 59, 42, 736998, tzinfo=datetime.timezone.utc),
+ 'item_scraped_count': 1,
+ 'items_per_minute': 7.5,
+ 'log_count/INFO': 22,
+ 'log_count/WARNING': 1,
+ 'playwright/browser_count': 2,
+ 'playwright/context_count': 2,
+ 'playwright/context_count/max_concurrent': 1,
+ 'playwright/context_count/persistent/False': 2,
+ 'playwright/context_count/remote/False': 2,
+ 'playwright/page_count': 1,
+ 'playwright/page_count/closed': 1,
+ 'playwright/page_count/max_concurrent': 1,
+ 'playwright/request_count': 41,
+ 'playwright/request_count/method/GET': 40,
+ 'playwright/request_count/method/POST': 1,
+ 'playwright/request_count/navigation': 3,
+ 'playwright/request_count/resource_type/document': 3,
+ 'playwright/request_count/resource_type/font': 4,
+ 'playwright/request_count/resource_type/image': 5,
+ 'playwright/request_count/resource_type/other': 1,
+ 'playwright/request_count/resource_type/ping': 1,
+ 'playwright/request_count/resource_type/script': 22,
+ 'playwright/request_count/resource_type/stylesheet': 5,
+ 'playwright/response_count': 41,
+ 'playwright/response_count/method/GET': 40,
+ 'playwright/response_count/method/POST': 1,
+ 'playwright/response_count/resource_type/document': 3,
+ 'playwright/response_count/resource_type/font': 4,
+ 'playwright/response_count/resource_type/image': 5,
+ 'playwright/response_count/resource_type/other': 1,
+ 'playwright/response_count/resource_type/ping': 1,
+ 'playwright/response_count/resource_type/script': 22,
+ 'playwright/response_count/resource_type/stylesheet': 5,
+ 'response_received_count': 1,
+ 'responses_per_minute': 7.5,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2025, 11, 4, 2, 59, 34, 290252, tzinfo=datetime.timezone.utc)}
+2025-11-04 03:59:42 [scrapy.core.engine] INFO: Spider closed (finished)
+2025-11-04 03:59:42 [scrapy-playwright] INFO: Closing download handler
+2025-11-04 03:59:42 [scrapy-playwright] INFO: Closing browser
+2025-11-04 03:59:42 [scrapy-playwright] INFO: Closing download handler
+2025-11-04 03:59:42 [scrapy-playwright] INFO: Closing browser
+2025-11-04 03:59:54 [scrapy.utils.log] INFO: Scrapy 2.13.3 started (bot: immoeliza)
+2025-11-04 03:59:54 [scrapy.utils.log] INFO: Versions:
+{'lxml': '5.2.1',
+ 'libxml2': '2.11.7',
+ 'cssselect': '1.3.0',
+ 'parsel': '1.10.0',
+ 'w3lib': '2.3.1',
+ 'Twisted': '25.5.0',
+ 'Python': '3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 '
+           '64 bit (AMD64)]',
+ 'pyOpenSSL': '25.3.0 (OpenSSL 3.5.4 30 Sep 2025)',
+ 'cryptography': '46.0.3',
+ 'Platform': 'Windows-10-10.0.19045-SP0'}
+2025-11-04 03:59:54 [scrapy.addons] INFO: Enabled addons:
+[]
+2025-11-04 03:59:54 [scrapy.extensions.telnet] INFO: Telnet Password: 2f79fc1e3993d8d4
+2025-11-04 03:59:54 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2025-11-04 03:59:54 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'immoeliza',
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 1,
+ 'DOWNLOAD_DELAY': 2,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FILE': 'log.txt',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'immoeliza.spiders',
+ 'RETRY_HTTP_CODES': [403, 429, 503],
+ 'RETRY_TIMES': 3,
+ 'SPIDER_MODULES': ['immoeliza.spiders']}
+2025-11-04 03:59:54 [scrapy-playwright] INFO: Started loop on separate thread: <ProactorEventLoop running=True closed=False debug=False>
+2025-11-04 03:59:55 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2025-11-04 03:59:55 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
+ 'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2025-11-04 03:59:55 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2025-11-04 03:59:55 [scrapy.core.engine] INFO: Spider opened
+2025-11-04 03:59:55 [py.warnings] WARNING: C:\Users\Chaib\AppData\Local\Programs\Python\Python312\Lib\site-packages\scrapy\core\spidermw.py:433: ScrapyDeprecationWarning: immoeliza.spiders.immoeliza_spider.ImmoElizaSpider defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
+  warn(
+
+2025-11-04 03:59:55 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2025-11-04 03:59:55 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2025-11-04 03:59:55 [scrapy-playwright] INFO: Starting download handler
+2025-11-04 03:59:55 [scrapy-playwright] INFO: Starting download handler
+2025-11-04 03:59:56 [scrapy-playwright] INFO: Launching 1 startup context(s)
+2025-11-04 03:59:56 [scrapy-playwright] INFO: Launching browser chromium
+2025-11-04 03:59:56 [scrapy-playwright] INFO: Launching 1 startup context(s)
+2025-11-04 03:59:56 [scrapy-playwright] INFO: Launching browser chromium
+2025-11-04 03:59:56 [scrapy-playwright] INFO: Browser chromium launched
+2025-11-04 03:59:56 [scrapy-playwright] INFO: Browser chromium launched
+2025-11-04 03:59:56 [scrapy-playwright] INFO: Startup context(s) launched
+2025-11-04 03:59:56 [scrapy-playwright] INFO: Startup context(s) launched
+2025-11-04 04:00:00 [scrapy.core.engine] INFO: Closing spider (finished)
+2025-11-04 04:00:00 [scrapy.extensions.feedexport] INFO: Stored csv feed (1 items) in: data/immoeliza_single.csv
+2025-11-04 04:00:00 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 332,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 72316,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 5.721423,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2025, 11, 4, 3, 0, 0, 785925, tzinfo=datetime.timezone.utc),
+ 'item_scraped_count': 1,
+ 'items_per_minute': 12.0,
+ 'log_count/INFO': 22,
+ 'log_count/WARNING': 1,
+ 'playwright/browser_count': 2,
+ 'playwright/context_count': 2,
+ 'playwright/context_count/max_concurrent': 1,
+ 'playwright/context_count/persistent/False': 2,
+ 'playwright/context_count/remote/False': 2,
+ 'playwright/page_count': 1,
+ 'playwright/page_count/closed': 1,
+ 'playwright/page_count/max_concurrent': 1,
+ 'playwright/request_count': 41,
+ 'playwright/request_count/method/GET': 40,
+ 'playwright/request_count/method/POST': 1,
+ 'playwright/request_count/navigation': 3,
+ 'playwright/request_count/resource_type/document': 3,
+ 'playwright/request_count/resource_type/font': 4,
+ 'playwright/request_count/resource_type/image': 5,
+ 'playwright/request_count/resource_type/other': 1,
+ 'playwright/request_count/resource_type/ping': 1,
+ 'playwright/request_count/resource_type/script': 22,
+ 'playwright/request_count/resource_type/stylesheet': 5,
+ 'playwright/response_count': 41,
+ 'playwright/response_count/method/GET': 40,
+ 'playwright/response_count/method/POST': 1,
+ 'playwright/response_count/resource_type/document': 3,
+ 'playwright/response_count/resource_type/font': 4,
+ 'playwright/response_count/resource_type/image': 5,
+ 'playwright/response_count/resource_type/other': 1,
+ 'playwright/response_count/resource_type/ping': 1,
+ 'playwright/response_count/resource_type/script': 22,
+ 'playwright/response_count/resource_type/stylesheet': 5,
+ 'response_received_count': 1,
+ 'responses_per_minute': 12.0,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2025, 11, 4, 2, 59, 55, 64502, tzinfo=datetime.timezone.utc)}
+2025-11-04 04:00:00 [scrapy.core.engine] INFO: Spider closed (finished)
+2025-11-04 04:00:00 [scrapy-playwright] INFO: Closing download handler
+2025-11-04 04:00:00 [scrapy-playwright] INFO: Closing browser
+2025-11-04 04:00:00 [scrapy-playwright] INFO: Closing download handler
+2025-11-04 04:00:00 [scrapy-playwright] INFO: Closing browser
