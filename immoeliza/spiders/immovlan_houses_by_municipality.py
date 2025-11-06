@@ -6,11 +6,16 @@ from urllib.parse import urljoin
 import scrapy
 from scrapy.exporters import CsvItemExporter
 from scrapy_playwright.page import PageMethod
-
 from immoeliza.items import PropertyItem
 
+# ---------- optional tqdm ------------
+try:
+    from tqdm import tqdm
+except ImportError:
+    tqdm = None
 
-# -------- Dynamic CSV exporter (headers from first item) ----------
+
+# -------- Dynamic CSV exporter ----------
 class DynamicCsvItemExporter(CsvItemExporter):
     def _write_headers_and_set_fields_to_export(self, item):
         if not self.fields_to_export:
@@ -18,60 +23,66 @@ class DynamicCsvItemExporter(CsvItemExporter):
         super()._write_headers_and_set_fields_to_export(item)
 
 
-# -------- Abort heavy requests (works on any scrapy-playwright version) ----------
+# -------- Abort heavy requests ----------
 async def abort_request(request):
     if request.resource_type in ["image", "font", "media", "other"]:
         return True
     return False
 
 
-class ImmovlanHousesSpider(scrapy.Spider):
+# =====================================================
+#   Crawl Immovlan houses by municipality (Top 50)
+# =====================================================
+class ImmovlanHousesByMunicipalitySpider(scrapy.Spider):
     """
-    Crawl general houses-for-sale feed (all municipalities), follow detail links,
-    and export ONLY properties that have both 'Financial details' and 'More information'.
+    Crawl Immovlan houses-for-sale for the top 50 Belgian municipalities.
+    Each municipality covers itself and its suburbs.
 
     Usage:
-      scrapy crawl immovlan_houses -s LOG_FILE=log.txt         # defaults: start_page=1, max_pages=50
-      scrapy crawl immovlan_houses -a start_page=10 -a max_pages=50 -s LOG_FILE=log.txt
+      scrapy crawl immovlan_houses_by_municipality -s LOG_FILE=log_municipal.txt
     """
-    name = "immovlan_houses"
+    name = "immovlan_houses_by_municipality"
     allowed_domains = ["immovlan.be", "www.immovlan.be"]
 
-    # Base search URL (page is injected)
-    base_search = "https://immovlan.be/en/real-estate/house/for-sale?page={page}"
+    base_search = "https://immovlan.be/en/real-estate/house/for-sale?municipals={municipal}&page={page}"
 
-    # ------------ Customizable via -a start_page=... -a max_pages=... ------------
-    def __init__(self, start_page: int = 1, max_pages: int = 50, *args, **kwargs):
+    # --- top 50 municipalities ---
+    municipalities = [
+        "antwerpen", "gent", "charleroi", "brussels", "liege", "schaerbeek", "anderlecht", "brugge", "namur",
+        "leuven", "mons", "aalst", "hasselt", "mechelen", "sint-niklaas", "la-louviere", "kortrijk", "oostende",
+        "genk", "seraing", "roeselare", "verviers", "vilvoorde", "waregem", "mouscron", "beveren", "sint-truiden",
+        "tournai", "uccle", "wavre", "turnhout", "herstal", "jette", "waterloo", "grimbergen", "heist-op-den-berg",
+        "knokke-heist", "tienen", "beringen", "lommel", "halle", "ninove", "evergem", "dendermonde", "lier",
+        "deinze", "geel", "edegem", "sint-pieters-leeuw", "oudenaarde"
+    ]
+
+    # ------------ init ------------
+    def __init__(self, max_pages: int = 50, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.start_page = int(start_page)
         self.max_pages = int(max_pages)
 
-        # runtime metrics
         self.t0 = None
         self.metrics = {
-            "start_page": self.start_page,
-            "max_pages": self.max_pages,
+            "municipalities_total": len(self.municipalities),
             "listing_pages_requested": 0,
             "detail_links_found": 0,
             "detail_requests_sent": 0,
             "items_exported": 0,
         }
-
-        # dedupe detail links per crawl run
         self._seen_details = set()
 
-    # ------------- Scrapy settings (scoped to this spider) -------------
+    # ------------ optimized settings ------------
     custom_settings = {
         "ROBOTSTXT_OBEY": False,
-        "CONCURRENT_REQUESTS": 8,
-        "DOWNLOAD_DELAY": 0.25,
+        "CONCURRENT_REQUESTS": 20,
+        "CONCURRENT_REQUESTS_PER_DOMAIN": 16,
+        "DOWNLOAD_DELAY": 0.05,
 
-        # dynamic CSV exporter
         "FEED_EXPORTERS": {
-            "dynamic_csv": "immoeliza.spiders.immovlan_houses.DynamicCsvItemExporter",
+            "dynamic_csv": "immoeliza.spiders.immovlan_houses_by_municipality.DynamicCsvItemExporter",
         },
         "FEEDS": {
-            "data/immo_houses_p1-50.csv": {  # filename is static; adjust when you vary start/max pages
+            "data/immo_houses_by_municipality.csv": {
                 "format": "dynamic_csv",
                 "encoding": "utf8",
                 "overwrite": True,
@@ -81,20 +92,18 @@ class ImmovlanHousesSpider(scrapy.Spider):
         # Playwright
         "TWISTED_REACTOR": "twisted.internet.asyncioreactor.AsyncioSelectorReactor",
         "PLAYWRIGHT_BROWSER_TYPE": "chromium",
-        "PLAYWRIGHT_DEFAULT_NAVIGATION_TIMEOUT": 45000,
+        "PLAYWRIGHT_DEFAULT_NAVIGATION_TIMEOUT": 20000,
         "PLAYWRIGHT_LAUNCH_OPTIONS": {
             "headless": True,
             "args": [
                 "--disable-gpu",
                 "--no-sandbox",
-                "--disable-blink-features=AutomationControlled",
                 "--disable-dev-shm-usage",
                 "--window-size=1280,800",
             ],
         },
-        "PLAYWRIGHT_ABORT_REQUEST": "immoeliza.spiders.immovlan_houses.abort_request",
+        "PLAYWRIGHT_ABORT_REQUEST": "immoeliza.spiders.immovlan_houses_by_municipality.abort_request",
 
-        # Headers
         "DEFAULT_REQUEST_HEADERS": {
             "User-Agent": (
                 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -106,16 +115,14 @@ class ImmovlanHousesSpider(scrapy.Spider):
         },
     }
 
-    # ---------------- Lifecycle ----------------
+    # ------------ lifecycle ------------
     def open_spider(self, spider):
         self.t0 = time.monotonic()
 
     def close_spider(self, spider):
         elapsed = time.monotonic() - self.t0 if self.t0 else None
         self.metrics["elapsed_seconds"] = round(elapsed or 0.0, 2)
-
-        # Write metrics next to CSV
-        metrics_path = f"data/metrics_immo_houses_p1-50.json"
+        metrics_path = "data/metrics_immo_houses_by_municipality.json"
         try:
             with open(metrics_path, "w", encoding="utf-8") as f:
                 json.dump(self.metrics, f, ensure_ascii=False, indent=2)
@@ -123,37 +130,33 @@ class ImmovlanHousesSpider(scrapy.Spider):
         except Exception as e:
             self.logger.warning(f"Failed to write metrics: {e}")
 
-    # ---------------- Start: listing pages (Scrapy-only) ----------------
+    # ------------ start: by municipality + pages ------------
     def start_requests(self):
-        end_page = self.start_page + self.max_pages - 1
-        for page in range(self.start_page, end_page + 1):
-            url = self.base_search.format(page=page)
-            self.metrics["listing_pages_requested"] += 1
-            yield scrapy.Request(url, callback=self.parse_listing)
+        iterator = tqdm(self.municipalities, desc="Municipalities") if tqdm else self.municipalities
 
+        for municipal in iterator:
+            for page in range(1, self.max_pages + 1):
+                url = self.base_search.format(municipal=municipal, page=page)
+                self.metrics["listing_pages_requested"] += 1
+                yield scrapy.Request(url, callback=self.parse_listing, meta={"municipal": municipal, "page": page})
+
+    # ------------ parse listing ------------
     def parse_listing(self, response):
-        """
-        Parse a listing page and enqueue detail pages.
-        Scrapy-only (fast), no rendering here.
-        """
+        municipal = response.meta.get("municipal")
         hrefs = response.css("a::attr(href)").getall()
         detail_paths = [h for h in hrefs if re.search(r"/en/detail/", h or "")]
+        iterator = tqdm(detail_paths, desc=f"{municipal} page={response.meta.get('page')}") if tqdm else detail_paths
 
-        for href in detail_paths:
+        for href in iterator:
             abs_url = urljoin(response.url, href)
-            # ensure immovlan detail domain/path
-            if "immovlan.be/en/detail/" not in abs_url:
-                continue
-            if abs_url in self._seen_details:
+            if "immovlan.be/en/detail/" not in abs_url or abs_url in self._seen_details:
                 continue
             self._seen_details.add(abs_url)
             self.metrics["detail_links_found"] += 1
-
-            # Fast path: request statically first; fallback to Playwright if needed
             self.metrics["detail_requests_sent"] += 1
             yield scrapy.Request(abs_url, callback=self.parse_detail_static_first, dont_filter=True)
 
-    # ---------------- Details: Scrapy-first, then Playwright fallback ----------------
+    # ------------ detail pages ------------
     def parse_detail_static_first(self, response):
         has_financial = bool(response.css("div.financial"))
         has_general = bool(response.css("div.general-info"))
@@ -161,7 +164,6 @@ class ImmovlanHousesSpider(scrapy.Spider):
         if has_financial and has_general:
             yield from self._extract_item(response)
         else:
-            # Rendered fallback
             yield scrapy.Request(
                 response.url,
                 callback=self.parse_detail_rendered,
@@ -178,8 +180,7 @@ class ImmovlanHousesSpider(scrapy.Spider):
                                 if (btn) btn.click();
                             }""",
                         ),
-                        PageMethod("wait_for_timeout", 1500),
-                        PageMethod("wait_for_load_state", "networkidle"),
+                        PageMethod("wait_for_timeout", 500),
                     ],
                 },
             )
@@ -187,29 +188,19 @@ class ImmovlanHousesSpider(scrapy.Spider):
     def parse_detail_rendered(self, response):
         has_financial = bool(response.css("div.financial"))
         has_general = bool(response.css("div.general-info"))
-
         if not (has_financial and has_general):
-            self.logger.info(f"SKIP (no required sections): {response.url}")
             return
-
         yield from self._extract_item(response)
 
-    # ---------------- Extraction ----------------
+    # ------------ extraction ------------
     def _extract_item(self, response):
-        """
-        Extract Financial details + More information.
-        Only called when both sections exist.
-        """
         item = PropertyItem()
         item["url"] = response.url
 
-        # IDs from URL
         parts = response.url.strip("/").split("/")
-        item["postal_code"] = parts[-3] if len(parts) > 2 else ""
-        item["municipality"] = parts[-2] if len(parts) > 1 else ""
+        item["municipality_url"] = parts[-2] if len(parts) > 1 else ""
         item["property_id"] = parts[-1].upper()
 
-        # Financial details block
         for li in response.css("div.financial li"):
             label = li.css("strong::text").get()
             value_full = li.xpath("normalize-space(string())").get()
@@ -218,14 +209,12 @@ class ImmovlanHousesSpider(scrapy.Spider):
             value = value_full.replace(label, "").replace(":", "").strip()
             item[self._norm(label)] = self._clean(value)
 
-        # More information (general-info)
         for block in response.css("div.general-info div.data-row div.data-row-wrapper > div"):
             label = block.css("h4::text").get()
             value = block.css("p::text").get()
             if label and value:
                 item[self._norm(label)] = self._clean(value)
 
-        # Summary fallbacks
         price_text = response.css("div.detail-price::text").get()
         if price_text:
             item.setdefault("price", self._clean(price_text))
@@ -235,10 +224,11 @@ class ImmovlanHousesSpider(scrapy.Spider):
             item.setdefault("property_type", self._clean(title_text))
 
         self.metrics["items_exported"] += 1
-        self.logger.info(f"OK {response.url} → {len(item)} fields")
+        if self.metrics["items_exported"] % 500 == 0:
+            self.logger.info(f"Exported {self.metrics['items_exported']} items so far...")
         yield item
 
-    # ---------------- Utils ----------------
+    # ------------ utils ------------
     def _clean(self, text: str) -> str:
         return re.sub(r"\s+", " ", text.strip()) if text else ""
 
