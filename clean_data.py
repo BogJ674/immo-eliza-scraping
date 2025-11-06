@@ -36,6 +36,22 @@ def clean_csv(input_path, output_path):
 
 if __name__ == "__main__":
     input_csv = "data/cleaned_combined_properties3.csv"
-    output_csv = "data/cleaned_combined_properties3.csv"
+    output_csv = "data/properties.csv"
 
-    clean_csv(input_csv, output_csv)
+    # clean_csv(input_csv, output_csv)
+
+    #now let's delete some columns that are not needed for the analysis
+    df = pd.read_csv(input_csv)
+    columns_to_drop = ['61b91a4b75064bec8e90edc245196cae_pdf', '3db7d3c8c5b0480fbe5874334949d458_pdf', 'imag609af22983804603bea6649c89f568ac_pdf', '0aa4be20656b4c69943fca725b87c92c_jpg', '4316af2f60b841a6be640faa59e71f6e_jpg', 'opportunity_for_professional']
+
+    df.head()
+
+    for col in columns_to_drop:
+        if col not in df.columns:
+            print(f"Column '{col}' not found in DataFrame. Skipping drop for this column.")
+        else:
+            print(f"Dropping column '{col}'.")
+            df = df.drop(columns=[col])
+
+    df.to_csv(output_csv, index=False)
+
