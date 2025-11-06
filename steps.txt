@@ -1,0 +1,41 @@
+run: scrapy startproject immoeliza
+run: cd immoeliza
+
+run: pip install scrapy scrapy-playwright
+run: playwright install chromium
+
+Edit immoeliza/items.py
+
+Create immoeliza/spiders/immoeliza_spider.py and implement it 
+
+Update settings : at the bottom of immoeliza/settings.py (Playwright configuration)
+# Playwright configuration
+DOWNLOAD_HANDLERS = {
+    "http": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
+    "https": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
+}
+TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
+PLAYWRIGHT_BROWSER_TYPE = "chromium"
+PLAYWRIGHT_LAUNCH_OPTIONS = {"headless": True}
+
+# CSV output
+FEEDS = {
+    "data/immoeliza_single.csv": {"format": "csv", "encoding": "utf8"},
+}
+
+mkdir data
+
+Add Immovlan’s anti-bot behavior (403s, Cloudflare / Akamai checks, reuse blocking).
+see immoeliza_spider
+
+update for overwritting csv raw data
+"FEEDS": {
+    "data/immoeliza_single.csv": {
+        "format": "csv",
+        "encoding": "utf8",
+        "overwrite": True,   # 👈 add this
+    },
+},
+
+
+run: scrapy crawl immoeliza

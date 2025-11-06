@@ -1,0 +1,112 @@
+# Scrapy settings for immoeliza project
+#
+# For simplicity, this file contains only settings considered important or
+# commonly used. You can find more settings consulting the documentation:
+#
+#     https://docs.scrapy.org/en/latest/topics/settings.html
+#     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
+#     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
+
+BOT_NAME = "immoeliza"
+
+SPIDER_MODULES = ["immoeliza.spiders"]
+NEWSPIDER_MODULE = "immoeliza.spiders"
+
+ADDONS = {}
+
+
+# Crawl responsibly by identifying yourself (and your website) on the user-agent
+#USER_AGENT = "immoeliza (+http://www.yourdomain.com)"
+
+# Obey robots.txt rules
+ROBOTSTXT_OBEY = True
+
+# Concurrency and throttling settings
+#CONCURRENT_REQUESTS = 16
+CONCURRENT_REQUESTS_PER_DOMAIN = 1
+DOWNLOAD_DELAY = 1
+
+# Disable cookies (enabled by default)
+#COOKIES_ENABLED = False
+
+# Disable Telnet Console (enabled by default)
+#TELNETCONSOLE_ENABLED = False
+
+# Override the default request headers:
+#DEFAULT_REQUEST_HEADERS = {
+#    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+#    "Accept-Language": "en",
+#}
+
+# Enable or disable spider middlewares
+# See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
+#SPIDER_MIDDLEWARES = {
+#    "immoeliza.middlewares.ImmoelizaSpiderMiddleware": 543,
+#}
+
+# Enable or disable downloader middlewares
+# See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
+#DOWNLOADER_MIDDLEWARES = {
+#    "immoeliza.middlewares.ImmoelizaDownloaderMiddleware": 543,
+#}
+
+# Enable or disable extensions
+# See https://docs.scrapy.org/en/latest/topics/extensions.html
+#EXTENSIONS = {
+#    "scrapy.extensions.telnet.TelnetConsole": None,
+#}
+
+# Configure item pipelines
+# See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
+ITEM_PIPELINES = {
+    "immoeliza.pipelines.DataCleaningPipeline": 300,
+}
+
+# Enable and configure the AutoThrottle extension (disabled by default)
+# See https://docs.scrapy.org/en/latest/topics/autothrottle.html
+#AUTOTHROTTLE_ENABLED = True
+# The initial download delay
+#AUTOTHROTTLE_START_DELAY = 5
+# The maximum download delay to be set in case of high latencies
+#AUTOTHROTTLE_MAX_DELAY = 60
+# The average number of requests Scrapy should be sending in parallel to
+# each remote server
+#AUTOTHROTTLE_TARGET_CONCURRENCY = 1.0
+# Enable showing throttling stats for every response received:
+#AUTOTHROTTLE_DEBUG = False
+
+# Enable and configure HTTP caching (disabled by default)
+# See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings
+#HTTPCACHE_ENABLED = True
+#HTTPCACHE_EXPIRATION_SECS = 0
+#HTTPCACHE_DIR = "httpcache"
+#HTTPCACHE_IGNORE_HTTP_CODES = []
+#HTTPCACHE_STORAGE = "scrapy.extensions.httpcache.FilesystemCacheStorage"
+
+# Set settings whose default value is deprecated to a future-proof value
+FEED_EXPORT_ENCODING = "utf-8"
+
+# Export None values as empty strings in CSV (default), or set to another value
+# To show 'None' as text in CSV, we need to use FEED_EXPORT_FIELDS with custom formatting
+FEED_EXPORT_EMPTY = ""  # This keeps empty fields as "" (default)
+# However, to actually write "None" text, we need custom feed settings per feed
+
+
+# --- Playwright configuration ---
+DOWNLOAD_HANDLERS = {
+	"http": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
+	"https": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
+}
+TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
+PLAYWRIGHT_BROWSER_TYPE = "chromium"
+PLAYWRIGHT_LAUNCH_OPTIONS = {"headless": True}
+
+# --- Data output ---
+# Use custom CSV exporter to write 'None' for missing values
+FEED_EXPORTERS = {
+    'csv': 'immoeliza.pipelines.NoneAwareCsvItemExporter',
+}
+
+FEEDS = {
+	"data/immoeliza_single.csv": {"format": "csv", "encoding": "utf8"},
+}
