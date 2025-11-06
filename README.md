@@ -16,7 +16,8 @@ This project scrapes real estate listings (houses for sale) from Immovlan.be for
 - Handles both static and JavaScript-rendered pages
 - Intelligent duplicate detection
 - Automatic data cleaning and normalization
-- Real-time progress tracking with metrics
+- **Beautiful Rich terminal interface** with real-time progress bars
+- Real-time metrics and statistics display
 - Concurrent requests for optimal performance
 
 ## Installation
@@ -44,6 +45,12 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
+
+This will install:
+- `scrapy` - Web scraping framework
+- `scrapy-playwright` - Dynamic content rendering
+- `pandas` - Data manipulation
+- `rich` - Beautiful terminal output
 
 4. Install Playwright browsers:
 ```bash
@@ -125,6 +132,21 @@ immo-eliza-scraping/
 ├── requirements.txt                            # Python dependencies
 └── README.md                                   # This file
 ```
+
+## Terminal Output
+
+The scraper uses the [Rich](https://rich.readthedocs.io/) library to provide a beautiful terminal interface with:
+
+- **Live progress bars** - Track municipalities and items being scraped in real-time
+- **Formatted tables** - View final statistics in an organized table format
+- **Colored output** - Easy-to-read color-coded logs and status messages
+- **Time tracking** - See elapsed time and estimated time remaining
+
+The Rich terminal extension automatically activates when you run the spider and provides:
+- Opening banner with scraping configuration
+- Real-time progress tracking for municipalities and items
+- Final statistics table with comprehensive metrics
+- Success/completion status panels
 
 ## Performance
 

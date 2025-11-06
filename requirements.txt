@@ -1,3 +1,4 @@
 scrapy
 scrapy-playwright
 pandas
+rich
