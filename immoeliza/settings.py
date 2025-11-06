@@ -86,6 +86,11 @@ ITEM_PIPELINES = {
 # Set settings whose default value is deprecated to a future-proof value
 FEED_EXPORT_ENCODING = "utf-8"
 
+# Export None values as empty strings in CSV (default), or set to another value
+# To show 'None' as text in CSV, we need to use FEED_EXPORT_FIELDS with custom formatting
+FEED_EXPORT_EMPTY = ""  # This keeps empty fields as "" (default)
+# However, to actually write "None" text, we need custom feed settings per feed
+
 
 # --- Playwright configuration ---
 DOWNLOAD_HANDLERS = {
@@ -97,6 +102,11 @@ PLAYWRIGHT_BROWSER_TYPE = "chromium"
 PLAYWRIGHT_LAUNCH_OPTIONS = {"headless": True}
 
 # --- Data output ---
+# Use custom CSV exporter to write 'None' for missing values
+FEED_EXPORTERS = {
+    'csv': 'immoeliza.pipelines.NoneAwareCsvItemExporter',
+}
+
 FEEDS = {
 	"data/immoeliza_single.csv": {"format": "csv", "encoding": "utf8"},
 }

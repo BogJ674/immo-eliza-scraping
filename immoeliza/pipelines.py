@@ -7,6 +7,7 @@
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter
 import re
+from scrapy.exporters import CsvItemExporter
 
 
 class DataCleaningPipeline:
@@ -210,3 +211,18 @@ class DataCleaningPipeline:
 class ImmoelizaPipeline:
     def process_item(self, item, spider):
         return item
+
+
+class NoneAwareCsvItemExporter(CsvItemExporter):
+    """
+    Custom CSV exporter that writes 'None' as text instead of empty strings
+    for fields that have None values.
+    """
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+    def serialize_field(self, field, name, value):
+        """Override to write 'None' for None values instead of empty string"""
+        if value is None:
+            return 'None'
+        return super().serialize_field(field, name, value)

@@ -22,6 +22,12 @@ class DynamicCsvItemExporter(CsvItemExporter):
             self.fields_to_export = list(item.keys())
         super()._write_headers_and_set_fields_to_export(item)
 
+    def serialize_field(self, field, name, value):
+        """Override to write 'None' for None values instead of empty string"""
+        if value is None:
+            return 'None'
+        return super().serialize_field(field, name, value)
+
 
 # -------- Abort heavy requests ----------
 async def abort_request(request):
