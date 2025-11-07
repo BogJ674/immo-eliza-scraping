@@ -1,90 +1,85 @@
-# Immo Scraping with Scrapy
+# Scraping Real-estate Data with Scrapy and Playwright
 
-A web scraping project that collects Belgian real estate data from Immovlan using Scrapy with Playwright integration. The spider systematically scrapes house listings from the top 50 Belgian municipalities and exports cleaned data to CSV format.
+A web scraping project that collects Belgian real estate data from Immovlan.be using Scrapy and Playwright integration (i.e., without API endpoints). The Scrapy Spider systematically scrapes house listings from the top 50 Belgian municipalities and exports cleaned data to CSV format.
 
-## Project Description
-
-This project scrapes real estate listings (houses for sale) from Immovlan.be for Belgium's 50 largest municipalities. It uses:
+This project scrapes real estate listings (houses and apartments for sale, excluding life annuity sale) from Immovlan.be for Belgium's 50 largest municipalities. It uses:
 - **Scrapy** for web scraping framework
 - **Playwright** for dynamic content rendering
 - **Custom data cleaning pipeline** for standardized output
 - **Dynamic CSV exporter** for flexible field handling
 
-### Key Features
+## 1. Key Features
 
 - Scrapes 50+ municipalities with their suburbs
 - Handles both static and JavaScript-rendered pages
 - Intelligent duplicate detection
 - Automatic data cleaning and normalization
-- **Beautiful Rich terminal interface** with real-time progress bars
 - Real-time metrics and statistics display
 - Concurrent requests for optimal performance
 
-## Installation
+## 2. Installation
 
-### Prerequisites
+### 2.1. Prerequisites
 
-- Python 3.14+ (or 3.8+)
-- pip package manager
+- Python 3.12+
+- pip package manager (or alternattively, conda package manager)  
+  
+Below, we provide some examples to set up the environment using `pip` package manager on a terminal.
 
-### Setup
+### 2.2. Setup
 
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd immo-eliza-scraping
+cd immo-eliza-scraping 
 ```
+You can find the clone url in the `<Code>` green button. Make sure you clone this repository in the directory of your own choice.
 
 2. Create and activate a virtual environment:
 ```bash
 python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+source .venv/bin/activate
 ```
+On Windows, you can run this command: `.venv\Scripts\activate`. Alternatively, if you use `conda` package manager, you can easily create a new virtual environment using `conda`. Please refer to their documentation on how to do this.
 
 3. Install dependencies:
 ```bash
 pip install -r requirements.txt
-```
-
-This will install:
+```  
+This command will install:
 - `scrapy` - Web scraping framework
 - `scrapy-playwright` - Dynamic content rendering
 - `pandas` - Data manipulation
-- `rich` - Beautiful terminal output
+If you use `conda`, please refer to `conda` documentation on how to install all the requirements.
 
 4. Install Playwright browsers:
 ```bash
 playwright install chromium
 ```
 
-## Usage
+## 3. Usage
 
-### Basic Usage TODO: CHANGE TO REAL COMMANDS
+To run the Scrapy's spider to scrape all 50 municipalities based on the property type (houses or apartments), run the following script:
 
-Run the spider to scrape all 50 municipalities (default: 50 pages per municipality):
-```bash
-scrapy crawl immovlan_houses_by_municipality -s LOG_FILE=log.txt
+```python 
+run_all_scrapers.py
 ```
 
-### Advanced Options
+### 3.1. Output Files
 
-Limit the number of pages per municipality:
-```bash
-scrapy crawl immovlan_houses_by_municipality -a max_pages=10 -s LOG_FILE=log.txt
-```
+After scraping has been finalised, raw data files are stored in the `data` folder. Functions to clean the raw data can be found in `clean_data.py`, `combine_csv.py`, and `compare_columns.py`. 
 
-### Output Files TODO CHANGE TO REAL 
+Final output files are:
+- **data/immo_all_properties.csv**: Main scraped data
+- **log.txt**: Detailed scraping logs 
+  
+⚠️ Big data files! Github cannot render the output preview. ⚠️
 
-After running, you'll find:
-- **data/immo_houses_by_municipality.csv** - Main scraped data
-- **data/metrics_immo_houses_by_municipality.json** - Scraping statistics
-- **log.txt** - Detailed scraping logs
+## 4. Data Structure
 
-## Data Structure
+### 4.1. Scraped Fields
 
-### Scraped Fields
-
-The spider extracts the following information for each property:
+Scrapy's spider extracts the following information for each property:
 
 | Field | Description | Type |
 |-------|-------------|------|
@@ -105,7 +100,7 @@ The spider extracts the following information for each property:
 | `flooding_area_type` | Flood risk info | string |
 | ...and more | Various property details | mixed |
 
-### Data Cleaning
+### 4.2. Data Cleaning
 
 The pipeline automatically cleans:
 - **Currency values**: "245 000 €" → `245000`
@@ -114,56 +109,46 @@ The pipeline automatically cleans:
 - **Binary fields**: "Yes" → `1`, "No" → `0`
 - **Missing data**: Various empty representations → `None`
 
-## Project Structure
+## 5. Project Structure
 
 ```
 immo-eliza-scraping/
-├── immoeliza/
-│   ├── spiders/
-│   │   └── immovlan_houses_by_municipality.py  # Main spider
-│   ├── items.py                                # Dynamic item definition
-│   ├── pipelines.py                            # Data cleaning pipeline
-│   ├── settings.py                             # Scrapy settings
-│   └── middlewares.py                          # Custom middlewares
-├── data/                                       # Output directory
-│   ├── immo_houses_by_municipality.csv        # Scraped data
-│   └── metrics_immo_houses_by_municipality.json # Statistics
-├── scrapy.cfg                                  # Scrapy configuration
-├── requirements.txt                            # Python dependencies
-└── README.md                                   # This file
+├── data/                                          # Output directory
+│   └── properties.csv          
+├── immoeliza/                                     # Scrapy directory
+│   ├── __init__.py                                # Initialization of scrapy
+│   ├── items.py                                   # Dynamic item definition
+│   ├── middlewares.py                             # Custom middlewares
+│   ├── pipelines.py                               # Data cleaning pipeline
+│   ├── settings.py                                # Scrapy settings
+│   └── spiders
+│       ├── __init__.py
+│       ├── immovlan_apartments_by_municipality.py
+│       └── immovlan_houses_by_municipality.py
+├── .gitignore
+├── clean_data.py
+├── README.md                                      # This file
+├── requirements.txt                               # Python dependencies
+├── run_all_scrapers.py
+└── scrapy.cfg                                     # Scrapy configuration 
 ```
 
-## Terminal Output
+## 6. Performance
 
-The scraper uses the [Rich](https://rich.readthedocs.io/) library to provide a beautiful terminal interface with:
+### 6.1. Optimization Settings
 
-- **Live progress bars** - Track municipalities and items being scraped in real-time
-- **Formatted tables** - View final statistics in an organized table format
-- **Colored output** - Easy-to-read color-coded logs and status messages
-- **Time tracking** - See elapsed time and estimated time remaining
-
-The Rich terminal extension automatically activates when you run the spider and provides:
-- Opening banner with scraping configuration
-- Real-time progress tracking for municipalities and items
-- Final statistics table with comprehensive metrics
-- Success/completion status panels
-
-## Performance
-
-### Optimization Settings
-
-- **Concurrent requests**: 20 total, 16 per domain
-- **Download delay**: 0.05 seconds
+- **Concurrent requests**: 60 total parallel scrapers, 30 per domain
+- **Download delay**: 0.02 seconds
 - **Resource filtering**: Blocks images, fonts, and media
-- **Headless browser**: Chromium via Playwright
+- **Headless browser**: Chromium via Playwright (e.g., to handle cookies)
 
-### Typical Results
+### 6.2. Typical Results
 
-- **~4,700 properties** scraped across 50 municipalities
+- **~10,000 properties** scraped across 50 municipalities
 - **Processing time**: Varies by network speed and site response
 - **Duplicate handling**: Automatic URL deduplication
 
-### Spider Workflow
+### 6.3. Spider Workflow
 
 1. Generate URLs for all municipality-page combinations
 2. Parse listing pages to extract detail page links
@@ -173,18 +158,19 @@ The Rich terminal extension automatically activates when you run the spider and 
 6. Clean and normalize data via pipeline
 7. Export to CSV with dynamic fields
 
-## Authors
+## 7. Authors
 
-- Jens Bogaert
-- Mohammed Amine Samoudi
-- Wiktor Porczyński
-- Intan K. Wardhani
+We are 🐠 Team Goldfish 🐠. This project is part of a teamwork at BeCode 2025 Arai 8. Please check the Contributors page for the link to each of our Github page or simply click on our names.
 
-## Acknowledgments
+<div align="center">
+
+🌊 [Intan K. Wardhani](https://github.com/intanwardhani) 🐠 [Jens Bogaert](https://github.com/BogJ674) 🐠 [Mohammed Amine Samoudi](https://github.com/AmineSam) 🐠 [Wiktor Porczyński](https://github.com/wikporc) 🌊
+
+</div>
+
+## 8. Acknowledgements
 
 - Built with [Scrapy](https://scrapy.org/)
 - Browser automation via [Playwright](https://playwright.dev/)
 - Data from [Immovlan.be](https://www.immovlan.be/)
-Test for Pull request 
-Test AMine branching 
-Test test intan test  
+ 
