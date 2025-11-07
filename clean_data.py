@@ -56,39 +56,47 @@ def convert_to_binary(value):
 
 def clean_and_transform_data(input_path, output_path):
     df = pd.read_csv(input_path, low_memory=False)
+    initial_count = len(df)
+    print(f"Loaded {initial_count:,} rows")
 
-    # 1. Extract subtype, postal code, and municipality from URL
+    # 1. Remove duplicates early (before expensive operations)
+    df = df.drop_duplicates(subset='property_id', keep='first')
+    duplicates_removed = initial_count - len(df)
+    if duplicates_removed > 0:
+        print(f"Removed {duplicates_removed:,} duplicates ({len(df):,} remaining)")
+
+    # 2. Extract subtype, postal code, and municipality from URL
     df[['subtype', 'postal_code_from_url', 'municipality_from_url']] = df['url'].apply(
         lambda x: pd.Series(extract_from_url(x))
     )
 
-    # 4. Combine terrace columns
+    # 3. Combine terrace columns
     df['terrace_combined'] = df.apply(combine_terrace_column, axis=1)
 
-    # 5. Combine garden columns
+    # 4. Combine garden columns
     df['garden_combined'] = df.apply(combine_garden_column, axis=1)
 
-    # 6. Convert kitchen_equipment to binary
+    # 5. Convert kitchen_equipment to binary
     df['kitchen_binary'] = df['kitchen_equipment'].apply(convert_to_binary)
 
-    # 7. Convert furnished to binary
+    # 6. Convert furnished to binary
     df['furnished_binary'] = df['furnished'].apply(convert_to_binary)
 
-    # 8. Convert fireplace to binary
+    # 7. Convert fireplace to binary
     df['fireplace_binary'] = df['fireplace'].apply(convert_to_binary)
 
-    # 9. Convert swimming_pool to binary
+    # 8. Convert swimming_pool to binary
     df['swimming_pool_binary'] = df['swimming_pool'].apply(convert_to_binary)
 
-    # 10. Create the final dataframe with required columns only
+    # 9. Create the final dataframe with required columns only
     final_df = pd.DataFrame({
         'Property ID': df['property_id'],
-        'Locality name': df['municipality_from_url'],  # Using extracted from URL
-        'Postal code': df['postal_code_from_url'],  # Using extracted from URL
+        'Locality name': df['municipality_from_url'],
+        'Postal code': df['postal_code_from_url'],
         'Price': df['price'],
         'Type of property': df['property_type'],
         'Subtype of property': df['subtype'],
-        'Type of sale': 'standard',  # Defaulting to 'standard', can be refined if data available
+        'Type of sale': 'standard',
         'Number of rooms': df['number_of_bedrooms'],
         'Living area': df['livable_surface'],
         'Equipped kitchen': df['kitchen_binary'],
@@ -99,13 +107,11 @@ def clean_and_transform_data(input_path, output_path):
         'Number of facades': df['number_of_facades'],
         'Swimming pool': df['swimming_pool_binary'],
         'State of building': df['state_of_the_property'],
-        'Url': df['url']  # Keeping URL for reference
+        'Url': df['url']
     })
 
-    # 9. Remove duplicates
-    final_df = final_df.drop_duplicates(subset='Property ID', keep='first')
-
     final_df.to_csv(output_path, index=False)
+    print(f"Saved {len(final_df):,} properties to {output_path}")
 
     return final_df
 
