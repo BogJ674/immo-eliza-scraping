@@ -1,123 +1,163 @@
-# Clean a csv file by removing duplicates and handling missing values
 import pandas as pd
+import os
+import seaborn as sns
+import matplotlib.pyplot as plt
 
-def extract_from_url(url):
+def combine_csv_files(file1_path, file2_path, output_path, type1_name='houses', type2_name='apartments'):
     """
-    Extract subtype, postal code, and municipality from URL.
-    Example: https://immovlan.be/en/detail/villa/for-sale/2610/wilrijk/rbu51896
-    Returns: (villa, 2610, wilrijk)
+    Combine two CSV files and add a 'property_type' column indicating the source.
+
+    Parameters:
+    - file1_path: Path to the first CSV file
+    - file2_path: Path to the second CSV file
+    - output_path: Path where the combined CSV will be saved
+    - type1_name: Name for the type column for file1 (default: 'houses')
+    - type2_name: Name for the type column for file2 (default: 'apartments')
     """
-    if pd.isna(url) or url == 'None':
-        return None, None, None
-    try:
-        parts = url.split('/')
-        # URL format: https://immovlan.be/en/detail/{subtype}/for-sale/{postal_code}/{municipality}/{property_id}
-        subtype = parts[5] if len(parts) >= 6 else None
-        postal_code = parts[7] if len(parts) >= 8 else None
-        municipality = parts[8] if len(parts) >= 9 else None
-        return subtype, postal_code, municipality
-    except:
-        return None, None, None
+    df1 = pd.read_csv(file1_path, low_memory=False)
+    # Only set property_type if it's empty (NaN or doesn't exist)
+    if 'property_type' not in df1.columns:
+        df1['property_type'] = type1_name
+    else:
+        df1['property_type'] = df1['property_type'].fillna(type1_name)
+    print(f"  - Loaded {len(df1)} rows with type '{type1_name}' from {file1_path}")
+    print(f"  - Columns in {type1_name}: {len(df1.columns)}")
 
-def combine_terrace_column(row):
-    if pd.notna(row.get('surface_terrace')) and row.get('surface_terrace') not in ['None', '', 0, '0']:
-        return row['surface_terrace']
-    elif pd.notna(row.get('terrace')) and row.get('terrace') not in ['None', '', 0, '0']:
-        # If terrace exists but no surface given, return 'Yes' or the value
-        return row['terrace']
-    return None
+    df2 = pd.read_csv(file2_path, low_memory=False)
+    # Only set property_type if it's empty (NaN or doesn't exist)
+    if 'property_type' not in df2.columns:
+        df2['property_type'] = type2_name
+    else:
+        df2['property_type'] = df2['property_type'].fillna(type2_name)
+    print(f"  - Loaded {len(df2)} rows with type '{type2_name}' from {file2_path}")
+    print(f"  - Columns in {type2_name}: {len(df2.columns)}")
 
-def combine_garden_column(row):
-    if pd.notna(row.get('surface_garden')) and row.get('surface_garden') not in ['None', '', 0, '0']:
-        return row['surface_garden']
-    elif pd.notna(row.get('garden')) and row.get('garden') not in ['None', '', 0, '0']:
-        # If garden exists but no surface given, return the value
-        return row['garden']
-    return None
+    # Identify column differences
+    cols_only_in_df1 = set(df1.columns) - set(df2.columns)
+    cols_only_in_df2 = set(df2.columns) - set(df1.columns)
 
-def convert_to_binary(value):
-    if pd.isna(value) or value in ['None', '', 'none']:
-        return 0
+    print(f"\nColumn analysis:")
+    print(f"  - Columns only in {type1_name}: {len(cols_only_in_df1)}")
+    if cols_only_in_df1:
+        print(f"    {sorted(cols_only_in_df1)[:5]}{'...' if len(cols_only_in_df1) > 5 else ''}")
+    print(f"  - Columns only in {type2_name}: {len(cols_only_in_df2)}")
+    if cols_only_in_df2:
+        print(f"    {sorted(cols_only_in_df2)[:5]}{'...' if len(cols_only_in_df2) > 5 else ''}")
 
-    # Handle string values
-    if isinstance(value, str):
-        value_lower = value.lower().strip()
-        if value_lower in ['yes', 'true', '1', '1.0']:
-            return 1
-        elif value_lower in ['no', 'false', '0', '0.0']:
-            return 0
+    # Add missing columns to both dataframes with NaN values
+    for col in cols_only_in_df1:
+        df2[col] = None
+    for col in cols_only_in_df2:
+        df1[col] = None
 
-    # Handle numeric values
-    try:
-        num_val = float(value)
-        return 1 if num_val > 0 else 0
-    except:
-        return 0
+    # Sort columns by number of non-null values (most data first)
+    # property_id always comes first
+    print("\nSorting columns by data completeness...")
 
-def clean_and_transform_data(input_path, output_path):
-    df = pd.read_csv(input_path, low_memory=False)
-    initial_count = len(df)
-    print(f"Loaded {initial_count:,} rows")
+    # Combine both dataframes temporarily to count non-null values across all data
+    temp_combined = pd.concat([df1, df2], ignore_index=True)
 
-    # 1. Remove duplicates early (before expensive operations)
-    df = df.drop_duplicates(subset='property_id', keep='first')
-    duplicates_removed = initial_count - len(df)
-    if duplicates_removed > 0:
-        print(f"Removed {duplicates_removed:,} duplicates ({len(df):,} remaining)")
+    # Count non-null values for each column
+    non_null_counts = temp_combined.notna().sum().to_dict()
 
-    # 2. Extract subtype, postal code, and municipality from URL
-    df[['subtype', 'postal_code_from_url', 'municipality_from_url']] = df['url'].apply(
-        lambda x: pd.Series(extract_from_url(x))
-    )
+    # Remove property_id from the dict (we'll add it first manually)
+    if 'property_id' in non_null_counts:
+        del non_null_counts['property_id']
 
-    # 3. Combine terrace columns
-    df['terrace_combined'] = df.apply(combine_terrace_column, axis=1)
+    # Sort columns by non-null count (descending)
+    sorted_cols = sorted(non_null_counts.items(), key=lambda x: x[1], reverse=True)
 
-    # 4. Combine garden columns
-    df['garden_combined'] = df.apply(combine_garden_column, axis=1)
+    # Create final column order: property_id first, then sorted by completeness
+    all_columns = ['property_id'] + [col for col, _ in sorted_cols]
 
-    # 5. Convert kitchen_equipment to binary
-    df['kitchen_binary'] = df['kitchen_equipment'].apply(convert_to_binary)
+    df1 = df1[all_columns]
+    df2 = df2[all_columns]
 
-    # 6. Convert furnished to binary
-    df['furnished_binary'] = df['furnished'].apply(convert_to_binary)
+    print(f"  - Columns sorted by completeness (top 10):")
+    for i, (col, count) in enumerate(sorted_cols[:10]):
+        percentage = (count / len(temp_combined)) * 100
+        print(f"    {i+2}. {col}: {count} ({percentage:.1f}%)")
 
-    # 7. Convert fireplace to binary
-    df['fireplace_binary'] = df['fireplace'].apply(convert_to_binary)
+    # First, separate properties that exist in both files vs unique to each file
+    df1_ids = set(df1['property_id'])
+    df2_ids = set(df2['property_id'])
 
-    # 8. Convert swimming_pool to binary
-    df['swimming_pool_binary'] = df['swimming_pool'].apply(convert_to_binary)
+    common_ids = df1_ids & df2_ids
+    unique_to_df1 = df1_ids - df2_ids
+    unique_to_df2 = df2_ids - df1_ids
 
-    # 9. Create the final dataframe with required columns only
-    final_df = pd.DataFrame({
-        'Property ID': df['property_id'],
-        'Locality name': df['municipality_from_url'],
-        'Postal code': df['postal_code_from_url'],
-        'Price': df['price'],
-        'Type of property': df['property_type'],
-        'Subtype of property': df['subtype'],
-        'Type of sale': 'standard',
-        'Number of rooms': df['number_of_bedrooms'],
-        'Living area': df['livable_surface'],
-        'Equipped kitchen': df['kitchen_binary'],
-        'Furnished': df['furnished_binary'],
-        'Open fire': df['fireplace_binary'],
-        'Terrace': df['terrace_combined'],
-        'Garden': df['garden_combined'],
-        'Number of facades': df['number_of_facades'],
-        'Swimming pool': df['swimming_pool_binary'],
-        'State of building': df['state_of_the_property'],
-        'Url': df['url']
-    })
+    print(f"  - Properties in {type1_name}: {len(df1_ids)}")
+    print(f"  - Properties in {type2_name}: {len(df2_ids)}")
+    print(f"  - Common properties (will merge): {len(common_ids)}")
+    print(f"  - Unique to {type1_name}: {len(unique_to_df1)}")
+    print(f"  - Unique to {type2_name}: {len(unique_to_df2)}")
 
-    final_df.to_csv(output_path, index=False)
-    print(f"Saved {len(final_df):,} properties to {output_path}")
+    # Get unique properties from each file
+    df1_unique = df1[df1['property_id'].isin(unique_to_df1)].copy()
+    df2_unique = df2[df2['property_id'].isin(unique_to_df2)].copy()
 
-    return final_df
+    # For common properties, merge with df2 values taking precedence for non-null values
+    if len(common_ids) > 0:
+        df1_common = df1[df1['property_id'].isin(common_ids)].copy()
+        df2_common = df2[df2['property_id'].isin(common_ids)].copy()
+
+        # Set property_id as index for smart merging
+        df1_common = df1_common.set_index('property_id')
+        df2_common = df2_common.set_index('property_id')
+
+        # Update df1_common with non-null values from df2_common
+        # This fills NaN values in df1 with values from df2
+        df1_common = df1_common.combine_first(df2_common)
+        df1_common = df1_common.reset_index()
+
+        # Combine all parts
+        combined_df = pd.concat([df1_unique, df2_unique, df1_common], ignore_index=True)
+    else:
+        # No common properties, just concat unique ones
+        combined_df = pd.concat([df1_unique, df2_unique], ignore_index=True)
+
+    print(f"  - Total properties after merge: {len(combined_df)}")
+
+    print(f"\nSaving combined data to {output_path}...")
+    combined_df.to_csv(output_path, index=False)
+    print("Done!")
+
+    return combined_df
 
 if __name__ == "__main__":
-    input_csv = "data/combined_properties3.csv"
-    output_csv = "data/final_properties.csv"
+    # Define paths
+    houses_csv = "data/combined_houses.csv"
+    apartments_csv = "data/combined_apartments.csv"
+    output_csv = "data/combined_properties1.csv"
 
-    cleaned_df = clean_and_transform_data(input_csv, output_csv)
+    # Check if files exist
+    if not os.path.exists(houses_csv):
+        print(f"Error: {houses_csv} not found!")
+        exit(1)
 
+    if not os.path.exists(apartments_csv):
+        print(f"Error: {apartments_csv} not found!")
+        exit(1)
+
+    # Combine the files
+    combined_df = combine_csv_files(
+        houses_csv,
+        apartments_csv,
+        output_csv,
+        type1_name='house',
+        type2_name='apartment'
+    )
+
+    # Show sample of the combined data
+    print("\nSample of combined data:")
+    print(combined_df[['property_id', 'price', 'municipality_url', 'property_type']].head(10))
+
+    # # Show property type counts
+    print("\nProperty type distribution:")
+    print(combined_df['property_type'].value_counts())
+
+    # # check how many swimming pools there are
+    if 'swimming_pool' in combined_df.columns:
+        pool_counts = combined_df['swimming_pool'].value_counts(dropna=False)
+        print("\nSwimming pool distribution:")
+        print(pool_counts)
