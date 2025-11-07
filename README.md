@@ -63,21 +63,13 @@ playwright install chromium
 
 Run the spider to scrape all 50 municipalities (default: 50 pages per municipality):
 ```bash
-scrapy crawl immovlan_houses_by_municipality -s LOG_FILE=log.txt
-```
-
-### Advanced Options
-
-Limit the number of pages per municipality:
-```bash
-scrapy crawl immovlan_houses_by_municipality -a max_pages=10 -s LOG_FILE=log.txt
+python run_all_scrapers.py
 ```
 
 ### Output Files TODO CHANGE TO REAL 
 
 After running, you'll find:
-- **data/immo_houses_by_municipality.csv** - Main scraped data
-- **data/metrics_immo_houses_by_municipality.json** - Scraping statistics
+- **data/immo_all_properties.csv** - Main scraped data
 - **log.txt** - Detailed scraping logs
 
 ## Data Structure
